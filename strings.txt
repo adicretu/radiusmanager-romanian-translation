@@ -1,1605 +1,2713 @@
-href_trafficreport,"raport de trafic"
-href_addcredits,"adauga credite"
-href_addmoney,"adauga avans plata"
-href_postpaidbilling,"facturare abonament"
-href_listinvoices,"lista facturi"
-href_chgsrv,"Schimba tipul de serviciu"
-href_listsrvhistory,"istoric servicii"
-href_deluser,"sterge utilizatorul"
-href_listpostauth,"Log autentficare"
-href_disconnuser,Deconecteaza
-href_listconn,"lista conexiunilor"
-href_cancel,renunta
-href_register_acc,"Creaza un cont nou"
-href_verify_acc,"Verifica cont"
-href_edit,Modifica
-href_selfdisconn,"Clisck aici pentru a te intoarce la modul complet"
-href_sendemail,Email
-href_sendsms,SMS
-str_cardser,"Serii carduri"
-str_unpaidinv,"A fost gasita o factura neplatita"
-str_unpaidgraceinv,"Data scadenta depasita"
-str_availcolumns,"Coloane disponibile"
-str_selectall,"seleteaza tot"
-str_selectnone,"deselecteaza tot"
-str_pooltype_docsis,DOCSIS
-str_pooltype_radius,RADIUS
-str_none,Nimic
-str_view,"Vezi si imprima factura"
-str_ref,Referinta
-str_unreg_user,Neinregistrat
-str_auto_renew,"Reinnoire automata"
-str_regdisabled,"Autoinregistrarea este dezactivata"
-str_emailsubjexpiry,"Contul dvs. expira in curand"
-str_emailsubjrenewed,"Contul dvs. a fost reinoit"
-str_emailsubjcantrenew,"A aparut o problema"
-str_emailsubjsrvchg,"Noul serviciu a fost activat"
-str_emailsubjwelcome,"Bine ati venit!"
-str_emailsubjselfreg,"Cont nou"
-str_emailsubjiasreg,"Cont nou IAS"
-str_emailsubjactpsw,"Activeaza parola noua"
-str_emailsubjnewpsw,"Noua parola a fost activata"
-str_emailsubjactacc,"Activeaza noul cont"
-str_yymmdd,AAAA-LL-ZZ
-str_yymmddhhmmss,"AAAA-LL-ZZ HH:MM:SS"
-str_resetctr,"Creditele actuale vor fi pierdute"
-str_finished,gata
-str_completed,gata
-str_cancelled,anulat
-str_paymode_cash,C
-str_paymode_transfer,T
-str_paymode_internal,I
-str_paymode_card,P
-str_paymode_online,O
-str_moneyadd,"Adauga bani"
-str_addmode,"Additional credit mode active"
-str_monthly_srv,"Abonament lunar"
-str_fillupman_srv,"Deune bani"
-str_fillupcard_srv,"Reincarcare card"
-str_system,sistem
-str_na,n/d
-str_notavail,Indisponibil
-str_dynamic,dinamic
-str_hide,----
-str_datarate,kbps
-str_unlimited,nelimitat
-str_next_page,>>
-str_prev_page,<<
-str_first_page,prima
-str_last_page,ultima
-str_no_limit,nelimitat
-str_never_expires,niciodata
-str_default_fullname,"Utilizator necunoscut"
-str_acc_disabled,inactiv
-str_acc_expired,expirat
-str_acc_notverified,Neverificat
-str_acc_active,activ
-str_acc_limit,<-limita
-str_yes,da
-str_no,nu
-str_any,oricare
-str_all,tot
-str_all_postpaid,"Toate planurile postpaid"
-str_never_seen,"nu apare"
-str_online,online
-str_offline,offline
-str_unregged,"preplatit clasic"
-str_regged,reincarcare
-str_acctype_regular,standard
-str_acctype_maconly,"MAC utilizator Hotspot"
-str_acctype_carduser,"card preplatit"
-str_acctype_aclmikrotik,"Mikrotik acces list"
-str_acctype_aclstaros,"lista de acces pt. StarOS"
-str_acctype_ias,"Serviciu de acces instant"
-str_acctype_docsis,DOCSIS
-str_expiremode_nminutes,"minute de la activarea cardului"
-str_expiremode_nhours,"ore dupa activarea cardului"
-str_expiremode_ndays,"zile dupa activarea cardului"
-str_expiremode_nmonths,"luni dupa activarea cardului"
-str_hours,ore
-str_unknown_nas,"NAS necunoscut"
-str_selfreg,Autoinregistrare
-str_exchg_rate,"rata de schimb:"
-str_emailpreview,"Trimite mesaj de previzualizare catre administrator"
-str_emailreal,"Trimite email catre"
-str_smsreal,"Trimit SMS catre"
-str_home,"Intoarcere acasa"
-str_done,Finalizat
-str_totals,TOTAL:
-str_id,id
-str_pin,pin
-str_password,parola
-str_trfsumcsv1,"Nume utilizator"
-str_trfsumcsv2,Download
-str_trfsumcsv3,Upload
-str_trfsumcsv4,Total
-str_trfsumcsv5,"Timp online"
-str_trfsumcsv6,Upload
-str_trfsumcsv7,Total
-str_lstusrcsv1,"Nume utilizator"
-str_lstusrcsv2,Serviciu
-str_lstusrcsv3,"Adresa IP statica"
-str_lstusrcsv4,"Limita download"
-str_lstusrcsv5,"Limita upload"
-str_lstusrcsv6,"Limita dl+ul"
-str_lstusrcsv7,Expira
-str_lstusrcsv8,"Limita de timp"
-str_lstusrcsv9,"Ultima deconectare"
-str_lstusrcsv10,Comentariu
-str_lstusrcsv11,Prenume
-str_lstusrcsv12,Nume
-str_lstusrcsv13,Firma
-str_lstusrcsv14,Adresa
-str_lstusrcsv15,Oras
-str_lstusrcsv16,"Cod postal"
-str_lstusrcsv17,Tara
-str_lstusrcsv18,Judet
-str_lstusrcsv19,"Telefon fix"
-str_lstusrcsv20,Mobil
-str_lstusrcsv21,Email
-str_lstusrcsv22,Inregistrat
-str_lstusrcsv23,"Ultima deconectare"
-str_lstusrcsv24,Comentariu
-str_lstusrfastcsv1,"Nume utilizator"
-str_lstusrfastcsv2,Prenume
-str_lstusrfastcsv3,Nume
-str_lstusrfastcsv4,Adresa
-str_lstusrfastcsv5,Oras
-str_lstusrfastcsv6,"Cod postal"
-str_lstusrfastcsv7,Tara
-str_lstusrfastcsv8,Judet
-str_lstusrfastcsv9,Telefon
-str_lstusrfastcsv10,Mobil
-str_lstusrfastcsv11,Email
-str_lstusrfastcsv12,Comentariu
-str_lstinvcsv1,Factura
-str_lstinvcsv2,Data
-str_lstinvcsv3,Serviciu
-str_lstinvcsv4,Manager
-str_lstinvcsv5,"Nume utilizator"
-str_lstinvcsv6,Pret
-str_lstinvcsv7,"Depozit disponibil"
-str_lstinvcsv8,"Unitati DL adaugate"
-str_lstinvcsv9,"Unitati DL disponibile"
-str_lstinvcsv10,"Unitati UL adaugate"
-str_lstinvcsv11,"Unitati UL disponibile"
-str_lstinvcsv12,"Adaugat total"
-str_lstinvcsv13,"Disponibil total"
-str_lstinvcsv14,"Ore adaugate"
-str_lstinvcsv15,"Ore disponibile"
-str_lstinvcsv16,"Zile adaugate"
-str_lstinvcsv17,Expira
-str_lstinvcsv18,Comentariu
-str_lstinvcsv19,Platit
-str_lstinvcsv20,Platit
-str_lstrflcard1,pin
-str_lstrflcard2,Seriile
-str_lstrflcard3,"Folosit de catre"
-str_lstrflcard4,"Folosit la data de"
-str_lstrflcard5,"Expira la data de"
-str_lstrflcard6,"Valoarea cu TVA"
-str_lstrflcard7,"Creat la data de"
-str_exportcsv,"Export in format CSV"
-str_found,Gasit:
-str_gen_invoices,"Generare facturi pt. utilizatori postpaid"
-str_running,OK
-err_paypal_unknown,"Eroare PayPal necunoscuta!"
-err_unknown,"Eroare necunoscuta!"
-err_raddb,"/usr/local/etc/raddb nu este accesibil!"
-err_clientsconf,"/usr/local/etc/raddb/clients.conf nu este accesibil!"
-err_overlapping_interval,"Intervalele se suprapun"
-err_smsapi,"Eoare API SMS"
-err_nopaymentmethod,"Nu a fost selectata metoda de plata!"
-err_acceptterms,"Trebuie sa acceptati termenii si conditiile!"
-err_no_remotehost,"Nu a fost definit adresa hostului remote!"
-err_nodata,"Nu au fost gasite date!"
-err_daily_dlquota_reached,"A fost atinsa limita de download zilnic!"
-err_daily_ulquota_reached,"A fost atinsa limita de upload zilnic!"
-err_daily_totalquota_reached,"A fost atinsa limita de trafic zilnic!"
-err_daily_timequota_reached,"A fost atinsa limita de timp zilnic!"
-err_incorrect_account_type,"Tip cont incorect!"
-err_no_download_left,"A fost atinsa limita de download!"
-err_no_upload_left,"A fost atinsa limita de upload!"
-err_no_total_left,"A fost atinsa limita de trafic!"
-err_no_time_left,"A fost atinsa limita de timp online!"
-err_account_expired,"Cont expirat!"
-err_invalid_service,"Referinta invalida!"
-err_invalid_mac,"Adresa MAC invalida!"
-err_nas_not_allowed,"Nu ai drepturi de conectare la acest NAS!"
-err_account_disabled,"Cont suspendat!"
-err_account_not_verified,"Nu ma pot loga, contul nu a fost verificat!"
-err_firstname_invalid,"Datele din prenume sunt invalide!"
-err_lastname_invalid,"Datele din nume sunt invalide!"
-err_address_invalid,"Datele din adresa sunt invalide!"
-err_city_invalid,"Datele din oras sunt invalide!"
-err_zip_invalid,"Datele din cod postal sunt invalide!"
-err_country_invalid,"Selactati tara!"
-err_state_invalid,"Nu ai selectat statul"
-err_phone_invalid,"Numarul de telefon contine doar cifre!"
-err_mobile_invalid,"Numar de telefon invalid!"
-err_mobile_alreadyused,"Numarul de telefon este deja folosit!"
-err_no_phone,"Nu ai introdus un numar de telefon!"
-err_no_mobile,"Nu ai introdus un numar de mobil!"
-err_email_invalid,"Adresa email invalida!"
-err_email_alreadyused,"Adresa de mail este deja folosita!"
-err_email_not_sent,"Email nu a fost trimis!"
-err_vatid_invalid,"Nu ai introdus codul TVA!"
-err_sms_not_sent,"SMS nu a fost trimis!"
-err_currency_not_supported,"Valutele suportate sunt: USD, GBP, EUR, JPY, CAD, AUD"
-err_currency_not_usd,"Valuta implicita este USD pentru a accepta plati directe!"
-err_invalid_interval,"Interval invalid!"
-err_invalid_pool,"Spatiu adrese IP invalid!"
-err_pool_overlaps,"Spatiul de adrese IP se suprapune peste unul deja existent!"
-err_pool_assigned,"Eroare la stergerea spatiului de adrese!"
-err_no_poolname,"Nu ai introdus numele!"
-err_no_cmtsname,"NU ai introdus numele CMTS!"
-err_no_community,"Nu ai introdus comunitatea SNMP!"
-err_no_apiuser,"Nu ai introdus numele pentru API Mikrotik!"
-err_no_apipassword,"Nu ai introdus parola pentru API Mikrotik!"
-err_enter_cardnum_prepaid,"Codurile pot fi introduse doar de utilizatorii prepaid!"
-err_descr_empty,"Introduceti o descriere a serviciului!"
-err_price_negative,"Pretul nu poate fi un numar negativ!"
-err_srv_change_no_srv,"Nimic de anulat!"
-err_changesrv_prepaid_only,"Serviciile pot fi alese doar de utilizatorii prepaid!"
-err_op_not_allowed,"Operatie nepermisa!"
-err_buy_services_month_active,"Abonamentul lunar este deja activ!"
-err_buy_services_no_credit,"Nu aveti indeajunse credite. Numarul maxim este "
-err_buy_services_min_amount,"Numarul minim este "
-err_buy_services_amount,"Numar gresit!"
-err_buy_services_prepaid,"Doar utilizatorii prepaid pot cumpara servicii!"
-err_login,"Nume utilizator sau parola gresite!"
-err_no_currency,"Valuta nedefinita!"
-err_traffic_add_unitprice,"Pret pe unitate gresit!"
-err_traffic_add_amount,"Cantitate gresita!"
-err_traffic_add_monthly,"Poate fi adaugata doar o luna!"
-err_traffic_add_additional,"Nu se pot adauga creditie pentru conturile expirate!"
-err_money_add_amount,"Cantitate gresita!"
-err_invoice_exists,"Factura existenta!"
-err_payout_already_submitted,"Plata existenta!"
-err_form_already_submitted,"Formularul a fost deja transmis!"
-err_srvchange_already_submitted,"Modificarea serviciului a fost deja transmisa!"
-err_invoice_already_submitted,"Factura a fost deja transmisa!"
-err_card_already_gen,"Cardurile au fost deja generate!"
-err_card_downlimit,"Limita de download trebuie sa fie 0 sau mai mare!"
-err_card_uplimit,"Limita de upload trebuie sa fie 0 sau mai mare!"
-err_card_uptimelimit,"Limita de timp trebuie sa fie 0 sau mai mare!"
-err_card_expired,"Acest card de reincarcare a expirat!"
-err_card_revoked,"Acest card de reincarcare a fost anulat!"
-err_card_not_found,"Nu am gasit acest card de reincarcare!"
-err_card_no_srv,"Nu a fost asignat niciun serviciu!"
-err_account_locked,"Acest cont este blocat!"
-err_credits_invalid,"Numarul de credite trebuie sa fie mai mare decat 0!"
-err_card_invalid,"Numar de card gresit!"
-err_cannot_create_file,"Fisierul nu poate fi creat!"
-err_cannot_write_file,"Nu se poate scrie in fisier!"
-err_cannot_delete_file,"Fisierul nu poate fi sters!"
-err_card_expiration,"Data de expirare a cardurilor este invalida!"
-err_card_value,"Pretul cardurilor trebuie se fie mai mare decat 0!"
-err_card_quantity,"Cantitate invalida!"
-err_card_secret,"Lungimea sirului secret invalida!"
-err_unit_price,"Pretul unitar este intotdeauna mai mare decat 0!"
-err_unit_time,"Unitatile de timp sunt intotdeauna mai mari decat 0!"
-err_unit_trafficdl,"Traficul de download este intotdeauna mai mare decat 0!"
-err_unit_trafficul,"Traficul de upload este intotdeauna mai mare decat 0!"
-err_unit_trafficcomb,"Traficul combinat este intotdeauna mai mare decat 0!"
-err_minamount,"Cantitatea minima nu poate fi 0 sau un numar negativ!"
-err_rest_manager,"Pot fi listate doar facturile pentru administratorul logat!"
-err_max_usernum,"A fost atins nr. maxim de utilizatori permis de licenta instalata!"
-err_zero_payout,"Introduceti o valoare diferita de 0!"
-err_no_perm,"Nu aveti drepturi suficiente pentru a accesa aceasta functie!"
-err_mod_unavailable,"Modulul nu este disponibil!"
-err_no_cts,"In aceasta versiune nu aveti acces la Connections tracking system!"
-err_no_simuse_attr,"Nu exista atributul Simultaneous-Use tabela radcheck pentru acest utilizator!"
-err_user_exists,"Utilizatorul exista deja!"
-err_user_no_username,"Utilizatorul nu a fost transmis!"
-err_user_mac_problem,"Adresa MAC incorecta!"
-err_user_not_found,"Utilizator inexistent!"
-err_manager_not_found,"Manager inexistent!"
-err_user_name_length,"Lungimea numelui incorecta!"
-err_exp_date,"Data de expirare este incorecta!"
-err_payment_date,"Data este invalida!"
-err_username_not_valid,"Ati folosit caractere invalide in numele utilizatorului!"
-err_managername_not_valid,"Ati folosit caractere invalide in numele managerului!"
-err_no_nasname,"Introduceti un nume pentru NAS!"
-err_invalid_ip,"Adresa IP nu este valida!"
-err_no_nassecret,"Secret-ul pentru NAS este invalid!"
-err_no_naspassword,"Parola pentru NAS este invalida!"
-err_nas_not_found,"NAS-ul nu a fost gasit!"
-err_ap_not_found,"AP-ul nu a fost gasit!"
-err_nas_exists,"NAS-ul exista deja!"
-err_psw_nomatch,"Parolele nu sunt identice!"
-err_psw_null,"Ati introdus o parola vida!"
-err_psw_length,"Lungimea parolei este invalida!"
-err_psw_oldpsw,"Parola curenta nu se potriveste!"
-err_psw_invalid,"Ati folosit caractere invalide in parola!"
-err_cant_del_admin,"Superuser-ul nu poate fi sters!"
-err_only_superuser,"Aveti nevoie de drepturi de Superuser!"
-err_cant_add_zero_mb,"Nu poate fi adaugata o cantitate de trafic egala cu 0!"
-err_cant_add_zero_money,"Nu poate fi adaugata o suma de bani egala cu 0!"
-err_srv_no_srvname,"Nu ati introdus numele serviciului!"
-err_srv_not_found,"Acest serviciu nu exista!"
-err_srv_exists,"Acest serviciu exista deja!"
-err_srv_not_sel,"Nu ati selectat niciun serviciu!"
-err_ip_format,"Formatul adresei IP este eronat!"
-err_burst_dl,"Rata burst nu poate fi mai mica decat rata nominala de download!"
-err_burst_ul,"Rata burst nu poate fi mai mica decat rata nominala de upload!"
-err_priority,"Prioritatile acceptate sunt cuprinse intre 1 si 8!"
-err_ulbursttime,"Timpul de burst pentru upload este intotdeauna mai mare decat 0!"
-err_dlbursttime,"Timpul de burst pentru download este intotdeauna mai mare decat 0!"
-err_cant_find_nas,"Nu poate fi gastit acest NAS in baza de date!"
-err_ias_no_srvname,"Nu s-a introdus numele serviciului!"
-err_ias_price,"Introduceti o valoare pozitiva!"
-err_ias_no_srv,"Nu ati selectat serviciul!"
-err_ias_downlimit,"Limita de download trebuie sa fie >= 0!"
-err_ias_uplimit,"Limita de upload trebuie sa fie >= 0!"
-err_ias_totallimit,"Limita totala trebuie sa fie >= 0!"
-err_ias_uptimelimit,"Limita de timp trebuie sa fie >= 0!"
-err_ias_expiretime,"Timpul disponibil trebuie sa fie >= 0!"
-err_ias_exists,"Serviciul exista deja!"
-err_ias_not_found,"Serviciul nu a fost gasit!"
-err_iaspayment_cancelled,"S-a anulat comanda"
-err_ias_validity,"Data nu este in formatul corect!"
-err_del_def_srv,"Serviciul implicit nu poate fi sters!"
-err_del_card_user,"Cardurile nu pot fi sterse!"
-err_cc_unsupported_country,"Procesarea cardului nu este suportata pentru aceasta tara!"
-err_no_services_available,"Nu sunt disponibile aceste servicii"
-err_cc_unsupported_currency,"Aceasta valuta nu este suportata!"
-msg_srv_change_same,"Acelasi serviciu este deja activ!"
-msg_srv_change_already_scheduled,"Schimbarea de serviciu este deja programata pentru  "
-msg_srv_change_scheduled,"Schimbarea de serviciu a fost programata"
-msg_srv_change_cancelled,"Schimbarea de serviciu a fost anulata"
-msg_series_revoked,"Cartelele de reincarcare au fost dezactivate"
-msg_series_reactivated,"Cartelele de reincarcare au fost reactivate"
-msg_series_deleted,"Cartelele de reincarcare au fost sterse"
-msg_card_revoked,"Cartelela de reincarcare a fost anulata"
-msg_card_entered,"Creditele au fost adaugate"
-msg_credits_added,"Creditele au fost adaugate"
-msg_cards_generated,"Numerele de carduri au fost generate si stocate"
-msg_psw_updated,"Parola a fost salvata"
-msg_invoice_updated,"Factura a fost salvata"
-msg_settings_updated,"Setarile sistemului au fost salvate"
-msg_psw_changed,"parola a fost schimbata"
-msg_user_logged_out,"Ati iesit din sistem"
-msg_user_deleted,"Utilizatorii au fost stersi"
-msg_user_enabled,"Utilizatorii au fost activati"
-msg_user_disabled,"Utilizatorii au fost dezactivati"
-msg_user_created,"Utilizatorul a fost creat"
-msg_user_updated,"Utilizatorul a fost modificat"
-msg_manager_enabled,"Managerul a fost activat"
-msg_manager_disabled,"Managerul a fost dezactivat"
-msg_manager_created,"Managerul a fost creat"
-msg_manager_updated,"Managerul a fost modificat"
-msg_manager_deleted,"Managerul a fost sters"
-msg_service_enabled,"Serviciul a fost activat"
-msg_service_disabled,"Serviciul a fost dezactivat"
-msg_service_created,"Serviciul a fost creat"
-msg_service_updated,"Serviciul a fost modificat"
-msg_service_deleted,"Serviciul a fost sters"
-msg_nas_created,"Noul NAS a fost creat"
-msg_nas_deleted,"NAS-ul a fost sters"
-msg_ias_created,"Serviciul a fost crear"
-msg_ias_updated,"Serviciul a fost actualizat"
-msg_ias_deleted,"Serviciul/serviciile au fost sterse"
-msg_ias_enabled,"Serviciul/serviciile au fost activate"
-msg_ias_disabled,"Serviciul/serviciile au fost dezactivate"
-arr_srvtype0,preplatit
-arr_srvtype1,postpaid
-arr_taxtype0,inclus
-arr_taxtype1,exclus
-arr_paymode0,"Plata cu numerar"
-arr_paymode1,"Transfer bancar"
-arr_paymode2,Intern
-arr_paymode3,"Card preplatit"
-arr_paymode4,"Credit Card"
-arr_paymode5,PayPal
-arr_acctype0,"Utilizator standard"
-arr_acctype1,"Autentificare pe baza de MAC"
-arr_timeunit0,ore
-arr_timeunit1,zile
-arr_timeunit2,luni
-arr_month0,ianuarie
-arr_month1,februarie
-arr_month2,martie
-arr_month3,aprilie
-arr_month4,mai
-arr_month5,iunie
-arr_month6,iulie
-arr_month7,august
-arr_month8,septembrie
-arr_month9,octombrie
-arr_month10,noiembrie
-arr_month11,decembrie
-arr_cardexpiration0,ore
-arr_cardexpiration1,zile
-arr_cardexpiration2,luni
-arr_syslog0,"Utilizator creat"
-arr_syslog1,"Utilizator modificat"
-arr_syslog2,"Utilizator sters"
-arr_syslog3,"Managerul a intrat in sistem"
-arr_syslog4,"Managerul a iesit din sistem"
-arr_syslog5,"Setarile de sistem au fost schimbate"
-arr_syslog6,"Managerul a fost creat"
-arr_syslog7,"Managerul a fost modificat"
-arr_syslog8,"Managerul a fost sters"
-arr_syslog9,"Serviciul a fost creat"
-arr_syslog10,"Serviciu modificat"
-arr_syslog11,"Serviciu sters"
-arr_syslog12,"NAS creat"
-arr_syslog13,"NAS modificat"
-arr_syslog14,"NAS sters"
-arr_syslog15,"S-a trimis mail la toti utilizatorii"
-{ACPLOGIN0},"Panoul de control pentru administrare"
-{ACPLOGIN1},"Nume manager"
-{ACPLOGIN2},Parola
-{ACPLOGIN3},"Intra in cont"
-{ACPLOGIN4},"Logare securizata"
-{ACPLOGIN5},"Radius Manager - Panoul de control pentru administrare"
-{ACPLOGOUT0},"Panoul de control pentru administrare"
-{ACPLOGOUT1},"Sunteti redirectat catre pagina de logare..."
-{ACPLOGOUT2},logare
-{ACPLOGOUT3},"Radius Manager - Panoul de control pentru administrare"
-{RDRCT0},"Sunteti redirectionat catre pagina ceruta..."
-{RDRCT1},"Click aici pentru a forta redirectionarea"
-{RDRCT2},Redirectionare...
-{ACPMAIN0},"Nume manager"
-{ACPMAIN1},"Data sistemului"
-{ACPMAIN2},Versiunea
-{ACPMAIN3},"Radius Manager - Panoul de control pentru administrare"
-{HOME0},"Prima pagina"
-{HOME1},"Toate drepturile rezervate."
-{HOME2},ATENTIE!
-{HOME3},"Copierea sau utilizarea neautorizata a acestui<br>software este interzisa."
-{HOME4},"Cititi Contractul (END USER LICENSE AGREEMENT)"
-{CHKCARD0},"Verificare card preplatit"
-{CHKCARD1},"seria cardului (16 cifre)"
-{CHKCARD2},"Campurile sunt obligatorii!"
-{CHKCARD3},"Verifica cardul"
-{SHOWCARD0},"Introdu datele cardului"
-{SHOWCARD1},"Numar card"
-{SHOWCARD2},Seriile
-{SHOWCARD3},"Creat la data de"
-{SHOWCARD4},"Expira la data de"
-{SHOWCARD5},"Valoarea cardului"
-{SHOWCARD6},"Folosit de catre"
-{SHOWCARD7},"Folosit la data de"
-{EULA0},"Contractul (End user license agreement)"
-{SYSET0},"Setarile sistemului"
-{SYSET1},Valuta
-{SYSET2},TVA
-{SYSET3},"Sincronizeaza conturile UNIX pentru casutele postale"
-{SYSET4},"Administreaza quota pentru utilizatorii UNIX"
-{SYSET5},"Userul-sablon pentru quota (cont UNIX)"
-{SYSET6},"Utilizatorii isi pot schimba singuri serviciul"
-{SYSET7},"Reseteaza contoarele cand se schimba serviciul"
-{SYSET8},"TVA pentru platile cu numerar"
-{SYSET9},"TVA pentru transferurile bancare"
-{SYSET10},"Plata scadenta la"
-{SYSET11},"Dezactiveaza utilizatorii in caz de neplata"
-{SYSET12},"Campurile sunt obligatorii!"
-{SYSET13},"Actualizeaza setarile"
-{SYSET14},Inclus
-{SYSET15},Exclus
-{SYSET16},zile
-{SYSET17},"Limba de afisare"
-{SYSET18},"Metoda de deconectare"
-{SYSET19},NAS
-{SYSET20},Remote
-{SYSET21},"Atentionare la download de"
-{SYSET22},MB
-{SYSET23},"Atentionare la upload de"
-{SYSET24},"Atentionare la download+upload de"
-{SYSET25},"Atentionare la timp de conectare de"
-{SYSET26},"Atentioneaza clientul daca contul expira in mai putin de"
-{SYSET27},(HH:MM:SS)
-{SYSET28},zile
-{SYSET29},"Trimite atentionari prin e-mail"
-{SYSET30},"Permite auto-inregistrare"
-{SYSET31},"Permite editarea datelor personale in UCP"
-{SYSET32},"Rata de schimb valutar"
-{SYSET33},"Ascunde limitele in lista de utilizatori (pentru performenta)"
-{SYSET34},"Trimite notificari prin e-mail"
-{SYSET35},"Sisteme de plata disponibile"
-{SYSET36},Intern
-{SYSET37},"PayPal CC"
-{SYSET38},"PayPal Express Checkout"
-{SYSET39},"NetCash CC"
-{SYSET40},"Sincronizeaza contul UNIX pe"
-{SYSET41},Localhost
-{SYSET42},"Host remote, utilizand RSH"
-{SYSET43},"Host UNIX remote"
-{LSTUSR0},"Lista utilizatorilor"
-{LSTUSR1},"Nume utilizator"
-{LSTUSR2},"Serviciu contractat"
-{LSTUSR3},"Adresa IP statica"
-{LSTUSR4},"Limita download"
-{LSTUSR5},"Limita upload"
-{LSTUSR6},"Contul expira"
-{LSTUSR7},"Limita timp de conectare"
-{LSTUSR8},"Ultima deconectare"
-{LSTUSR9},Comentarii
-{LSTUSR10},Actiune
-{LSTUSR11},Activ
-{LSTUSR12},Expirat
-{LSTUSR13},Dezactivat
-{LSTUSR14},Online
-{LSTUSR15},Activeaza
-{LSTUSR16},Dezactiveaza
-{LSTUSR17},Sterge
-{LSTUSR18},"Limita dl+ul"
-{LSTUSR19},"Exporta in format CSV"
-{LSTUSR20},Inregistrat
-{FNDUSR0},"Cauta utilizatorul"
-{FNDUSR1},"Filtreaza dupa parametrii:"
-{FNDUSR2},"Nume utilizator sau MAC"
-{FNDUSR3},"Stare utilizator"
-{FNDUSR4},"Tip utilizator"
-{FNDUSR5},"Adresa MAC a CPE"
-{FNDUSR6},"Adresa statica IP"
-{FNDUSR7},"Numele sau firma"
-{FNDUSR8},"Numar telefon fix"
-{FNDUSR9},"Numar telefon mobil"
-{FNDUSR10},Adresa
-{FNDUSR11},Oras
-{FNDUSR12},"Cod postal"
-{FNDUSR13},"Tip serviciu"
-{FNDUSR14},Comentariu
-{FNDUSR15},"Modifica utilizator"
-{FNDUSR16},"Nume utilizator, MAC, card"
-{FNDUSR17},Toti
-{FNDUSR18},Activ
-{FNDUSR19},Inactiv
-{FNDUSR20},Preplatit
-{FNDUSR21},"Cu abonament"
-{FNDUSR22},"Doar email"
-{FNDUSR23},"Cauta utilizatori"
-{FNDUSR24},"Modifica utilizator"
-{FNDUSR25},"Adresa MAC a modemului"
-{FNDUSR26},"Inregistrare access list"
-{FNDUSR27},Prenume
-{FNDUSR28},Nume
-{NEWUSR0},"Utilizator nou"
-{NEWUSR1},"Date generale"
-{NEWUSR2},"Nume utilizator sau MAC"
-{NEWUSR3},"Activeaza utilizatorul"
-{NEWUSR4},"Tip utilizator"
-{NEWUSR5},Parola
-{NEWUSR6},"Confirma parola"
-{NEWUSR7},"Adresa MAC a CPE"
-{NEWUSR8},"Adresa statica IP"
-{NEWUSR9},"Nr. de sesiuni active simultan"
-{NEWUSR10},"Numele sau firma"
-{NEWUSR11},Adresa
-{NEWUSR12},Oras
-{NEWUSR13},"Cod postal"
-{NEWUSR14},"Numar telefon fix"
-{NEWUSR15},"Numar telefon mobil"
-{NEWUSR16},"Cod fiscal"
-{NEWUSR17},Serviciu
-{NEWUSR18},"Limita download"
-{NEWUSR19},"Limita upload"
-{NEWUSR20},"Contul expira la"
-{NEWUSR21},"Timp de conectare disponibil"
-{NEWUSR22},Comentariu
-{NEWUSR23},"Date pt. sistem DOCSIS (optional)"
-{NEWUSR24},"Adresa MAC a modemului"
-{NEWUSR25},"Adresa e-mail"
-{NEWUSR26},"(4-32 caractere)"
-{NEWUSR27},"Utilizator standard"
-{NEWUSR28},"Utilizator Mikrotik Hotspot MAC"
-{NEWUSR29},"(4-32 caractere)"
-{NEWUSR30},"Permite accesul doar de la acest MAC"
-{NEWUSR31},"Foloseste aceasta adresa IP"
-{NEWUSR32},Bytes
-{NEWUSR33},(AAAA-LL-ZZ)
-{NEWUSR34},(HH:MM:SS)
-{NEWUSR35},"Aceste campuri sunt obligatorii!"
-{NEWUSR36},"Adauga utilizatorul"
-{NEWUSR37},"Inregistrare access list Mikrotik"
-{NEWUSR38},"Inregistrare access list StarOS"
-{NEWUSR39},"Limita download + upload"
-{NEWUSR40},Prenume
-{NEWUSR41},Nume
-{NEWUSR42},Tara
-{NEWUSR43},Judet
-{EDUSR0},"Modifica utilizatorul"
-{EDUSR1},"Activeaza utilizatorul"
-{EDUSR2},Parola
-{EDUSR3},"Confirma parola"
-{EDUSR4},"Adresa MAC a CPE"
-{EDUSR5},"Adresa statica IP"
-{EDUSR6},"Nr. de sesiuni active simultan"
-{EDUSR7},"Numele sau firma"
-{EDUSR8},Adresa
-{EDUSR9},Oras
-{EDUSR10},"Cod postal"
-{EDUSR11},"Numar telefon fix"
-{EDUSR12},"Numar telefon mobil"
-{EDUSR13},"Cod fiscal"
-{EDUSR14},Serviciu
-{EDUSR15},"Limita download"
-{EDUSR16},"Limita upload"
-{EDUSR17},"Contul expira la"
-{EDUSR18},"Timp de conectare disponibil"
-{EDUSR19},"Credite disponibile"
-{EDUSR20},"Greseli de introducere nr. card"
-{EDUSR21},Comentariu
-{EDUSR22},"Nume utilizator"
-{EDUSR23},"Tip cont"
-{EDUSR24},"Stare cont"
-{EDUSR25},"Seria cardului"
-{EDUSR26},"Inregistrat la data"
-{EDUSR27},"Inregistrat de catre"
-{EDUSR28},"Stare conexiune"
-{EDUSR29},"Adresa IP alocata"
-{EDUSR30},"Ultima deconectare"
-{EDUSR31},"I se va schimba serviciul in data de"
-{EDUSR32},"Noul serviciu va fi"
-{EDUSR33},"Date pt. sistem DOCSIS (optional)"
-{EDUSR34},"Adresa MAC a modemului"
-{EDUSR35},"Adresa e-mail"
-{EDUSR36},"(4-32 caractere)"
-{EDUSR37},"Permite accesul doar de la acest MAC"
-{EDUSR38},"Foloseste aceasta adresa IP"
-{EDUSR39},Bytes
-{EDUSR40},"(AAAA-LL-ZZ HH:MM:SS)"
-{EDUSR41},(HH:MM:SS)
-{EDUSR42},"Aceste campuri sunt obligatorii!"
-{EDUSR43},"Modifica utilizatorul"
-{EDUSR44},"Limita download + upload"
-{EDUSR45},Prenume
-{EDUSR46},Nume
-{EDUSR47},Tara
-{EDUSR48},Judet
-{EDUSR49},ori
-{EDUSR50},"Atentionare trimisa"
-{ADDCRED0},"Adauga credite"
-{ADDCRED1},"Nume utilizator"
-{ADDCRED2},"Serviciul activ"
-{ADDCRED3},Download
-{ADDCRED4},Timp
-{ADDCRED5},"Mod adaugare credite"
-{ADDCRED6},"Metoda de plata"
-{ADDCRED7},"Pret unitar"
-{ADDCRED8},Cantitate
-{ADDCRED9},"Pret unitar fara TVA"
-{ADDCRED10},"Pret cu TVA"
-{ADDCRED11},TVA
-{ADDCRED12},"Comentariu pe factura"
-{ADDCRED13},"Comentariu intern"
-{ADDCRED14},MB
-{ADDCRED15},Normal
-{ADDCRED16},"Adauga credite aditionale"
-{ADDCRED17},"Plata numerar"
-{ADDCRED18},"Transfer bancar"
-{ADDCRED19},"(Utilizati valori negative pentru storno)"
-{ADDCRED20},"Adauga credite"
-{ADDCRED21},Atentie!
-{ADDCRED22},"Se pastreaza istoricul tuturor modificarilor!"
-{ADDCRED23},"lista facturilor"
-{ADDCRED24},"raport de trafic"
-{ADDCRED25},"Datele sunt corecte?"
-{ADDCRED26},Upload
-{ADDCRED27},Download+Upload
-{CFMADDCRED0},"Confirm adaugarea creditelor"
-{CFMADDCRED1},"Nume utilizator"
-{CFMADDCRED2},"Serviciul activ"
-{CFMADDCRED3},"Modalitate de plata"
-{CFMADDCRED4},Download
-{CFMADDCRED5},Timp
-{CFMADDCRED6},"Pret unitar fara TVA"
-{CFMADDCRED7},Cantitate
-{CFMADDCRED8},"Pret fara TVA"
-{CFMADDCRED9},"Pret cu TVA"
-{CFMADDCRED10},TVA
-{CFMADDCRED11},"Date aditionale"
-{CFMADDCRED12},"Data expirarii"
-{CFMADDCRED13},"Trafic download de adaugat"
-{CFMADDCRED14},"Ore de adaugat"
-{CFMADDCRED15},(AAAA-LL-ZZ)
-{CFMADDCRED16},MB
-{CFMADDCRED17},ore
-{CFMADDCRED18},"Adauga credite"
-{CFMADDCRED19},"Apasati o singura data! "
-{CFMADDCRED20},"Sigur vreti sa adaugati creditele?"
-{CFMADDCRED21},Upwnload
-{CFMADDCRED22},"Trafic download+upload"
-{CFMADDCRED23},"Trafic upload de adaugat"
-{CFMADDCRED24},"Trafic download+upload de adaugat"
-{CRDADDED0},"Creditele au fost adaugate"
-{CRDADDED1},"Creditele au fost adaugate"
-{CRDADDED2},"listeaza factura"
-{ADDMONEY0},"Adauga avans plata"
-{ADDMONEY1},"Nume utilizator"
-{ADDMONEY2},"Metoda de plata"
-{ADDMONEY3},"Pret cu TVA"
-{ADDMONEY4},"Comentariu pe factura"
-{ADDMONEY5},"Comentariu intern"
-{ADDMONEY6},"Utilizati valori negative pentru storno"
-{ADDMONEY7},"Adauga numerar"
-{ADDMONEY8},Atentie!
-{ADDMONEY9},"Se pastreaza istoricul tuturor modificarilor! "
-{ADDMONEY10},"lista facturilor"
-{ADDMONEY11},"raport de trafic"
-{ADDMONEY12},"Plata cu numerar"
-{ADDMONEY13},"Transfer bancar"
-{ADDMONEY14},"Sunteti sigur ca adaugati suma?"
-{POSTPBILL0},"Facturare abonament"
-{POSTPBILL1},"Nume utilizator"
-{POSTPBILL2},"De la"
-{POSTPBILL3},"Pana la"
-{POSTPBILL4},"Nume serviciu"
-{POSTPBILL5},"Creeaza factura"
-{POSTPBILL6},"lista facturilor"
-{POSTPBILL7},"raport de trafic"
-{CFMPOSTPBL0},"Confirmare facturare abonament"
-{CFMPOSTPBL1},"Nume utilizator"
-{CFMPOSTPBL2},"De la"
-{CFMPOSTPBL3},"Pana la"
-{CFMPOSTPBL4},"Trafic download / diferenta"
-{CFMPOSTPBL5},"Trafic upload / diferenta"
-{CFMPOSTPBL6},"Timp total de conectare"
-{CFMPOSTPBL7},"Nume serviciu"
-{CFMPOSTPBL8},"Pret unitar fara TVA"
-{CFMPOSTPBL9},"Pret unitar aditional fara TVA"
-{CFMPOSTPBL10},"Pret aditional fara TVA"
-{CFMPOSTPBL11},"Metoda de plata"
-{CFMPOSTPBL12},Descriere
-{CFMPOSTPBL13},"Pret total fara TVA"
-{CFMPOSTPBL14},"Pret total cu TVA"
-{CFMPOSTPBL15},TVA
-{CFMPOSTPBL16},"Comentarii pe factura"
-{CFMPOSTPBL17},"Comentarii interne"
-{CFMPOSTPBL18},"Utilizati valori negative pentru storno"
-{CFMPOSTPBL19},"Creeaza factura"
-{CFMPOSTPBL20},"Aceste campuri sunt obligatorii!"
-{CFMPOSTPBL21},"Plata cu numerar"
-{CFMPOSTPBL22},"Transfer bancar"
-{CFMPOSTPBL23},"Sunteti sigur ca vreti sa creati factura?"
-{POSTPINVOK0},"Facturare abonament"
-{POSTPINVOK1},"Facturare abonament incheiata cu succes"
-{POSTPINVOK2},"listeaza factura"
-{TRAFFREP0},"Raport de trafic"
-{TRAFFREP1},Data
-{TRAFFREP2},"Nume utilizator"
-{TRAFFREP3},"Timp total de conectare"
-{TRAFFREP4},Download
-{TRAFFREP5},Upload
-{TRAFFREP6},"Total dl + ul"
-{DETTRAFFREP0},"Raport de trafic detaliat"
-{DETTRAFFREP1},"Nume utilizator"
-{DETTRAFFREP2},"Data/ora inceput"
-{DETTRAFFREP3},"Data/ora sfarsit "
-{DETTRAFFREP4},"Timp de conectare"
-{DETTRAFFREP5},Download
-{DETTRAFFREP6},Upload
-{DETTRAFFREP7},"Adresa ip"
-{DETTRAFFREP8},Identificator
-{DETTRAFFREP9},"Sesiune activa"
-{DETTRAFFREP10},TOTAL
-{DETTRAFFREP11},"Total dl + ul"
-{DETTRAFFREP12},NAS
-{LSTINV0},"Lista facturilor"
-{LSTINV1},Numar<br>factura
-{LSTINV2},Data
-{LSTINV3},Descriere
-{LSTINV4},Manager
-{LSTINV5},"Nume utilizator"
-{LSTINV6},Pret
-{LSTINV7},Balanta
-{LSTINV8},N/D
-{LSTINV9},"Limita ore / timp online"
-{LSTINV10},Imprima
-{LSTINV11},Comentariu
-{LSTINV12},FACTURAT
-{LSTINV13},NEFACTURAT
-{LSTINV14},"TOTAL TRANZACTII"
-{LSTINV15},"TRANSFERURI INTERNE"
-{LSTINV16},"Facturi neplatite"
-{LSTINV17},"Data scadenta depasita"
-{LSTINV18},"Tipuri facturi: N - Numerar, T - Transfer bancar, I - Transfer intern, P - Card preplatit, PP - PayPal, CC - Carte de Credit"
-{LSTINV19},Disponibil<br>DL/UL/total
-{LSTINV20},Ore<br>adaugate
-{LSTINV21},Zile<br>adaugate
-{LSTINV22},h
-{LSTINV23},"REINCARCARI CU CARDURI PREPLATITE"
-{LSTINV24},"Zile / data expirarii"
-{LSTINV25},Adaugat<br>DL/UL/total
-{LSTINV26},Timp<br>disponibil
-{LSTINV27},Expira
-{LSTINV28},Ore<br>adaugate
-{LSTINV29},Zile<br>adaugate
-{EDITINV0},"Modifica factura"
-{EDITINV1},"Data facturii"
-{EDITINV2},"Numarul facturii"
-{EDITINV3},"Data facturii"
-{EDITINV4},"Modalitate de plata"
-{EDITINV5},"Modalitate de plata"
-{EDITINV6},"Nume serviciu"
-{EDITINV7},"Pret unitar"
-{EDITINV8},Cantitate
-{EDITINV9},Pret
-{EDITINV10},"Nivel TVA"
-{EDITINV11},TVA
-{EDITINV12},"Pret total"
-{EDITINV13},"Platit pe data de"
-{EDITINV14},Comentariu
-{EDITINV15},"Date credit"
-{EDITINV16},"Nume manager"
-{EDITINV17},"Nume utilizator"
-{EDITINV18},"trafic suplimentar achizitionat"
-{EDITINV19},"Noua limita de download"
-{EDITINV20},"Noua limita de upload"
-{EDITINV21},"Ore suplimentare"
-{EDITINV22},"Limita timp online"
-{EDITINV23},"Zile adaugate"
-{EDITINV24},"data expirarii"
-{EDITINV25},"Actualizare factura"
-{EDITINV26},"listeaza factura"
-{EDITINV27},Balanta
-{EDITINV28},"Trafic upload achizitionat"
-{EDITINV29},"Trafic dl+ul achizitionat"
-{EDITINV30},"Noua limita dl+ul"
-{EDITINV31},"Identificator tranzactie"
-{EDITINV32},"Nume complet"
-{EDITINV33},Adresa
-{EDITINV34},Oras
-{EDITINV35},"Cod postal"
-{EDITINV36},Tara
-{EDITINV37},Judet
-{CHGSRVADM0},"Schimba tipul de serviciu"
-{CHGSRVADM1},"Servicii disponibile"
-{CHGSRVADM2},"Programati schimbarea in data de"
-{CHGSRVADM3},"Schimba serviciul"
-{CHGSRVADM4},Atentie!
-{SRVHIST0},"Istoricul schimbarilor de servicii"
-{SRVHIST1},"data cererii"
-{SRVHIST2},"cerut de"
-{SRVHIST3},"cerut pentru"
-{SRVHIST4},"programat pentru"
-{SRVHIST5},"noul tip de serviciu"
-{SRVHIST6},stare
-{BUYSRV0},"Cumpara servicii"
-{BUYSRV1},"Serviciul activ"
-{BUYSRV2},"Unitatea de upload"
-{BUYSRV3},"Unitatea de timp"
-{BUYSRV4},"Credite / unitate"
-{BUYSRV5},Cantitatea
-{BUYSRV6},"Aceste campuri sunt obligatorii!"
-{BUYSRV7},"Cumpara serviciul"
-{BUYSRV8},"Unitatea de download"
-{BUYSRV9},"Unitatea dl+ul"
-{CARDGEN0},"Genereaza carduri preplatite"
-{CARDGEN1},Cantitatea
-{CARDGEN2},"Fraza de codare a seriei"
-{CARDGEN3},"Valoarea cu TVA"
-{CARDGEN4},"Data expirarii"
-{CARDGEN5},"Tipul de card"
-{CARDGEN6},"Nume serviciu asociat"
-{CARDGEN7},"Limita download"
-{CARDGEN8},"Limita upload"
-{CARDGEN9},"Timp online disponibil"
-{CARDGEN10},"Mod expirare"
-{CARDGEN11},"Timp scurs de la activarea cardului"
-{CARDGEN12},"Aceste campuri sunt obligatorii!"
-{CARDGEN13},"Genereaza cardurile"
-{CARDGEN14},carduri
-{CARDGEN15},"(4-16 caractere)"
-{CARDGEN16},(AAAA-LL-ZZ)
-{CARDGEN17},"Preplatit standard"
-{CARDGEN18},Reincarcare
-{CARDGEN19},MB
-{CARDGEN20},Ore
-{CARDGEN21},"Data de expirare definita"
-{CARDGEN22},"Data de expirare se calculeaza incepand cu activarea cardului"
-{CARDGEN23},Zile
-{CARDGEN24},"Limita dl + ul"
-{CARDSTAT0},"Statistici carduri"
-{CARDSTAT1},"Statistici generale"
-{CARDSTAT2},"Numarul total de serii generate"
-{CARDSTAT3},"Numarul total de carduri generate"
-{CARDSTAT4},"Statistici carduri de reincarcare"
-{CARDSTAT5},"Numarul de serii generate"
-{CARDSTAT6},"Numarul de carduri generate"
-{CARDSTAT7},"Valoarea totala"
-{CARDSTAT8},"Carduri neutilizate"
-{CARDSTAT9},"Carduri utilizate"
-{CARDSTAT10},"Valoarea cardurilor neutilizate"
-{CARDSTAT11},"Valoarea cardurilor utilizate"
-{CARDSTAT12},"Statistici carduri clasice"
-{CARDSTAT13},"Numarul de serii generate"
-{CARDSTAT14},"Numarul de carduri generate"
-{CARDSTAT15},"Valoarea totala"
-{CHGSRVUSR0},"Schimba tipul de serviciu"
-{CHGSRVUSR1},"Servicii preplatite disponibile"
-{CHGSRVUSR2},"Schimba serviciul"
-{SELPM0},"Selectati metoda de plata"
-{SELPM1},"Veti cumpara serviciul:"
-{SELPM2},"Nume serviciu"
-{SELPM3},Cantitate
-{SELPM4},"Pret total"
-{SELPM5},Verificare
-{SELPM6},"Metode de plata disponibile"
-{SELPM7},"Card credit"
-{SELPM8},PayPal
-{SELPM9},Garantie
-{CFMCCLCHGSVC0},"Anuleaza schimbarea de serviciu"
-{CFMCCLCHGSVC1},"Veti anula schimbarea de serviciu"
-{CFMCCLCHGSVC2},"Anuleaza schimbarea de serviciu"
-{CFMCHGSVC0},"Confirma schimbarea de serviciu"
-{CFMCHGSVC1},"Veti schimba serviciul"
-{CFMCHGSVC2},"Serviciul solicitat"
-{CFMCHGSVC3},"Data solicitarii"
-{CFMCHGSVC4},"Programat pentru"
-{CFMCHGSVC5},"Schimba serviciul"
-{CFMDELMAN0},"Mesaj sistem"
-{CFMDELMAN1},"Sterg managerul"
-{CFMDELMAN2},"Sterge managerul "
-{CFMDELSVC0},"Mesaj sistem"
-{CFMDELSVC1},"Sterg serviciul"
-{CFMDELSVC2},"Sterge serviciul"
-{CFMDELIAS0},"Mesaj sistem"
-{CFMDELIAS1},"Sterge serviciu"
-{CFMDELIAS2},Sterge
-{CFMDELUSR0},"Mesaj sistem"
-{CFMDELUSR1},"Sterg utilizatorul"
-{CFMDELUSR2},"Sterge utilizatorul"
-{CFMCARDGEN0},"Confirma generarea cardurilor"
-{CFMCARDGEN1},"Veti genera"
-{CFMCARDGEN2},"carduri preplatite"
-{CFMCARDGEN3},"Date generale carduri"
-{CFMCARDGEN4},"Tip card"
-{CFMCARDGEN5},"Valoare fara TVA"
-{CFMCARDGEN6},"Valid pana la "
-{CFMCARDGEN7},"Detalii serviciu"
-{CFMCARDGEN8},"Nume serviciu"
-{CFMCARDGEN9},"Limita download"
-{CFMCARDGEN10},"Limita upload"
-{CFMCARDGEN11},"Timp online disponibil "
-{CFMCARDGEN12},Expirare
-{CFMCARDGEN13},"Sigur doriti acest lucru?"
-{CFMCARDGEN14},"Generati cardurile"
-{CFMCARDGEN15},"apasati butonul o singura data!"
-{CFMCARDGEN16},"Limita dl+ul"
-{LSTMNGR0},"Lista managerilor"
-{LSTMNGR1},"Nume utilizator"
-{LSTMNGR2},"Nume complet"
-{LSTMNGR3},"Suma colectata"
-{LSTMNGR4},Comentariu
-{LSTMNGR5},Actiune
-{LSTMNGR6},Activ
-{LSTMNGR7},Inactiv
-{LSTMNGR8},TOTAL
-{LSTMNGR9},Activeaza
-{LSTMNGR10},Dezactiveaza
-{LSTMNGR11},Sterge
-{LSTNAS0},"Lista NAS-urilor"
-{LSTNAS1},"Nume NAS"
-{LSTNAS2},"Adresa IP"
-{LSTNAS3},Tip
-{LSTNAS4},Descriere
-{LSTNAS5},Actiune
-{LSTNAS6},Sterge
-{LSTSRV0},"Lista serviciilor"
-{LSTSRV1},"Nume serviciu"
-{LSTSRV2},"Pret cu TVA"
-{LSTSRV3},"Nume pool ip"
-{LSTSRV4},"Rata download<br>(kbps)"
-{LSTSRV5},"Rata upload<br>(kbps)"
-{LSTSRV6},Limita<br>download
-{LSTSRV7},Limita<br>upload
-{LSTSRV8},"Limita<br>de expirare"
-{LSTSRV9},"Limita<br>de timp online"
-{LSTSRV10},Actiune
-{LSTSRV11},Activ
-{LSTSRV12},Inactiv
-{LSTSRV13},Activeaza
-{LSTSRV14},Dezactiveaza
-{LSTSRV15},Sterge
-{LSTSRV16},"Limita dl + ul"
-{LSTSRV17},"Urmatorul serviciu"
-{LSTSRV18},"Cisco download<br>policy map "
-{LSTSRV19},"Cisco upload<br>policy map "
-{LSTCARDSER0},"Lista seriilor"
-{LSTCARDSER1},Seria
-{LSTCARDSER2},"Tip card"
-{LSTCARDSER3},"Creat la"
-{LSTCARDSER4},"Data expirarii"
-{LSTCARDSER5},"Valoarea cu TVA"
-{LSTCARDSER6},Cantitatea
-{LSTCARDSER7},"Nume serviciu"
-{LSTCARDSER8},"Limita download<br>(MB)"
-{LSTCARDSER9},"Limita upload<br>(MB)"
-{LSTCARDSER10},"Limita de timp<br>online (ore)"
-{LSTCARDSER11},"Timp disponibil<br>de la activare"
-{LSTCARDSER12},"Exporta in format<br>CSV"
-{LSTCARDSER13},Actiune
-{LSTCARDSER14},"Toate activate"
-{LSTCARDSER15},"Toate dezactivate"
-{LSTCARDSER16},"Partial dezactivate"
-{LSTCARDSER17},Dezactiveaza
-{LSTCARDSER18},Activeaza
-{LSTCARDSER19},Sterge
-{LSTCARDSER20},"Limita totala<br>(MB)"
-{LSTCARDSER21},CSV
-{LSTCARDSER22},PDF<br>export
-{LSTCARDSER23},PDF
-{NEWNAS0},"NAS nou"
-{NEWNAS1},"Nume NAS"
-{NEWNAS2},"Adresa IP"
-{NEWNAS3},Tip
-{NEWNAS4},Secret
-{NEWNAS5},Descriere
-{NEWNAS6},"Aceste campuri sunt obligatorii!"
-{NEWNAS7},"Adauga NAS"
-{NEWNAS8},Parola
-{NEWNAS9},"pentru Mikrotik, Chillispot, Cisco"
-{NEWNAS10},"doar pentru StarOS"
-{NEWNAS11},"Cu suport de bandwidth pentru Cisco"
-{NEWNAS12},Nimic
-{NEWNAS13},"Rate limit"
-{NEWNAS14},"Policy map"
-{EDITNAS0},"Editeaza NAS"
-{EDITNAS1},"Nume NAS"
-{EDITNAS2},"Adresa IP"
-{EDITNAS3},Tip
-{EDITNAS4},Secret
-{EDITNAS5},Descriere
-{EDITNAS6},"Aceste campuri sunt obligatorii!"
-{EDITNAS7},"Modifica NAS"
-{EDITNAS8},"Sterge NAS"
-{EDITNAS9},Parola
-{EDITNAS10},"pentru Mikrotik, Chillispot, Cisco"
-{EDITNAS11},"doar pentru StarOS"
-{EDITNAS12},"Cu suport de bandwidth pentru Cisco"
-{EDITNAS13},Nimic
-{EDITNAS14},"Rate limit"
-{EDITNAS15},"Policy map"
-{CFMDELNAS0},"Mesaj sistem"
-{CFMDELNAS1},"Sterg NAS"
-{CFMDELNAS2},"Sterge NAS"
-{NEWMGR0},"Manager nou"
-{NEWMGR1},"Nume manager"
-{NEWMGR2},"Activeaza managerul"
-{NEWMGR3},Parola
-{NEWMGR4},"Confirma parola"
-{NEWMGR5},Prenume
-{NEWMGR6},"Telefon fix"
-{NEWMGR7},"Telefon mobil"
-{NEWMGR8},Adresa
-{NEWMGR9},Oras
-{NEWMGR10},"Cod postal"
-{NEWMGR11},Comentariu
-{NEWMGR12},"(4-32 caractere)"
-{NEWMGR13},Permisiuni
-{NEWMGR14},"Lista utilizatorilor"
-{NEWMGR15},"Creeaza utilizatori"
-{NEWMGR16},"Modifica utilizatori"
-{NEWMGR17},"Sterge utilizatori"
-{NEWMGR18},"Lista facturilor proprii"
-{NEWMGR19},"Lista tuturor facturilor"
-{NEWMGR20},"Modifica facturi"
-{NEWMGR21},"Lista platilor"
-{NEWMGR22},"Poate face plati"
-{NEWMGR23},"Lista managerilor"
-{NEWMGR24},"Creeaza manageri"
-{NEWMGR25},"Modifica manageri"
-{NEWMGR26},"Sterge manageri"
-{NEWMGR27},"Vede utilizatorii conectati"
-{NEWMGR28},"Deconecteaza utilizatorii"
-{NEWMGR29},"Functii de facturare"
-{NEWMGR30},"Rapoate trafic"
-{NEWMGR31},"Acces la sistemul de carduri"
-{NEWMGR32},"Lista serviciilor"
-{NEWMGR33},"Creeaza servicii"
-{NEWMGR34},"Modifica serviciile"
-{NEWMGR35},"Sterge serviciile"
-{NEWMGR36},"Selecteaza toate"
-{NEWMGR37},"Deselecteaza toate"
-{NEWMGR38},"Aceste campuri sunt obligatorii!"
-{NEWMGR39},"Adauga managerul"
-{NEWMGR40},Nume
-{NEWSRV0},"Serviciu nou"
-{NEWSRV1},"Parametri de baza"
-{NEWSRV2},"Nume serviciu"
-{NEWSRV3},"Activeaza serviciul"
-{NEWSRV4},"Tipul serviciului"
-{NEWSRV5},"Preplatit standard"
-{NEWSRV6},"Card preplatit sau IAS"
-{NEWSRV7},Abonament
-{NEWSRV8},"Doar e-mail"
-{NEWSRV9},"Limiteaza traficul de download"
-{NEWSRV10},"Limiteaza traficul de upload"
-{NEWSRV11},"Modalitatea de limitare a timpului"
-{NEWSRV12},"Impune o data de expirare"
-{NEWSRV13},"Limiteaza timpul petrecut online"
-{NEWSRV14},"Fara limite de timp"
-{NEWSRV15},"Trafic de download pe zi"
-{NEWSRV16},"Trafic de upload pe zi"
-{NEWSRV17},"Limiteaza timpul online pe zi la"
-{NEWSRV18},"Limiteaza viteza (DL / UL)"
-{NEWSRV19},"Activeaza modul burst"
-{NEWSRV20},"Burst limit (DL / UL)"
-{NEWSRV21},"Burst treshold (DL / UL)"
-{NEWSRV22},"Burst time (DL / UL)"
-{NEWSRV23},"Numele pool-ului de adrese IP"
-{NEWSRV24},Bytes
-{NEWSRV25},"(0 - fara limita)"
-{NEWSRV26},"(0 - fara limita)"
-{NEWSRV27},(HH:MM:SS)
-{NEWSRV28},"(00:00:00 - fara limita)"
-{NEWSRV29},kbps
-{NEWSRV30},"(0 - fara limita)"
-{NEWSRV31},secunde
-{NEWSRV32},"Definitia preturilor pentru serviciile preplatite si abonamente"
-{NEWSRV33},"Modalitatea de calcul al pretului pentru abonamente"
-{NEWSRV34},"Dupa traficul de download"
-{NEWSRV35},"Dupa traficul de upload"
-{NEWSRV36},"Dupa timpul petrecut online"
-{NEWSRV37},"Facturare lunara"
-{NEWSRV38},"Reseteaza contoarele daca data a expirat"
-{NEWSRV39},"Activeaza credite aditionale"
-{NEWSRV40},"Nivel TVA"
-{NEWSRV41},"Pret fara TVA"
-{NEWSRV42},"Pret cu TVA"
-{NEWSRV43},"Pret pe unitate aditionala fara TVA"
-{NEWSRV44},"Pret pe unitate aditionala cu TVA"
-{NEWSRV45},TVA
-{NEWSRV46},"Mod adaugare timp"
-{NEWSRV47},"Reseteaza contorul de timp"
-{NEWSRV48},"Prelungeste timpul"
-{NEWSRV49},"Mod adaugare trafic"
-{NEWSRV50},"Reseteaza contorul de trafic"
-{NEWSRV51},Aditiv
-{NEWSRV52},"Unitatea de timp"
-{NEWSRV53},"Unitatea de trafic de download"
-{NEWSRV54},"Cantitatea minima"
-{NEWSRV55},"x N unitati de timp"
-{NEWSRV56},"x N unitati de trafic"
-{NEWSRV57},MB
-{NEWSRV58},unitati
-{NEWSRV59},"Aceste campuri sunt obligatorii!"
-{NEWSRV60},"Salveaza serviciul"
-{NEWSRV61},Prioritate
-{NEWSRV62},"Inregistrare in lista de acces"
-{NEWSRV63},"Limiteaza dl+ul"
-{NEWSRV64},"Trafic dl+ul pe zi"
-{NEWSRV65},"(0 - fara limita)"
-{NEWSRV66},"Unitatea de trafic de upload"
-{NEWSRV67},"Unitatea de trafic dl+ul"
-{NEWSRV68},"Urmatorul serviciu"
-{NEWSRV69},"Disponibil in UCP"
-{NEWSRV70},"Prelungire automata"
-{NEWSRV71},"Cantitatea aditionala minima"
-{NEWSRV72},Initial
-{NEWSRV73},"Cisco policy map (DL)"
-{NEWSRV74},"Cisco policy map (UL)"
-{NEWSRV75},"(Doar pentru Cisco)"
-{ONLINEUSR0},"Utilizatori online"
-{ONLINEUSR1},"Nume utilizator"
-{ONLINEUSR2},"Conectat la"
-{ONLINEUSR3},"Timp petrecut online"
-{ONLINEUSR4},Download
-{ONLINEUSR5},Upload
-{ONLINEUSR6},"Adresa ip"
-{ONLINEUSR7},Identificator
-{ONLINEUSR8},"Conectat pe NAS"
-{ONLINEUSR9},Actiune
-{ONLINEUSR10},Deconecteaza
-{RVKCARD0},"Anuleaza un card"
-{RVKCARD1},"numarul cardului (16 cifre)"
-{RVKCARD2},"Aceste campuri sunt obligatorii!"
-{RVKCARD3},Dezactiveaza
-{RVKCARD4},"Sunteti sigur?"
-{TRFFLTR0},"Cauta date de trafic"
-{TRFFLTR1},"Nume utilizator"
-{TRFFLTR2},"Adresa IP"
-{TRFFLTR3},Identificator
-{TRFFLTR4},"(nume utilizator, MAC, numar card)"
-{TRFFLTR5},"(MAC, IP)"
-{TRFFLTR6},"Arata raportul"
-{TRFFLTR7},"Pentru intervalul"
-{TRFFLTR8},"Nu este permis!"
-{TRFFLTR9},"Da la"
-{TRFFLTR10},"Pana la"
-{TRFSUMFLTR0},"Sumar trafic"
-{TRFSUMFLTR1},"De la"
-{TRFSUMFLTR2},"Pana la"
-{TRFSUMFLTR3},"Arata raportul"
-{TRFSUM0},"Sumar trafic"
-{TRFSUM1},"Nume utilizator"
-{TRFSUM2},Download
-{TRFSUM3},Upload
-{TRFSUM4},Total
-{TRFSUM5},"Timp online"
-{TRFSUM6},"De la"
-{TRFSUM7},"Pana la"
-{TRFSUM8},"Exporta in format CSV"
-{SYSINFO0},"Informatii de sistem"
-{SYSINFO1},"Statistici de sistem"
-{SYSINFO2},"Numarul maxim de utilizatori"
-{SYSINFO3},"Numar de utilizatori"
-{SYSINFO4},"Utilizatori activi inregistrati"
-{SYSINFO5},"Utilizatori inactivi inregistrati"
-{SYSINFO6},"Utilizatori carduri"
-{SYSINFO7},"Utilizatori IAS"
-{SYSINFO8},"Utilizatori conectati "
-{SYSINFO9},"Module disponibile "
-{SYSINFO10},"Mod demo Utilizatori de cartele"
-{SYSINFO11},"Utiliziatori nelimitati"
-{SYSINFO12},"Cartele preplatite si IAS "
-{SYSINFO13},"Sistem de urmarire a conexiunilor"
-{SYSERR0},Eroare
-{SYSMSG0},"Mesaj sistem"
-{ENTCRDNUM0},"Introduceti nr. de card"
-{ENTCRDNUM1},"numarul cardului (16 cifre)"
-{ENTCRDNUM2},"Aceste campuri sunt obligatorii!"
-{ENTCRDNUM3},Trimite
-{CHGPSW0},"Schimbare de parola"
-{CHGPSW1},"Parola veche"
-{CHGPSW2},"Parola noua"
-{CHGPSW3},"repetati parola noua"
-{CHGPSW4},"(4-32 caractere)"
-{CHGPSW5},"Aceste campuri sunt obligatorii!"
-{CHGPSW6},"Schimba parola"
-{EDITSRV0},"Modifica serviciul"
-{EDITSRV1},"Parametri de baza"
-{EDITSRV2},"Nume serviciu"
-{EDITSRV3},"Activeaza serviciul"
-{EDITSRV4},"Tipul serviciului"
-{EDITSRV5},"Preplatit clasic"
-{EDITSRV6},"Card preplatit sau IAS"
-{EDITSRV7},Abonament
-{EDITSRV8},"Doar e-mail"
-{EDITSRV9},"Limiteaza traficul de download"
-{EDITSRV10},"Limiteaza traficul de upload"
-{EDITSRV11},"Modalitatea de limitare a timpului"
-{EDITSRV12},"Impune o data de expirare"
-{EDITSRV13},"Limiteaza timpul petrecut online"
-{EDITSRV14},"Fara limite de timp"
-{EDITSRV15},"Trafic de download pe zi"
-{EDITSRV16},"Trafic de upload pe zi"
-{EDITSRV17},"Limiteaza timpul online pe zi la"
-{EDITSRV18},"Limiteaza viteza (DL / UL)"
-{EDITSRV19},"Activeaza modul burst"
-{EDITSRV20},"Burst limit (DL / UL)"
-{EDITSRV21},"Burst treshold (DL / UL)"
-{EDITSRV22},"Burst time (DL / UL)"
-{EDITSRV23},"Numele pool-ului de adrese IP"
-{EDITSRV24},Bytes
-{EDITSRV25},"(0 - fara limita)"
-{EDITSRV26},"(0 - fara limita)"
-{EDITSRV27},(HH:MM:SS)
-{EDITSRV28},"(00:00:00 - fara limita)"
-{EDITSRV29},kbps
-{EDITSRV30},"(0 - fara limita)"
-{EDITSRV31},secunde
-{EDITSRV32},"Definitia preturilor pentru serviciile preplatite si abonamente"
-{EDITSRV33},"Modalitatea de calcul al pretului pentru abonamente"
-{EDITSRV34},"Dupa traficul de download"
-{EDITSRV35},"Dupa traficul de upload"
-{EDITSRV36},"Dupa timpul petrecut online"
-{EDITSRV37},"Facturare lunara"
-{EDITSRV38},"Reseteaza contoarele daca data a expirat"
-{EDITSRV39},"Activeaza credite aditionale"
-{EDITSRV40},"Nivel TVA"
-{EDITSRV41},"Pret fara TVA"
-{EDITSRV42},"Pret cu TVA"
-{EDITSRV43},"Pret pe unitate aditionala fara TVA"
-{EDITSRV44},"Pret pe unitate aditionala cu TVA"
-{EDITSRV45},TVA
-{EDITSRV46},"Mod adaugare timp"
-{EDITSRV47},"Reseteaza contorul de timp"
-{EDITSRV48},"Prelungeste timpul"
-{EDITSRV49},"Mod adaugare trafic"
-{EDITSRV50},"Reseteaza contorul de trafic"
-{EDITSRV51},Aditiv
-{EDITSRV52},"Unitatea de timp"
-{EDITSRV53},"Unitatea de trafic de download"
-{EDITSRV54},"Cantitatea minima"
-{EDITSRV55},"x N unitati de timp"
-{EDITSRV56},"x N unitati de trafic"
-{EDITSRV57},MB
-{EDITSRV58},unitati
-{EDITSRV59},"Aceste campuri sunt obligatorii!"
-{EDITSRV60},"Modifica serviciul"
-{EDITSRV61},"sterge serviciul"
-{EDITSRV62},Prioritate
-{EDITSRV63},"Inregistrare in lista de acces"
-{EDITSRV64},"Inregistrare in lista de acces"
-{EDITSRV65},"Limiteaza dl+ul"
-{EDITSRV66},"(0 - fara limita)"
-{EDITSRV67},"Unitatea de trafic de upload"
-{EDITSRV68},"Unitatea de trafic dl+ul"
-{EDITSRV69},"Urmatorul serviciu"
-{EDITSRV70},"Disponibil in UCP"
-{EDITSRV71},"Prelungire automata"
-{EDITSRV72},"Cantitatea aditionala minima"
-{EDITSRV73},Initial
-{EDITSRV74},"Cisco policy map (DL)"
-{EDITSRV75},"Cisco policy map (UL)"
-{EDITSRV76},"(Doar pentru Cisco)"
-{EDITMGR0},"Modifica manager"
-{EDITMGR1},"Nume manager"
-{EDITMGR2},"Activeaza managerul"
-{EDITMGR3},Parola
-{EDITMGR4},"Confirma parola"
-{EDITMGR5},Prenume
-{EDITMGR6},"Telefon fix"
-{EDITMGR7},"Telefon mobil"
-{EDITMGR8},Adresa
-{EDITMGR9},Oras
-{EDITMGR10},"Cod postal"
-{EDITMGR11},Comentariu
-{EDITMGR12},"(4-32 caractere)"
-{EDITMGR13},Permisiuni
-{EDITMGR14},"Lista utilizatorilor"
-{EDITMGR15},"Creeaza utilizatori"
-{EDITMGR16},"Modifica utilizatori"
-{EDITMGR17},"Sterge utilizatori"
-{EDITMGR18},"Lista facturilor proprii"
-{EDITMGR19},"Lista tuturor facturilor"
-{EDITMGR20},"Modifica facturi"
-{EDITMGR21},"Lista platilor"
-{EDITMGR22},"Poate face plati"
-{EDITMGR23},"Lista managerilor"
-{EDITMGR24},"Creeaza manageri"
-{EDITMGR25},"Modifica manageri"
-{EDITMGR26},"Sterge manageri"
-{EDITMGR27},"Vede utilizatorii conectati"
-{EDITMGR28},"Deconecteaza utilizatorii"
-{EDITMGR29},"Functii de facturare"
-{EDITMGR30},"Rapoate trafic"
-{EDITMGR31},"Acces la sistemul de carduri"
-{EDITMGR32},"Lista serviciilor"
-{EDITMGR33},"Creeaza servicii"
-{EDITMGR34},"Modifica serviciile"
-{EDITMGR35},"Sterge serviciile"
-{EDITMGR36},"Selecteaza toate"
-{EDITMGR37},"Deselecteaza toate"
-{EDITMGR38},"Aceste campuri sunt obligatorii!"
-{EDITMGR39},"Modifica managerul"
-{EDITMGR40},"Preda incasarile"
-{EDITMGR41},Incasari
-{EDITMGR42},Suma
-{EDITMGR43},Plateste
-{EDITMGR44},"lista platilor"
-{EDITMGR45},"sterge managerul"
-{EDITMGR46},"Sunteti sigur ca vreti sa trimiteti suma?"
-{EDITMGR47},Nume
-{CTSFLTR0},"Cauta date despre conexiuni"
-{CTSFLTR1},"Nume utilizator"
-{CTSFLTR2},"Adresa IP sursa"
-{CTSFLTR3},port
-{CTSFLTR4},"Adresa IP destinatie"
-{CTSFLTR5},Protocol
-{CTSFLTR6},"De la ora"
-{CTSFLTR7},"De la data"
-{CTSFLTR8},"Pana la data"
-{CTSFLTR9},"Arata raportul"
-{CTSFLTR10},Orice
-{CTSFLTR11},TCP
-{CTSFLTR12},UDP
-{CTSFLTR13},"(nume utilizator, MAC, numar card)"
-{CTSFLTR14},"Pana la ora"
-{CTSREP0},"Raport conexiuni"
-{CTSREP1},"Data si ora"
-{CTSREP2},"Nume utilizator"
-{CTSREP3},"Adresa IP sursa"
-{CTSREP4},"Port sursa"
-{CTSREP5},"Adresa IP destinatie"
-{CTSREP6},"Port destinatie"
-{CTSREP7},Protocol
-{DETCTSREP0},"Raport conexiuni"
-{DETCTSREP1},"Data si ora"
-{DETCTSREP2},"Nume utilizator"
-{DETCTSREP3},"Adresa IP sursa"
-{DETCTSREP4},"Port sursa"
-{DETCTSREP5},"Adresa IP destinatie"
-{DETCTSREP6},"Port destinatie"
-{DETCTSREP7},Protocol
-{NEWIAS0},"Template nou pentru acces instant"
-{NEWIAS1},"Numele serviciului de acces instant"
-{NEWIAS2},"Activeaza IAS"
-{NEWIAS3},Pret
-{NEWIAS4},"Numele serviciului"
-{NEWIAS5},"Expira la"
-{NEWIAS6},"Limita download"
-{NEWIAS7},"Limita upload"
-{NEWIAS8},"Limita totala"
-{NEWIAS9},"Limita de timp"
-{NEWIAS10},"Cum expira serviciul"
-{NEWIAS11},"ATimp disponibil de la activare"
-{NEWIAS12},(YYYY-MM-DD)
-{NEWIAS13},MB
-{NEWIAS14},Ore
-{NEWIAS15},"Data fixa"
-{NEWIAS16},"Calculat de la activare"
-{NEWIAS17},"Campurile sunt obligatorii"
-{NEWIAS18},Store
-{EDITIAS0},"Editeaza template-ul pentru acces instant"
-{EDITIAS1},"Numele serviciului de acces instant"
-{EDITIAS2},"Activeaza IAS"
-{EDITIAS3},Pret
-{EDITIAS4},"Numele serviciului"
-{EDITIAS5},"Expira la"
-{EDITIAS6},"Limita download"
-{EDITIAS7},"Limita upload"
-{EDITIAS8},"Limita totala"
-{EDITIAS9},"Limita de timp"
-{EDITIAS10},"Cum expira serviciul"
-{EDITIAS11},"ATimp disponibil de la activare"
-{EDITIAS12},(YYYY-MM-DD)
-{EDITIAS13},MB
-{EDITIAS14},Ore
-{EDITIAS15},"Data fixa"
-{EDITIAS16},"Calculat de la activare"
-{EDITIAS17},"Campurile sunt obligatorii"
-{EDITIAS18},Actualizeaza
-{EDITIAS19},"Sterge IAS"
-{LSTIAS0},"Instant access service templates"
-{LSTIAS1},"Numele IAS"
-{LSTIAS2},Pret
-{LSTIAS3},"Numele serviciului"
-{LSTIAS4},"Limita download<br>(MB)"
-{LSTIAS5},"Limita upload<br>(MB)"
-{LSTIAS6},"Limita totala<br>(MB)"
-{LSTIAS7},"Limita de timp<br>(hours)"
-{LSTIAS8},"Timp disponibil"
-{LSTIAS9},Actiune
-{LSTIAS10},Activ
-{LSTIAS11},Inactiv
-{LSTIAS12},"Activeaza IAS"
-{LSTIAS13},"Dezactiveaza IAS"
-{LSTIAS14},"Sterge IAS"
-{LSTIAS15},Expira
-{UCPLOGIN0},"Panou administrare utilizator"
-{UCPLOGIN1},"Nume utilizator"
-{UCPLOGIN2},Parola
-{UCPLOGIN3},"Intra in cont"
-{UCPLOGIN4},"Logare securizata"
-{UCPLOGIN5},"Radius Manager - User Control Panel"
-{UCPLOGIN6},"Limba afisare"
-{UCPLOGOUT0},"Panou administrare utilizator"
-{UCPLOGOUT1},"Sunteti redirectat catre pagina de logare.."
-{UCPLOGOUT2},logare
-{UCPLOGOUT3},"Radius Manager - User Control Panel"
-{UCPMAIN0},"Prima pagina"
-{UCPMAIN1},"Rapoarte de trafic"
-{UCPMAIN2},"Lista facturilor"
-{UCPMAIN3},"Schimba parola"
-{UCPMAIN4},"Introduceti un card"
-{UCPMAIN5},"Cumpara servicii"
-{UCPMAIN6},"Schimba serviciul"
-{UCPMAIN7},"Anuleaza schimbarea serviciului"
-{UCPMAIN8},Iesire
-{UCPMAIN9},"Nume utilizator"
-{UCPMAIN10},"Data sistem"
-{UCPMAIN11},Versiune
-{UCPMAIN12},"Editeaza datele personale"
-{UCPMAIN13},"Radius Manager - User Control Panel"
-{USRDET0},"Detalii utilizator"
-{USRDET1},"Informatii generale"
-{USRDET2},"Nume utilizator"
-{USRDET3},"Tip cont"
-{USRDET4},"Stare cont"
-{USRDET5},"Adresa IP statica"
-{USRDET6},"Conectare permisa de la MAC"
-{USRDET7},"Autentificare MAC"
-{USRDET8},"Credite disponibile"
-{USRDET9},"Date personale"
-{USRDET10},"Numele complet"
-{USRDET11},"Telefon fix"
-{USRDET12},"Telefon mobil"
-{USRDET13},Adresa
-{USRDET14},Oras
-{USRDET15},"Cod postal"
-{USRDET16},"Cod fiscal"
-{USRDET17},"Detalii serviciu"
-{USRDET18},"Serviciu curent"
-{USRDET19},"Tip serviciu"
-{USRDET20},"Viteza download"
-{USRDET21},"Viteza upload"
-{USRDET22},"Este programata schimbarea de serviciu la"
-{USRDET23},"Serviciul la care se va face trecerea"
-{USRDET24},Limite
-{USRDET25},"Trafic download disponibil"
-{USRDET26},"Trafic upload disponibil"
-{USRDET27},"Contul expira"
-{USRDET28},"Timp de conectare disponibil"
-{USRDET29},"Limita de download pentru azi"
-{USRDET30},"Limita de upload pentru azi"
-{USRDET31},"Limita de timp pentru azi"
-{USRDET32},"Trafic total disponibil"
-{USRDET33},"Limita de dl+ul pentru azi"
-{USRDET34},Prenume
-{USRDET35},Nume
-{USRDET36},Tara
-{USRDET37},Judet
-{USRDET38},Email
-{CFMINTPM0},"Confirma plata interna"
-{CFMINTPM1},"Urmatoarea suma va fi retinuta din depozit"
-{CFMINTPM2},"Pretul total"
-{CFMINTPM3},Trimite
-{PPCC10},"Adresa 2"
-{PPCC11},Oras
-{PPCC12},Judet
-{PPCC13},"Cod postal"
-{PPCC14},Tara
-{PPCC15},"Pret total"
-{PPCC16},optional
-{PPCC17},"5 sau 9 cifre"
-{PPCC18},Trimite
-{PPCC19},"Issue number"
-{PPCC20},"(doar pentru Switch/Maestro, Solo)"
-{PPAPIERR0},"Eroare PayPal"
-{PPAPIERR1},"A aparut urmatoarea problema"
-{PPAPIERR2},Eroare
-{PPAPIERR3},"Mesaj pe scurt"
-{PPAPIERR4},"Mesaj detaliat"
-{PPEXPCD0},"Detalii PayPal"
-{PPEXPCD1},"Veti plati urmatoarea suma"
-{PPEXPCD2},"Pret total"
-{PPEXPCD3},Adresa
-{PPEXPCD4},Nume
-{PPEXPCD5},"Strada 1"
-{PPEXPCD6},"Strada 2"
-{PPEXPCD7},Oras
-{PPEXPCD8},Judet
-{PPEXPCD9},"Cod postal"
-{PPEXPCD10},Tara
-{PPEXPCD11},Trimite
-{UCPEDITUSR0},"Editeaza datele"
-{UCPEDITUSR1},Prenume
-{UCPEDITUSR2},Nume
-{UCPEDITUSR3},Adresa
-{UCPEDITUSR4},Oras
-{UCPEDITUSR5},"Cod postal"
-{UCPEDITUSR6},Tara
-{UCPEDITUSR7},Judet
-{UCPEDITUSR8},Telefon
-{UCPEDITUSR9},Mobil
-{UCPEDITUSR10},Email
-{UCPEDITUSR11},Firma
-{UCPEDITUSR12},"Cod fiscal"
-{UCPEDITUSR13},"Campuri obligatorii!"
-{UCPEDITUSR14},Trimite
-{NUSRMAIN0},"Data sistemului"
-{NUSRMAIN1},Versiune
-{NUSRMAIN2},"Radius Manager - Inregistrare utilizator nou"
-{USRCRTD0},"Cont creat"
-{USRCRTD1},"Contul a fost creat"
-{USRCRTD2},"Click aici pentru a intra in User Control Panel"
-{BUYIAS0},"Radius Manager - Cumpara serviciu de acces instant"
-{BUYIAS1},"Doriti acces instant fara inregistrare?"
-{BUYIAS2},"Limba de afisare"
-{IASLIST0},"Numele serviciului"
-{IASLIST1},Pret
-{IASSPM0},"Metoda de plata"
-{IASSPM1},"Veti cumpara urmatorul serviciu de acces instant"
-{IASSPM2},Serviciu
-{IASSPM3},"Pret total"
-{IASSPM4},"Metode de plata disponibile"
-{IASSPM5},"Card credit"
-{IASSPM6},PayPal
-{IASSPM7},Finalizare
-{IASEXPCD0},"Detalii PayPal"
-{IASEXPCD1},"Veti plati suma"
-{IASEXPCD2},"Pret total"
-{IASEXPCD3},Adresa
-{IASEXPCD4},Nume
-{IASEXPCD5},"Strada 1"
-{IASEXPCD6},"Strada 2"
-{IASEXPCD7},Oras
-{IASEXPCD8},Judet
-{IASEXPCD9},"Cod postal"
-{IASEXPCD10},Tara
-{IASEXPCD11},Trimite
-{PIASMAIN0},"Radius Manager - Cumpara serviciu de acces instant"
-{PIASMAIN1},"Data sistem"
-{PIASMAIN2},Versiune
-{SYSLOG0},"System log"
-{SYSLOG1},"Data si ora"
-{SYSLOG2},Nume
-{SYSLOG3},"Adresa IP"
-{SYSLOG4},"Descrierea evenimentului"
-{SYSLOG5},"Date suplimentare"
+href_trafficreport,"raport de trafic",
+href_addcredits,"adauga credite",
+href_addmoney,"adauga avans plata",
+href_postpaidbilling,"facturare abonament",
+href_listinvoices,"lista facturi",
+href_chgsrv,"Schimba tipul de serviciu",
+href_listsrvhistory,"istoric servicii",
+href_deluser,"sterge utilizatorul",
+href_listpostauth,"Log autentficare",
+href_disconnuser,Deconecteaza,
+href_listconn,"lista conexiunilor",
+href_cancel,renunta,
+href_register_acc,"Creaza un cont nou",
+href_verify_acc,"Verifica cont",
+href_edit,Modifica,
+href_selfdisconn,"Clisck aici pentru a te intoarce la modul complet",
+href_sendemail,Email,
+href_sendsms,SMS,
+str_cardser,"Serii carduri",
+str_unpaidinv,"A fost gasita o factura neplatita",
+str_unpaidgraceinv,"Data scadenta depasita",
+str_availcolumns,"Coloane disponibile",
+str_selectall,"seleteaza tot",
+str_selectnone,"deselecteaza tot",
+str_pooltype_docsis,DOCSIS,
+str_pooltype_radius,RADIUS,
+str_none,Nimic,
+str_view,"Vezi si imprima factura",
+str_ref,Referinta,
+str_unreg_user,Neinregistrat,
+str_auto_renew,"Reinnoire automata",
+str_regdisabled,"Autoinregistrarea este dezactivata",
+str_emailsubjexpiry,"Contul dvs. expira in curand",
+str_emailsubjrenewed,"Contul dvs. a fost reinoit",
+str_emailsubjcantrenew,"A aparut o problema",
+str_emailsubjsrvchg,"Noul serviciu a fost activat",
+str_emailsubjwelcome,"Bine ati venit!",
+str_emailsubjselfreg,"Cont nou",
+str_emailsubjiasreg,"Cont nou IAS",
+str_emailsubjactpsw,"Activeaza parola noua",
+str_emailsubjnewpsw,"Noua parola a fost activata",
+str_emailsubjactacc,"Activeaza noul cont",
+str_yymmdd,AAAA-LL-ZZ,
+str_yymmddhhmmss,"AAAA-LL-ZZ HH:MM:SS",
+str_resetctr,"Creditele actuale vor fi pierdute",
+str_finished,gata,
+str_completed,gata,
+str_cancelled,anulat,
+str_paymode_cash,C,
+str_paymode_transfer,T,
+str_paymode_internal,I,
+str_paymode_card,P,
+str_paymode_online,O,
+str_moneyadd,"Adauga bani",
+str_addmode,"Additional credit mode active",
+str_monthly_srv,"Abonament lunar",
+str_fillupman_srv,"Deune bani",
+str_fillupcard_srv,"Reincarcare card",
+str_system,sistem,
+str_na,n/d,
+str_notavail,Indisponibil,
+str_dynamic,dinamic,
+str_hide,----,
+str_datarate,kbps,
+str_unlimited,nelimitat,
+str_next_page,>>,
+str_prev_page,<<,
+str_first_page,prima,
+str_last_page,ultima,
+str_no_limit,nelimitat,
+str_never_expires,niciodata,
+str_default_fullname,"Utilizator necunoscut",
+str_acc_disabled,inactiv,
+str_acc_expired,expirat,
+str_acc_notverified,Neverificat,
+str_acc_active,activ,
+str_acc_limit,<-limita,
+str_yes,da,
+str_no,nu,
+str_any,oricare,
+str_all,tot,
+str_all_postpaid,"Toate planurile postpaid",
+str_never_seen,"nu apare",
+str_online,online,
+str_offline,offline,
+str_unregged,"preplatit clasic",
+str_regged,reincarcare,
+str_acctype_regular,standard,
+str_acctype_maconly,"MAC utilizator Hotspot",
+str_acctype_carduser,"card preplatit",
+str_acctype_aclmikrotik,"Mikrotik acces list",
+str_acctype_aclstaros,"lista de acces pt. StarOS",
+str_acctype_ias,"Serviciu de acces instant",
+str_acctype_docsis,DOCSIS,
+str_expiremode_nminutes,"minute de la activarea cardului",
+str_expiremode_nhours,"ore dupa activarea cardului",
+str_expiremode_ndays,"zile dupa activarea cardului",
+str_expiremode_nmonths,"luni dupa activarea cardului",
+str_hours,ore,
+str_unknown_nas,"NAS necunoscut",
+str_selfreg,Autoinregistrare,
+str_exchg_rate,"rata de schimb:",
+str_emailpreview,"Trimite mesaj de previzualizare catre administrator",
+str_emailreal,"Trimite email catre",
+str_smsreal,"Trimit SMS catre",
+str_home,"Intoarcere acasa",
+str_done,Finalizat,
+str_totals,TOTAL:,
+str_id,id,
+str_pin,pin,
+str_password,parola,
+str_trfsumcsv1,"Nume utilizator",
+str_trfsumcsv2,Download,
+str_trfsumcsv3,Upload,
+str_trfsumcsv4,Total,
+str_trfsumcsv5,"Timp online",
+str_trfsumcsv6,Upload,
+str_trfsumcsv7,Total,
+str_lstusrcsv1,"Nume utilizator",
+str_lstusrcsv2,Serviciu,
+str_lstusrcsv3,"Adresa IP statica",
+str_lstusrcsv4,"Limita download",
+str_lstusrcsv5,"Limita upload",
+str_lstusrcsv6,"Limita dl+ul",
+str_lstusrcsv7,Expira,
+str_lstusrcsv8,"Limita de timp",
+str_lstusrcsv9,"Ultima deconectare",
+str_lstusrcsv10,Comentariu,
+str_lstusrcsv11,Prenume,
+str_lstusrcsv12,Nume,
+str_lstusrcsv13,Firma,
+str_lstusrcsv14,Adresa,
+str_lstusrcsv15,Oras,
+str_lstusrcsv16,"Cod postal",
+str_lstusrcsv17,Tara,
+str_lstusrcsv18,Judet,
+str_lstusrcsv19,"Telefon fix",
+str_lstusrcsv20,Mobil,
+str_lstusrcsv21,Email,
+str_lstusrcsv22,Inregistrat,
+str_lstusrcsv23,"Ultima deconectare",
+str_lstusrcsv24,Comentariu,
+str_lstusrfastcsv1,"Nume utilizator",
+str_lstusrfastcsv2,Prenume,
+str_lstusrfastcsv3,Nume,
+str_lstusrfastcsv4,Adresa,
+str_lstusrfastcsv5,Oras,
+str_lstusrfastcsv6,"Cod postal",
+str_lstusrfastcsv7,Tara,
+str_lstusrfastcsv8,Judet,
+str_lstusrfastcsv9,Telefon,
+str_lstusrfastcsv10,Mobil,
+str_lstusrfastcsv11,Email,
+str_lstusrfastcsv12,Comentariu,
+str_lstinvcsv1,Factura,
+str_lstinvcsv2,Data,
+str_lstinvcsv3,Serviciu,
+str_lstinvcsv4,Manager,
+str_lstinvcsv5,"Nume utilizator",
+str_lstinvcsv6,Pret,
+str_lstinvcsv7,"Depozit disponibil",
+str_lstinvcsv8,"Unitati DL adaugate",
+str_lstinvcsv9,"Unitati DL disponibile",
+str_lstinvcsv10,"Unitati UL adaugate",
+str_lstinvcsv11,"Unitati UL disponibile",
+str_lstinvcsv12,"Adaugat total",
+str_lstinvcsv13,"Disponibil total",
+str_lstinvcsv14,"Ore adaugate",
+str_lstinvcsv15,"Ore disponibile",
+str_lstinvcsv16,"Zile adaugate",
+str_lstinvcsv17,Expira,
+str_lstinvcsv18,Comentariu,
+str_lstinvcsv19,Platit,
+str_lstinvcsv20,Platit,
+str_lstrflcard1,pin,
+str_lstrflcard2,Seriile,
+str_lstrflcard3,"Folosit de catre",
+str_lstrflcard4,"Folosit la data de",
+str_lstrflcard5,"Expira la data de",
+str_lstrflcard6,"Valoarea cu TVA",
+str_lstrflcard7,"Creat la data de",
+str_exportcsv,"Export in format CSV",
+str_found,Gasit:,
+str_gen_invoices,"Generare facturi pt. utilizatori postpaid",
+str_combined_srv,"Serviciu internet combinat",
+str_printallinv,"Imprima facturile",
+str_intsservice,"Serviciu internet",
+str_running,OK,
+str_not_running," <font color=""#FF0000"">NU FUNCTIONEAZA!</font>",
+str_availbalance,"Fonduri disponibile",
+str_paypal_redir_ucp,"CLICK AICI PENTRU A FINALIZA TRANZACTIA",
+str_paypal_redir_ias,"CLICK AICI PENTRU A OBTINE CODUL",
+str_enabled,Activ,
+str_ok,OK,
+str_err,EROARE,
+str_skipinvzero,"pret zero - ignorat",
+str_skipinvdisacc,"cont incativ - ignorat",
+err_wrong_url,"Pagina dorita este restrictionata sau indisponibila",
+err_invalid_actcode,"Cod de activare invalid",
+err_wrongusermail,"User sau email invalid",
+err_wrongusermobile,"User sau telefon invalid",
+err_no_groupname,"Nu a fost definit grupul!",
+err_nothing_to_print,"Nu am nimic de imprimat!",
+err_pdt,"PDT received an HTTP GET request without a transaction ID",
+err_paypal_unknown,"Eroare PayPal necunoscuta!",
+err_unknown,"Eroare necunoscuta!",
+err_raddb,"/usr/local/etc/raddb nu este accesibil!",
+err_clientsconf,"/usr/local/etc/raddb/clients.conf nu este accesibil!",
+err_overlapping_interval,"Intervalele se suprapun",
+err_smsapi,"Eoare API SMS",
+err_nopaymentmethod,"Nu a fost selectata metoda de plata!",
+err_acceptterms,"Trebuie sa acceptati termenii si conditiile!",
+err_no_remotehost,"Nu a fost definit adresa hostului remote!",
+err_nodata,"Nu au fost gasite date!",
+err_daily_dlquota_reached,"A fost atinsa limita de download zilnic!",
+err_daily_ulquota_reached,"A fost atinsa limita de upload zilnic!",
+err_daily_totalquota_reached,"A fost atinsa limita de trafic zilnic!",
+err_daily_timequota_reached,"A fost atinsa limita de timp zilnic!",
+err_incorrect_account_type,"Tip cont incorect!",
+err_no_download_left,"A fost atinsa limita de download!",
+err_no_upload_left,"A fost atinsa limita de upload!",
+err_no_total_left,"A fost atinsa limita de trafic!",
+err_no_time_left,"A fost atinsa limita de timp online!",
+err_account_expired,"Cont expirat!",
+err_invalid_service,"Referinta invalida!",
+err_invalid_mac,"Adresa MAC invalida!",
+err_nas_not_allowed,"Nu ai drepturi de conectare la acest NAS!",
+err_conn_not_allowed,"Conectarea nu este permisa acum!",
+err_account_disabled,"Cont suspendat!",
+err_account_not_verified,"Nu ma pot loga, contul nu a fost verificat!",
+err_firstname_invalid,"Datele din prenume sunt invalide!",
+err_lastname_invalid,"Datele din nume sunt invalide!",
+err_address_invalid,"Datele din adresa sunt invalide!",
+err_city_invalid,"Datele din oras sunt invalide!",
+err_zip_invalid,"Datele din cod postal sunt invalide!",
+err_country_invalid,"Selactati tara!",
+err_state_invalid,"Nu ai selectat statul",
+err_phone_invalid,"Numarul de telefon contine doar cifre!",
+err_mobile_invalid,"Numar de telefon invalid!",
+err_mobile_alreadyused,"Numarul de telefon este deja folosit!",
+err_no_phone,"Nu ai introdus un numar de telefon!",
+err_no_mobile,"Nu ai introdus un numar de mobil!",
+err_email_invalid,"Adresa email invalida!",
+err_email_alreadyused,"Adresa de mail este deja folosita!",
+err_email_not_sent,"Email nu a fost trimis!",
+err_vatid_invalid,"Nu ai introdus codul TVA!",
+err_sms_not_sent,"SMS nu a fost trimis!",
+err_currency_not_supported,"Valutele suportate sunt: USD, GBP, EUR, JPY, CAD, AUD",
+err_currency_not_usd,"Valuta implicita este USD pentru a accepta plati directe!",
+err_invalid_interval,"Interval invalid!",
+err_invalid_pool,"Spatiu adrese IP invalid!",
+err_pool_overlaps,"Spatiul de adrese IP se suprapune peste unul deja existent!",
+err_pool_assigned,"Eroare la stergerea spatiului de adrese!",
+err_no_poolname,"Nu ai introdus numele!",
+err_no_cmtsname,"NU ai introdus numele CMTS!",
+err_no_community,"Nu ai introdus comunitatea SNMP!",
+err_no_apiuser,"Nu ai introdus numele pentru API Mikrotik!",
+err_no_apipassword,"Nu ai introdus parola pentru API Mikrotik!",
+err_no_free_ip_cm,"Nu sunt adrese IP pt CM disponibile!",
+err_no_free_ip_cpe,"Nu sunt adrese IP pt CPE disponibile!",
+err_invalid_paymentopt,"Optiune de plata invalida!",
+err_enter_cardnum_prepaid,"Codurile pot fi introduse doar de utilizatorii prepaid!",
+err_descr_empty,"Introduceti o descriere a serviciului!",
+err_price_negative,"Pretul nu poate fi un numar negativ!",
+err_srv_change_no_srv,"Nimic de anulat!",
+err_srv_change_postpaid_active,"Exista deja un serviciu postpaid!",
+err_changesrv_only_prepaid,"Doar utilizatorii postpaid isi pot schimba planul!",
+err_changesrv_prepaid_only,"Serviciile pot fi alese doar de utilizatorii prepaid!",
+err_op_not_allowed,"Operatie nepermisa!",
+err_chgpswucp_disabled,"Parola nu poate fi modificata!",
+err_buy_services_month_active,"Abonamentul lunar este deja activ!",
+err_buy_services_no_credit,"Nu aveti indeajunse credite. Numarul maxim este ",
+err_buy_services_min_amount,"Numarul minim este ",
+err_buy_services_amount,"Numar gresit!",
+err_buy_services_prepaid,"Doar utilizatorii prepaid pot cumpara servicii!",
+err_add_credits_balance,"Fonduri insuficiente!",
+err_login,"Nume utilizator sau parola gresite!",
+err_no_currency,"Valuta nedefinita!",
+err_traffic_add_unitprice,"Pret pe unitate gresit!",
+err_traffic_add_amount,"Cantitate gresita!",
+err_traffic_add_monthly,"Poate fi adaugata doar o luna!",
+err_traffic_add_additional,"Nu se pot adauga creditie pentru conturile expirate!",
+err_money_add_amount,"Cantitate gresita!",
+err_invoice_exists,"Factura existenta!",
+err_payout_already_submitted,"Plata existenta!",
+err_form_already_submitted,"Formularul a fost deja transmis!",
+err_srvchange_already_submitted,"Modificarea serviciului a fost deja transmisa!",
+err_invoice_already_submitted,"Factura a fost deja transmisa!",
+err_simuse_invalid,"Campul utilizare simultana este invalid!",
+err_card_already_gen,"Cardurile au fost deja generate!",
+err_card_downlimit,"Limita de download trebuie sa fie 0 sau mai mare!",
+err_card_uplimit,"Limita de upload trebuie sa fie 0 sau mai mare!",
+err_card_uptimelimit,"Limita de timp trebuie sa fie 0 sau mai mare!",
+err_card_expired,"Acest card de reincarcare a expirat!",
+err_card_revoked,"Acest card de reincarcare a fost anulat!",
+err_card_not_found,"Nu am gasit acest card de reincarcare!",
+err_card_no_srv,"Nu a fost asignat niciun serviciu!",
+err_account_locked,"Acest cont este blocat!",
+err_credits_invalid,"Numarul de credite trebuie sa fie mai mare decat 0!",
+err_generating_ias,"Eroare la generarea contului!",
+err_adding_credits,"Eroare la adaugarea fondurilor!",
+err_dup_form,"Tranzactie duplicata!",
+err_card_invalid,"Numar de card gresit!",
+err_cannot_create_file,"Fisierul nu poate fi creat!",
+err_cannot_write_file,"Nu se poate scrie in fisier!",
+err_cannot_delete_file,"Fisierul nu poate fi sters!",
+err_card_expiration,"Data de expirare a cardurilor este invalida!",
+err_card_value,"Pretul cardurilor trebuie se fie mai mare decat 0!",
+err_card_quantity,"Cantitate invalida!",
+err_card_secret,"Lungimea sirului secret invalida!",
+err_unit_price,"Pretul unitar este intotdeauna mai mare decat 0!",
+err_unit_time,"Unitatile de timp sunt intotdeauna mai mari decat 0!",
+err_unit_trafficdl,"Traficul de download este intotdeauna mai mare decat 0!",
+err_unit_trafficul,"Traficul de upload este intotdeauna mai mare decat 0!",
+err_unit_trafficcomb,"Traficul combinat este intotdeauna mai mare decat 0!",
+err_addamount,"Valoarea aditionala trebuie sa fie mai mare decat zero!",
+err_minamount,"Cantitatea minima nu poate fi 0 sau un numar negativ!",
+err_rest_manager,"Pot fi listate doar facturile pentru administratorul logat!",
+err_max_usernum,"A fost atins nr. maxim de utilizatori permis de licenta instalata!",
+err_max_cmtsnum,"A fost atins numarul maxim de CMTS-uri!",
+err_max_nasnum,"A fost atins numarul maxim de NAS-uri!",
+err_zero_payout,"Introduceti o valoare diferita de 0!",
+err_no_perm,"Nu aveti drepturi suficiente pentru a accesa aceasta functie!",
+err_mod_unavailable,"Modulul nu este disponibil!",
+err_no_cts,"In aceasta versiune nu aveti acces la Connections tracking system!",
+err_no_simuse_attr,"Nu exista atributul Simultaneous-Use tabela radcheck pentru acest utilizator!",
+err_user_exists,"Utilizatorul exista deja!",
+err_user_no_username,"Utilizatorul nu a fost transmis!",
+err_user_mac_problem,"Adresa MAC incorecta!",
+err_user_not_found,"Utilizator inexistent!",
+err_manager_not_found,"Manager inexistent!",
+err_inv_not_found,"Nu am gasit factura!",
+err_user_name_length,"Lungimea numelui incorecta!",
+err_mac_cm,"Adresa MAC invalida!",
+err_mac_cpe,"Adresa MAC invalida!",
+err_maccm_already_assigned,"O adresa MAC este deja alocata utilizatorului!",
+err_maccpe_already_assigned,"O adresa MAC este deja alocata utilizatorului!",
+err_exp_date,"Data de expirare este incorecta!",
+err_payment_date,"Data este invalida!",
+err_username_not_valid,"Ati folosit caractere invalide in numele utilizatorului!",
+err_managername_not_valid,"Ati folosit caractere invalide in numele managerului!",
+err_no_nasname,"Introduceti un nume pentru NAS!",
+err_no_apname,"Nume AP nu este definit!",
+err_invalid_ip,"Adresa IP nu este valida!",
+err_no_nassecret,"Secret-ul pentru NAS este invalid!",
+err_no_naspassword,"Parola pentru NAS este invalida!",
+err_nas_not_found,"NAS-ul nu a fost gasit!",
+err_ap_not_found,"AP-ul nu a fost gasit!",
+err_nas_exists,"NAS-ul exista deja!",
+err_ap_exists,"Adresa IP este deja alocata unui alt AP!",
+err_pool_not_found,"Nu am gasit pool IP!",
+err_cmts_not_found,"Nu am gasit CMTS!",
+err_psw_nomatch,"Parolele nu sunt identice!",
+err_psw_null,"Ati introdus o parola vida!",
+err_psw_length,"Lungimea parolei este invalida!",
+err_psw_oldpsw,"Parola curenta nu se potriveste!",
+err_psw_invalid,"Ati folosit caractere invalide in parola!",
+err_cant_del_admin,"Superuser-ul nu poate fi sters!",
+err_only_superuser,"Aveti nevoie de drepturi de Superuser!",
+err_cant_add_zero_mb,"Nu poate fi adaugata o cantitate de trafic egala cu 0!",
+err_cant_add_zero_money,"Nu poate fi adaugata o suma de bani egala cu 0!",
+err_srv_no_srvname,"Nu ati introdus numele serviciului!",
+err_srv_not_found,"Acest serviciu nu exista!",
+err_srv_exists,"Acest serviciu exista deja!",
+err_srv_not_sel,"Nu ati selectat niciun serviciu!",
+err_ip_format,"Formatul adresei IP este eronat!",
+err_cm_ip_already_assigned,"Adresa IP CM este deja alocata unui utilizator",
+err_cpe_ip_already_assigned,"Adresa IP CPE este deja alocata unui utilizator",
+err_burst_dl,"Rata burst nu poate fi mai mica decat rata nominala de download!",
+err_burst_ul,"Rata burst nu poate fi mai mica decat rata nominala de upload!",
+err_priority,"Prioritatile acceptate sunt cuprinse intre 1 si 8!",
+err_ulbursttime,"Timpul de burst pentru upload este intotdeauna mai mare decat 0!",
+err_dlbursttime,"Timpul de burst pentru download este intotdeauna mai mare decat 0!",
+err_cant_find_nas,"Nu poate fi gastit acest NAS in baza de date!",
+err_ias_no_srvname,"Nu s-a introdus numele serviciului!",
+err_ias_price,"Introduceti o valoare pozitiva!",
+err_ias_no_srv,"Nu ati selectat serviciul!",
+err_ias_downlimit,"Limita de download trebuie sa fie >= 0!",
+err_ias_uplimit,"Limita de upload trebuie sa fie >= 0!",
+err_ias_totallimit,"Limita totala trebuie sa fie >= 0!",
+err_ias_uptimelimit,"Limita de timp trebuie sa fie >= 0!",
+err_ias_expiretime,"Timpul disponibil trebuie sa fie >= 0!",
+err_ias_exists,"Serviciul exista deja!",
+err_ias_not_found,"Serviciul nu a fost gasit!",
+err_iaspayment_cancelled,"S-a anulat comanda",
+err_ias_validity,"Data nu este in formatul corect!",
+err_del_def_srv,"Serviciul implicit nu poate fi sters!",
+err_del_def_usergroup,"Grupul implicit nu poate fi sters!",
+err_del_card_user,"Cardurile nu pot fi sterse!",
+err_cc_unsupported_country,"Procesarea cardului nu este suportata pentru aceasta tara!",
+err_no_services_available,"Nu sunt disponibile aceste servicii",
+err_cc_unsupported_currency,"Aceasta valuta nu este suportata!",
+err_db,"Eroare DB!",
+err_acc_already_verified,"Contul este deja verificat!",
+err_acc_not_selfreg,"Acest cont nu este auto-inregistrat!",
+err_invalid_verification,"Cod de verificare invalid!",
+err_nomoretries,"Ai epuizat numarul de incercari!",
+err_mobilebanned,"Numar de mobil pe lista neagra!",
+err_emailbanned,"Adresa e-mail pe lista neagra!",
+err_not_own_user,"Aveti acces doar la utiizatorii proprii!",
+err_radius_running,"Serverul RADIUS este deja activ!",
+err_radius_notrunning,"Serverul RADIUS nu este activ!",
+err_dhcp_running,"Serverul DHCP este deja activ!",
+err_dhcp_notrunning,"Serverul DHCP nu este activ!",
+err_dhcp_file,"NU pot accesa configuratia DHCP!",
+err_sms_maxnum,"Am atins numarul maxim de SMS-uri!",
+err_ivalid_value,"Valoare invalida!",
+err_wrong_acc_type,"Tip de cont gresit!",
+err_noreg_user,"Acest utilizator este inregistrat dupa inceperea ciclului de facturare!",
+err_invalid_cartid,"Identificator invalid!",
+err_invalid_warnlevel,"Valoare invalida!",
+err_tftp,"Nu am putut genera fisier boot TFTP!",
+err_capcode,"Cod invalid!",
+msg_msg_sent,"Mesajul a fost trimis catre",
+msg_sync_ok,Succes!,
+msg_srv_change_same,"Acelasi serviciu este deja activ!",
+msg_srv_change_already_scheduled,"Schimbarea de serviciu este deja programata pentru  ",
+msg_srv_change_scheduled,"Schimbarea de serviciu a fost programata",
+msg_srv_change_cancelled,"Schimbarea de serviciu a fost anulata",
+msg_srv_change_completed,"Planul a fost schimbat",
+msg_series_revoked,"Cartelele de reincarcare au fost dezactivate",
+msg_series_reactivated,"Cartelele de reincarcare au fost reactivate",
+msg_series_deleted,"Cartelele de reincarcare au fost sterse",
+msg_card_revoked,"Cartelela de reincarcare a fost anulata",
+msg_card_enabled,"Cartele prepaid disponibile",
+msg_card_deleted,"Cartele prepaid sterse",
+msg_card_entered,"Creditele au fost adaugate",
+msg_credits_added,"Creditele au fost adaugate",
+msg_cards_generated,"Numerele de carduri au fost generate si stocate",
+msg_psw_updated,"Parola a fost salvata",
+msg_usergroup_created,"Grup de utilizatori inregistrat",
+msg_usergroup_updated,"Grup de utilizatori actualizat",
+msg_usergroup_deleted,"Grup de utilizatori sters",
+msg_invoice_updated,"Factura a fost salvata",
+msg_settings_updated,"Setarile sistemului au fost salvate",
+msg_psw_changed,"parola a fost schimbata",
+msg_user_logged_out,"Ati iesit din sistem",
+msg_user_deleted,"Utilizatorii au fost stersi",
+msg_user_enabled,"Utilizatorii au fost activati",
+msg_user_disabled,"Utilizatorii au fost dezactivati",
+msg_user_created,"Utilizatorul a fost creat",
+msg_user_updated,"Utilizatorul a fost modificat",
+msg_manager_enabled,"Managerul a fost activat",
+msg_manager_disabled,"Managerul a fost dezactivat",
+msg_manager_created,"Managerul a fost creat",
+msg_manager_updated,"Managerul a fost modificat",
+msg_manager_deleted,"Managerul a fost sters",
+msg_service_enabled,"Serviciul a fost activat",
+msg_service_disabled,"Serviciul a fost dezactivat",
+msg_service_created,"Serviciul a fost creat",
+msg_service_updated,"Serviciul a fost modificat",
+msg_service_deleted,"Serviciul a fost sters",
+msg_nas_created,"Noul NAS a fost creat",
+msg_nas_updated,"NAS modificat",
+msg_nas_deleted,"NAS-ul a fost sters",
+msg_ap_created,"AP nou inregistrat",
+msg_ap_updated,"AP modificat",
+msg_ap_deleted,"AP sters",
+msg_pool_created,"Pool nou de adrese IP inregistrat",
+msg_pool_updated,"Pool de adrese IP modificat",
+msg_pool_deleted,"Pool de adrese IP sters",
+msg_cmts_created,"CMTS nou inregistrat",
+msg_cmts_updated,"CMTS modificat",
+msg_cmts_deleted,"CMTS sters",
+msg_ias_created,"Serviciul a fost crear",
+msg_ias_updated,"Serviciul a fost actualizat",
+msg_ias_deleted,"Serviciul/serviciile au fost sterse",
+msg_ias_enabled,"Serviciul/serviciile au fost activate",
+msg_ias_disabled,"Serviciul/serviciile au fost dezactivate",
+msg_account_verified,"Contul este verificat",
+msg_trial_expires,"Licenta expira in data de",
+msg_acc_credited,"Cont de vanzator creditat",
+msg_code_sent,"Timite la numar de mobil",
+msg_disconnected,"Cererea de deconectare trimisa",
+msg_verifysentemail,"Cod de verificare trimis la adresa e-mail",
+msg_verifysentsms,"Cod de verificare trimis catre mobil",
+msg_newpswsentemail,"Parola noua a fost trimisa prin e-mail",
+msg_newpswactive,"Parola noua a fost trimisa prin SMS",
+arr_srvtype0,preplatit,
+arr_srvtype1,postpaid,
+arr_taxtype0,inclus,
+arr_taxtype1,exclus,
+arr_paymode0,"Plata cu numerar",
+arr_paymode1,"Transfer bancar",
+arr_paymode2,Intern,
+arr_paymode3,"Card preplatit",
+arr_paymode4,"Credit Card",
+arr_paymode5,PayPal,
+arr_paymode6,"PayPal Express Checkout",
+arr_paymode7,SagePay,
+arr_paymode8,Authorize.net,
+arr_paymode9,"DPS Payment Express",
+arr_paymode10,2Checkout,
+arr_paymode11,Payfast,
+arr_paymode12,"Plati Citrus",
+arr_acctype0,"Utilizator standard",
+arr_acctype1,"Autentificare pe baza de MAC",
+arr_timeunit0,ore,
+arr_timeunit1,zile,
+arr_timeunit2,luni,
+arr_timeunit3,luni,
+arr_month0,ianuarie,
+arr_month1,februarie,
+arr_month2,martie,
+arr_month3,aprilie,
+arr_month4,mai,
+arr_month5,iunie,
+arr_month6,iulie,
+arr_month7,august,
+arr_month8,septembrie,
+arr_month9,octombrie,
+arr_month10,noiembrie,
+arr_month11,decembrie,
+arr_cardexpiration0,ore,
+arr_cardexpiration1,zile,
+arr_cardexpiration2,luni,
+arr_syslog0,"Utilizator creat",
+arr_syslog1,"Utilizator modificat",
+arr_syslog2,"Utilizator sters",
+arr_syslog3,"Managerul a intrat in sistem",
+arr_syslog4,"Managerul a iesit din sistem",
+arr_syslog5,"Setarile de sistem au fost schimbate",
+arr_syslog6,"Managerul a fost creat",
+arr_syslog7,"Managerul a fost modificat",
+arr_syslog8,"Managerul a fost sters",
+arr_syslog9,"Serviciul a fost creat",
+arr_syslog10,"Serviciu modificat",
+arr_syslog11,"Serviciu sters",
+arr_syslog12,"NAS creat",
+arr_syslog13,"NAS modificat",
+arr_syslog14,"NAS sters",
+arr_syslog15,"S-a trimis mail la toti utilizatorii",
+arr_syslog16,"Factura a fost salvata",
+arr_syslog17,"Perioadele au fost modificate",
+arr_syslog18,"Latime de banda speciala a fost modificata",
+arr_syslog19,"Grup modificat",
+arr_syslog20,"Grup inregistrat",
+arr_syslog21,"A inceput facturarea",
+arr_syslog22,"Card anulat",
+arr_syslog23,"Serii de carduri generate",
+arr_syslog24,"Sablon IAS inregistrat",
+arr_syslog25,"Sablon IAS modificat",
+arr_syslog26,"Sablon IAS sters",
+arr_syslog27,"Pool adrese IP inregistrat",
+arr_syslog28,"Pool de adrese IP modificat",
+arr_syslog29,"Pool de adrese IP sters",
+arr_syslog30,"CMTS inregistrat",
+arr_syslog31,"CMTS modificat",
+arr_syslog32,"CMTS sters",
+arr_syslog33,"AP inregistrat",
+arr_syslog34,"AP modificat",
+arr_syslog35,"AP sters",
+arr_syslog36,"Am inceput trimiterea de SMS-uri",
+arr_syslog37,"Login esuat",
+arr_syslog38,"Managerul a fost deconectat (timeout)",
+arr_syslog39,Auto-inregistrare,
+arr_syslog40,"Inregistrare IAS",
+arr_nastype0,Mikrotik,
+arr_nastype1,StarOS,
+arr_nastype2,ChilliSpot,
+arr_nastype3,Cisco,
+arr_nastype4,pfSense,
+arr_nastype5,Altele,
+arr_apaccessmode0,SNMP,
+arr_apaccessmode1,"API Mikrotik",
+{ACPLOGIN0},"Panoul de control pentru administrare",
+{ACPLOGIN1},"Nume manager",
+{ACPLOGIN2},Parola,
+{ACPLOGIN3},"Intra in cont",
+{ACPLOGIN4},"Logare securizata",
+{ACPLOGIN5},"Radius Manager - Panoul de control pentru administrare",
+{ACPLOGIN6},"Limba de afisare",
+{ACPLOGOUT0},"Panoul de control pentru administrare",
+{ACPLOGOUT1},"Sunteti redirectat catre pagina de logare...",
+{ACPLOGOUT2},logare,
+{ACPLOGOUT3},"Radius Manager - Panoul de control pentru administrare",
+{RDRCT0},"Sunteti redirectionat catre pagina ceruta...",
+{RDRCT1},"Click aici pentru a forta redirectionarea",
+{RDRCT2},Redirectionare...,
+{ACPMAIN0},"Nume manager",
+{ACPMAIN1},"Data sistemului",
+{ACPMAIN2},Versiunea,
+{ACPMAIN3},"Radius Manager - Panoul de control pentru administrare",
+{ACPMAIN4},"Server RADIUS",
+{ACPMAIN5},"Server DHCP",
+{ACPMAIN6},"Credite disponibile",
+{HOME0},"Prima pagina",
+{HOME1},"Toate drepturile rezervate.",
+{HOME2},ATENTIE!,
+{HOME3},"Copierea sau utilizarea neautorizata a acestui<br>software este interzisa.",
+{HOME4},"Cititi Contractul (END USER LICENSE AGREEMENT)",
+{FNDRFL0},"Cauta carduri de reincarcare",
+{FNDRFL1},PIN,
+{FNDRFL2},Seriile,
+{FNDRFL3},"Activat de catre",
+{FNDRFL4},"Activat la data de",
+{FNDRFL5},Stare,
+{FNDRFL6},oricare,
+{FNDRFL7},Activ,
+{FNDRFL8},Expirat,
+{FNDRFL9},Anulat,
+{FNDRFL10},Cauta,
+{FNDRFL11},"Rest de la ",
+{CHKCARD0},"Verificare card preplatit",
+{CHKCARD1},"seria cardului (16 cifre)",
+{CHKCARD2},"Campurile sunt obligatorii!",
+{CHKCARD3},"Verifica cardul",
+{SHOWCARD0},"Introdu datele cardului",
+{SHOWCARD1},"Numar card",
+{SHOWCARD2},Seriile,
+{SHOWCARD3},"Creat la data de",
+{SHOWCARD4},"Expira la data de",
+{SHOWCARD5},"Valoarea cardului",
+{SHOWCARD6},"Folosit de catre",
+{SHOWCARD7},"Folosit la data de",
+{EULA0},"Contractul (End user license agreement)",
+{SYSET0},"Setarile sistemului",
+{SYSET1},Valuta,
+{SYSET2},TVA,
+{SYSET3},"Sincronizeaza conturile UNIX pentru casutele postale",
+{SYSET4},"Administreaza quota pentru utilizatorii UNIX",
+{SYSET5},"Userul-sablon pentru quota (cont UNIX)",
+{SYSET6},"Utilizatorii isi pot schimba singuri serviciul",
+{SYSET7},"Reseteaza contoarele cand se schimba serviciul",
+{SYSET8},"TVA pentru platile cu numerar",
+{SYSET9},"TVA pentru transferurile bancare",
+{SYSET10},"Plata scadenta la",
+{SYSET11},"Dezactiveaza utilizatorii in caz de neplata",
+{SYSET12},"Campurile sunt obligatorii!",
+{SYSET13},"Actualizeaza setarile",
+{SYSET14},Inclus,
+{SYSET15},Exclus,
+{SYSET16},zile,
+{SYSET17},"Limba de afisare",
+{SYSET18},"Metoda de deconectare",
+{SYSET19},NAS,
+{SYSET20},Remote,
+{SYSET21},"Atentionare la download de",
+{SYSET22},MB,
+{SYSET23},"Atentionare la upload de",
+{SYSET24},"Atentionare la download+upload de",
+{SYSET25},"Atentionare la timp de conectare de",
+{SYSET26},"Atentioneaza clientul daca contul expira in mai putin de",
+{SYSET27},(HH:MM:SS),
+{SYSET28},zile,
+{SYSET29},"Trimite atentionari prin e-mail",
+{SYSET30},"Permite auto-inregistrare",
+{SYSET31},"Permite editarea datelor personale in UCP",
+{SYSET32},"Rata de schimb valutar",
+{SYSET33},"Ascunde limitele in lista de utilizatori (pentru performenta)",
+{SYSET34},"Trimite notificari prin e-mail",
+{SYSET35},"Sisteme de plata disponibile",
+{SYSET36},Intern,
+{SYSET37},"PayPal CC",
+{SYSET38},"PayPal Express Checkout",
+{SYSET39},"NetCash CC",
+{SYSET40},"Sincronizeaza contul UNIX pe",
+{SYSET41},Localhost,
+{SYSET42},"Host remote, utilizand RSH",
+{SYSET43},"Host UNIX remote",
+{SYSET44},"Campuri obligatorii",
+{SYSET45},Prenume,
+{SYSET46},Nume,
+{SYSET47},Adresa,
+{SYSET48},Oras,
+{SYSET49},"Cod postal",
+{SYSET50},Tara,
+{SYSET51},Judet,
+{SYSET52},"Telefon fix",
+{SYSET53},Mobil,
+{SYSET54},Email,
+{SYSET55},"Auto-inregistrarea necesita un nume",
+{SYSET56},"Memoreaza prima adresa MAC detectata",
+{SYSET57},"Inceputul ciclului de facturare",
+{SYSET58},zile,
+{SYSET59},"Permite schimbarea parolei",
+{SYSET60},"Reinoirea conturilor postpaid",
+{SYSET61},Authorize.net,
+{SYSET62},"Setari generale",
+{SYSET63},Notificari,
+{SYSET64},"Facturi si plati",
+{SYSET65},"Setari cont",
+{SYSET66},"Sincronizare cu contul UNIX",
+{SYSET67},"DPS Payment Express",
+{SYSET68},"Poate cere vouchere (panou clienti)",
+{SYSET69},"Poate efectua reincarcari (panou clienti)",
+{SYSET70},2Checkout,
+{SYSET71},niciodata,
+{SYSET72},"Doar cand este expirat",
+{SYSET73},Orican,
+{SYSET74},"Nivel alerte",
+{SYSET75},"Valoare fixa",
+{SYSET76},Procent,
+{SYSET77},"Notifica managerul la inregistrare",
+{SYSET78},"Plan nou de servicii activat",
+{SYSET79},"Notificare de reinnoire cont",
+{SYSET80},"Mesaj de bun venit (SMS)",
+{SYSET81},"Campuri obligatorii IAS",
+{SYSET82},Email,
+{SYSET83},Mobil,
+{SYSET84},"Cod fiscal",
+{SYSET85},"Trimite alerta de expirare (SMS)",
+{SYSET86},Payfast,
+{SYSET87},"Contul IAS necesita verificare SMS",
+{SYSET88},"Auto-inregistrarea permite",
+{SYSET89},"Adresa e-mail deja inregistrata",
+{SYSET90},"Numar de mobil deja inregistrat",
+{SYSET91},"Auto-inregistrarea IAS permite",
+{SYSET92},"Adauga un NAS nou tuturor serviciilor",
+{SYSET93},"Adauga un manager nou tuturor serviciilor",
+{SYSET94},"Auto-inregistrarea implicita ...",
+{SYSET95},"Activare SMS",
+{SYSET96},"Activare e-mail",
+{SYSET97},"Auto-inregistrarea pe mobil necesita",
+{SYSET98},"Auto-inregistrarea grup implicit",
+{SYSET99},"Trimite alerta de expirare",
+{SYSET100},"Doar odata",
+{SYSET101},"De mai multe ori",
+{SYSET102},"Captcha activ",
+{SYSET103},"Plati Citrus",
+{SYSET104},"Deconecteaza utilizatorii postpaid la inceperea ciclului de facturare",
+{LSTUSR0},"Lista utilizatorilor",
+{LSTUSR1},"Nume utilizator",
+{LSTUSR2},"Serviciu contractat",
+{LSTUSR3},"Adresa IP statica",
+{LSTUSR4},"Limita download",
+{LSTUSR5},"Limita upload",
+{LSTUSR6},"Contul expira",
+{LSTUSR7},"Limita timp de conectare",
+{LSTUSR8},"Ultima deconectare",
+{LSTUSR9},Comentarii,
+{LSTUSR10},Actiune,
+{LSTUSR11},Activ,
+{LSTUSR12},Expirat,
+{LSTUSR13},Dezactivat,
+{LSTUSR14},Online,
+{LSTUSR15},Activeaza,
+{LSTUSR16},Dezactiveaza,
+{LSTUSR17},Sterge,
+{LSTUSR18},"Limita dl+ul",
+{LSTUSR19},"Exporta in format CSV",
+{LSTUSR20},Inregistrat,
+{LSTUSR21},Neverificat,
+{LSTUSR22},Prenume,
+{LSTUSR23},Nume,
+{LSTUSR24},Firma,
+{LSTUSR25},Adresa,
+{LSTUSR26},Oras,
+{LSTUSR27},"Cod postal",
+{LSTUSR28},Tara,
+{LSTUSR29},Judet,
+{LSTUSR30},"Telefon fix",
+{LSTUSR31},Mobil,
+{LSTUSR32},Email,
+{LSTUSR33},"MAC CM",
+{LSTUSR34},"IP CM",
+{LSTUSR35},Deconecteaza,
+{LSTUSR36},Aplica,
+{LSTUSR37},"Ultima deconectare",
+{LSTUSRGRP0},"Afiseaza grupurile",
+{LSTUSRGRP1},"Nume grup",
+{LSTUSRGRP2},Actiune,
+{LSTUSRGRP3},Sterge,
+{LSTUSRGRP4},Descriere,
+{EDUSRGRP0},"Mdifica grup",
+{EDUSRGRP1},"Nume grup",
+{EDUSRGRP2},Descriere,
+{EDUSRGRP3},"Aceste campuri sunt obligatorii!",
+{EDUSRGRP4},Actualizeaza,
+{EDUSRGRP5},sterge,
+{NEWUSRGRP0},"Gup nou",
+{NEWUSRGRP1},"Nume grup",
+{NEWUSRGRP2},Descriere,
+{NEWUSRGRP3},"Aceste campuri sunt obligatorii!",
+{NEWUSRGRP4},"Creaza grup",
+{CFMDELUSRGRP0},"Mesaj sistem",
+{CFMDELUSRGRP1},"Sterge grupul",
+{CFMDELUSRGRP2},Sterge,
+{CFMLOGOUT0},"Deconecteaza utilizatorul",
+{CFMLOGOUT1},"Esti sigur ca vrei sa deconectezi toate sesiunile?",
+{CFMLOGOUT2},Deconecteaza,
+{FNDUSR0},"Cauta utilizatorul",
+{FNDUSR1},"Filtreaza dupa parametrii:",
+{FNDUSR2},"Nume utilizator sau MAC",
+{FNDUSR3},"Stare utilizator",
+{FNDUSR4},"Tip utilizator",
+{FNDUSR5},"Adresa MAC a CPE",
+{FNDUSR6},"Adresa statica IP",
+{FNDUSR7},"Numele sau firma",
+{FNDUSR8},"Numar telefon fix",
+{FNDUSR9},"Numar telefon mobil",
+{FNDUSR10},Adresa,
+{FNDUSR11},Oras,
+{FNDUSR12},"Cod postal",
+{FNDUSR13},"Tip serviciu",
+{FNDUSR14},Comentariu,
+{FNDUSR15},"Modifica utilizator",
+{FNDUSR16},"Nume utilizator, MAC, card",
+{FNDUSR17},Toti,
+{FNDUSR18},Activ,
+{FNDUSR19},Inactiv,
+{FNDUSR20},Preplatit,
+{FNDUSR21},"Cu abonament",
+{FNDUSR22},"Doar email",
+{FNDUSR23},"Cauta utilizatori",
+{FNDUSR24},"Modifica utilizator",
+{FNDUSR25},"Adresa MAC a modemului",
+{FNDUSR26},"Inregistrare access list",
+{FNDUSR27},Prenume,
+{FNDUSR28},Nume,
+{FNDUSR29},Email,
+{FNDUSR30},Tara,
+{FNDUSR31},Judet,
+{FNDUSR32},Grup,
+{FNDUSR33},Posesor,
+{FNDUSR34},"Numar contract",
+{FNDUSR35},"Tip cont",
+{FNDUSR36},oricare,
+{FNDUSR37},standard,
+{FNDUSR38},MAC,
+{FNDUSR39},DOCSIS,
+{FNDUSR40},"Lista acces Mikrotik",
+{FNDUSR41},"Lista acces StarOS",
+{FNDUSR42},Activ,
+{FNDUSR43},Expirat,
+{FNDUSR44},"Card prepaid clasic",
+{FNDUSR45},"Serviciu de acces instant",
+{FNDUSR46},"Informatii de utilizare",
+{FNDUSR47},oricare,
+{FNDUSR48},Folosit,
+{FNDUSR49},Nefolosit,
+{FNDUSR50},"Data de expirare",
+{FNDUSR51},"Perioada de inregistrare",
+{FNDUSR52},"Stare card",
+{FNDUSR53},oricare,
+{FNDUSR54},Activ,
+{FNDUSR55},Neactivat,
+{NEWUSR0},"Utilizator nou",
+{NEWUSR1},"Date generale",
+{NEWUSR2},"Nume utilizator sau MAC",
+{NEWUSR3},"Activeaza utilizatorul",
+{NEWUSR4},"Tip utilizator",
+{NEWUSR5},Parola,
+{NEWUSR6},"Confirma parola",
+{NEWUSR7},"Adresa MAC a CPE",
+{NEWUSR8},"Adresa statica IP",
+{NEWUSR9},"Nr. de sesiuni active simultan",
+{NEWUSR10},"Numele sau firma",
+{NEWUSR11},Adresa,
+{NEWUSR12},Oras,
+{NEWUSR13},"Cod postal",
+{NEWUSR14},"Numar telefon fix",
+{NEWUSR15},"Numar telefon mobil",
+{NEWUSR16},"Cod fiscal",
+{NEWUSR17},Serviciu,
+{NEWUSR18},"Limita download",
+{NEWUSR19},"Limita upload",
+{NEWUSR20},"Contul expira la",
+{NEWUSR21},"Timp de conectare disponibil",
+{NEWUSR22},Comentariu,
+{NEWUSR23},"Date pt. sistem DOCSIS (optional)",
+{NEWUSR24},"Adresa MAC a modemului",
+{NEWUSR25},"Adresa e-mail",
+{NEWUSR26},"(4-32 caractere)",
+{NEWUSR27},"Utilizator standard",
+{NEWUSR28},"Utilizator Mikrotik Hotspot MAC",
+{NEWUSR29},"(4-32 caractere)",
+{NEWUSR30},"Permite accesul doar de la acest MAC",
+{NEWUSR31},"Foloseste aceasta adresa IP",
+{NEWUSR32},Bytes,
+{NEWUSR33},(AAAA-LL-ZZ),
+{NEWUSR34},(HH:MM:SS),
+{NEWUSR35},"Aceste campuri sunt obligatorii!",
+{NEWUSR36},"Adauga utilizatorul",
+{NEWUSR37},"Inregistrare access list Mikrotik",
+{NEWUSR38},"Inregistrare access list StarOS",
+{NEWUSR39},"Limita download + upload",
+{NEWUSR40},Prenume,
+{NEWUSR41},Nume,
+{NEWUSR42},Tara,
+{NEWUSR43},Judet,
+{NEWUSR44},"Credite disponibile",
+{NEWUSR45},"Utilizator nou",
+{NEWUSR46},"Atribute RADIUS suplimentare",
+{NEWUSR47},"Adresa IP CM",
+{NEWUSR48},"Adresa IP CPE",
+{NEWUSR49},"Pool NAS sau DHCP",
+{NEWUSR50},"Pool adrese IP",
+{NEWUSR51},"Numar contract",
+{NEWUSR52},"Geolocatie (latitudine, longitudine)",
+{NEWUSR53},grade,
+{NEWUSR54},"Expirare contract",
+{NEWUSR55},"Limba de afisare",
+{NEWUSR56},"Arata parola",
+{NEWUSR57},"Genereaza parola",
+{EDUSR0},"Modifica utilizatorul",
+{EDUSR1},"Activeaza utilizatorul",
+{EDUSR2},Parola,
+{EDUSR3},"Confirma parola",
+{EDUSR4},"Adresa MAC a CPE",
+{EDUSR5},"Adresa statica IP",
+{EDUSR6},"Nr. de sesiuni active simultan",
+{EDUSR7},"Numele sau firma",
+{EDUSR8},Adresa,
+{EDUSR9},Oras,
+{EDUSR10},"Cod postal",
+{EDUSR11},"Numar telefon fix",
+{EDUSR12},"Numar telefon mobil",
+{EDUSR13},"Cod fiscal",
+{EDUSR14},Serviciu,
+{EDUSR15},"Limita download",
+{EDUSR16},"Limita upload",
+{EDUSR17},"Contul expira la",
+{EDUSR18},"Timp de conectare disponibil",
+{EDUSR19},"Credite disponibile",
+{EDUSR20},"Greseli de introducere nr. card",
+{EDUSR21},Comentariu,
+{EDUSR22},"Nume utilizator",
+{EDUSR23},"Tip cont",
+{EDUSR24},"Stare cont",
+{EDUSR25},"Seria cardului",
+{EDUSR26},"Inregistrat la data",
+{EDUSR27},"Inregistrat de catre",
+{EDUSR28},"Stare conexiune",
+{EDUSR29},"Adresa IP alocata",
+{EDUSR30},"Ultima deconectare",
+{EDUSR31},"I se va schimba serviciul in data de",
+{EDUSR32},"Noul serviciu va fi",
+{EDUSR33},"Date pt. sistem DOCSIS (optional)",
+{EDUSR34},"Adresa MAC a modemului",
+{EDUSR35},"Adresa e-mail",
+{EDUSR36},"(4-32 caractere)",
+{EDUSR37},"Permite accesul doar de la acest MAC",
+{EDUSR38},"Foloseste aceasta adresa IP",
+{EDUSR39},Bytes,
+{EDUSR40},"(AAAA-LL-ZZ HH:MM:SS)",
+{EDUSR41},(HH:MM:SS),
+{EDUSR42},"Aceste campuri sunt obligatorii!",
+{EDUSR43},"Modifica utilizatorul",
+{EDUSR44},"Limita download + upload",
+{EDUSR45},Prenume,
+{EDUSR46},Nume,
+{EDUSR47},Tara,
+{EDUSR48},Judet,
+{EDUSR49},ori,
+{EDUSR50},"Atentionare trimisa",
+{EDUSR51},"Caller ID",
+{EDUSR52},NAS,
+{EDUSR53},"Cod de verificare",
+{EDUSR54},Verificat,
+{EDUSR55},"Verificare esuata:",
+{EDUSR56},"Cod verificare SMS trimis",
+{EDUSR57},"Proprietarul contului",
+{EDUSR58},"Cod verificare SMS trimis catre",
+{EDUSR59},"Schimba parola",
+{EDUSR60},"Adresa IP CM",
+{EDUSR61},"Adresa IP CPE",
+{EDUSR62},"Pool NAS sau DHCP",
+{EDUSR63},"Pool adrese IP",
+{EDUSR64},"Adresa statica IP",
+{EDUSR65},"SNR downstream",
+{EDUSR66},"CM - putere TX",
+{EDUSR67},"CM - putere RX",
+{EDUSR68},"CM Uptime",
+{EDUSR69},"Ping catre CM",
+{EDUSR70},"Numar contract",
+{EDUSR71},"SMS de activare a fost trimis",
+{EDUSR72},"MAC CPE",
+{EDUSR73},"Adresa IP pt CPE",
+{EDUSR74},"Sumar cont",
+{EDUSR75},"Detalii DOCSIS",
+{EDUSR76},"Canal upstream",
+{EDUSR77},"Detalii WiFi",
+{EDUSR78},"Access point",
+{EDUSR79},"Nivel semnal",
+{EDUSR80},SNR,
+{EDUSR81},CCQ,
+{EDUSR82},"Geolocatie (latitudine, longitudine)",
+{EDUSR83},grade,
+{EDUSR84},CMTS,
+{EDUSR85},"SNR upstream",
+{EDUSR86},"Alerta e-mail",
+{EDUSR87},"Alerta SMS",
+{EDUSR88},Flags,
+{EDUSR89},"Expirare contract",
+{EDUSR90},"Limba de afisare",
+{EDUSR91},"Alerta facturare",
+{EDUSR92},"Cota zilnica disponibila",
+{EDUSR93},"Traficul de download",
+{EDUSR94},"Traficul de upload",
+{EDUSR95},"Total trafic",
+{EDUSR96},"Timp online",
+{EDUSR97},"Arata parola",
+{EDUSR98},"Genereaza parola",
+{ADDCRED0},"Adauga credite",
+{ADDCRED1},"Nume utilizator",
+{ADDCRED2},"Serviciul activ",
+{ADDCRED3},Download,
+{ADDCRED4},Timp,
+{ADDCRED5},"Mod adaugare credite",
+{ADDCRED6},"Metoda de plata",
+{ADDCRED7},"Pret unitar",
+{ADDCRED8},Cantitate,
+{ADDCRED9},"Pret unitar fara TVA",
+{ADDCRED10},"Pret cu TVA",
+{ADDCRED11},TVA,
+{ADDCRED12},"Comentariu pe factura",
+{ADDCRED13},"Comentariu intern",
+{ADDCRED14},MB,
+{ADDCRED15},Normal,
+{ADDCRED16},"Adauga credite aditionale",
+{ADDCRED17},"Plata numerar",
+{ADDCRED18},"Transfer bancar",
+{ADDCRED19},"(Utilizati valori negative pentru storno)",
+{ADDCRED20},"Adauga credite",
+{ADDCRED21},Atentie!,
+{ADDCRED22},"Se pastreaza istoricul tuturor modificarilor!",
+{ADDCRED23},"lista facturilor",
+{ADDCRED24},"raport de trafic",
+{ADDCRED25},"Datele sunt corecte?",
+{ADDCRED26},Upload,
+{ADDCRED27},Download+Upload,
+{ADDCRED28},"Unitatea de timp online",
+{ADDCRED29},"Blocheaza cantitatea",
+{CFMADDCRED0},"Confirm adaugarea creditelor",
+{CFMADDCRED1},"Nume utilizator",
+{CFMADDCRED2},"Serviciul activ",
+{CFMADDCRED3},"Modalitate de plata",
+{CFMADDCRED4},Download,
+{CFMADDCRED5},Timp,
+{CFMADDCRED6},"Pret unitar fara TVA",
+{CFMADDCRED7},Cantitate,
+{CFMADDCRED8},"Pret fara TVA",
+{CFMADDCRED9},"Pret cu TVA",
+{CFMADDCRED10},TVA,
+{CFMADDCRED11},"Date aditionale",
+{CFMADDCRED12},"Data expirarii",
+{CFMADDCRED13},"Trafic download de adaugat",
+{CFMADDCRED14},"Ore de adaugat",
+{CFMADDCRED15},(AAAA-LL-ZZ),
+{CFMADDCRED16},MB,
+{CFMADDCRED17},ore,
+{CFMADDCRED18},"Adauga credite",
+{CFMADDCRED19},"Apasati o singura data! ",
+{CFMADDCRED20},"Sigur vreti sa adaugati creditele?",
+{CFMADDCRED21},Upwnload,
+{CFMADDCRED22},"Trafic download+upload",
+{CFMADDCRED23},"Trafic upload de adaugat",
+{CFMADDCRED24},"Trafic download+upload de adaugat",
+{CFMADDCRED25},"Unitatea de timp online",
+{CRDADDED0},"Creditele au fost adaugate",
+{CRDADDED1},"Creditele au fost adaugate",
+{CRDADDED2},"listeaza factura",
+{ADDMONEY0},"Adauga avans plata",
+{ADDMONEY1},"Nume utilizator",
+{ADDMONEY2},"Metoda de plata",
+{ADDMONEY3},"Pret cu TVA",
+{ADDMONEY4},"Comentariu pe factura",
+{ADDMONEY5},"Comentariu intern",
+{ADDMONEY6},"Utilizati valori negative pentru storno",
+{ADDMONEY7},"Adauga numerar",
+{ADDMONEY8},Atentie!,
+{ADDMONEY9},"Se pastreaza istoricul tuturor modificarilor! ",
+{ADDMONEY10},"lista facturilor",
+{ADDMONEY11},"raport de trafic",
+{ADDMONEY12},"Plata cu numerar",
+{ADDMONEY13},"Transfer bancar",
+{ADDMONEY14},"Sunteti sigur ca adaugati suma?",
+{POSTPBILL0},"Facturare abonament",
+{POSTPBILL1},"Nume utilizator",
+{POSTPBILL2},"De la",
+{POSTPBILL3},"Pana la",
+{POSTPBILL4},"Nume serviciu",
+{POSTPBILL5},"Creeaza factura",
+{POSTPBILL6},"lista facturilor",
+{POSTPBILL7},"raport de trafic",
+{POSTPBILL8},AAAA-LL-ZZ,
+{CFMPOSTPBL0},"Confirmare facturare abonament",
+{CFMPOSTPBL1},"Nume utilizator",
+{CFMPOSTPBL2},"De la",
+{CFMPOSTPBL3},"Pana la",
+{CFMPOSTPBL4},"Trafic download / diferenta",
+{CFMPOSTPBL5},"Trafic upload / diferenta",
+{CFMPOSTPBL6},"Timp total de conectare",
+{CFMPOSTPBL7},"Nume serviciu",
+{CFMPOSTPBL8},"Pret unitar fara TVA",
+{CFMPOSTPBL9},"Pret unitar aditional fara TVA",
+{CFMPOSTPBL10},"Pret aditional fara TVA",
+{CFMPOSTPBL11},"Metoda de plata",
+{CFMPOSTPBL12},Descriere,
+{CFMPOSTPBL13},"Pret total fara TVA",
+{CFMPOSTPBL14},"Pret total cu TVA",
+{CFMPOSTPBL15},TVA,
+{CFMPOSTPBL16},"Comentarii pe factura",
+{CFMPOSTPBL17},"Comentarii interne",
+{CFMPOSTPBL18},"Utilizati valori negative pentru storno",
+{CFMPOSTPBL19},"Creeaza factura",
+{CFMPOSTPBL20},"Aceste campuri sunt obligatorii!",
+{CFMPOSTPBL21},"Plata cu numerar",
+{CFMPOSTPBL22},"Transfer bancar",
+{CFMPOSTPBL23},"Sunteti sigur ca vreti sa creati factura?",
+{CFMPOSTPBL24},"lista facturilor",
+{POSTPINVOK0},"Facturare abonament",
+{POSTPINVOK1},"Facturare abonament incheiata cu succes",
+{POSTPINVOK2},"listeaza factura",
+{TRAFFREP0},"Raport de trafic",
+{TRAFFREP1},Data,
+{TRAFFREP2},"Nume utilizator",
+{TRAFFREP3},"Timp total de conectare",
+{TRAFFREP4},Download,
+{TRAFFREP5},Upload,
+{TRAFFREP6},"Total dl + ul",
+{DETTRAFFREP0},"Raport de trafic detaliat",
+{DETTRAFFREP1},"Nume utilizator",
+{DETTRAFFREP2},"Data/ora inceput",
+{DETTRAFFREP3},"Data/ora sfarsit ",
+{DETTRAFFREP4},"Timp de conectare",
+{DETTRAFFREP5},Download,
+{DETTRAFFREP6},Upload,
+{DETTRAFFREP7},"Adresa ip",
+{DETTRAFFREP8},Identificator,
+{DETTRAFFREP9},"Sesiune activa",
+{DETTRAFFREP10},TOTAL,
+{DETTRAFFREP11},"Total dl + ul",
+{DETTRAFFREP12},NAS,
+{DETTRAFFREP13},Disponibil,
+{DETTRAFFREP14},"Disponibil<br>timp conectare",
+{DETTRAFFREP15},Disponibil<br>download,
+{DETTRAFFREP16},Disponibil<br>upload,
+{DETTRAFFREP17},Disponibil<br>total,
+{DETTRAFFREP18},AP,
+{LSTINV0},"Lista facturilor",
+{LSTINV1},Numar<br>factura,
+{LSTINV2},Data,
+{LSTINV3},Descriere,
+{LSTINV4},Manager,
+{LSTINV5},"Nume utilizator",
+{LSTINV6},Pret,
+{LSTINV7},Balanta,
+{LSTINV8},N/D,
+{LSTINV9},"Limita ore / timp online",
+{LSTINV10},Imprima,
+{LSTINV11},Comentariu,
+{LSTINV12},FACTURAT,
+{LSTINV13},NEFACTURAT,
+{LSTINV14},"TOTAL TRANZACTII",
+{LSTINV15},"TRANSFERURI INTERNE",
+{LSTINV16},"Facturi neplatite",
+{LSTINV17},"Data scadenta depasita",
+{LSTINV18},"Tipuri facturi: N - Numerar, T - Transfer bancar, I - Transfer intern, P - Card preplatit, PP - PayPal, CC - Carte de Credit",
+{LSTINV19},Disponibil<br>DL/UL/total,
+{LSTINV20},Ore<br>adaugate,
+{LSTINV21},Zile<br>adaugate,
+{LSTINV22},h,
+{LSTINV23},"REINCARCARI CU CARDURI PREPLATITE",
+{LSTINV24},"Zile / data expirarii",
+{LSTINV25},Adaugat<br>DL/UL/total,
+{LSTINV26},Timp<br>disponibil,
+{LSTINV27},Expira,
+{LSTINV28},Ore<br>adaugate,
+{LSTINV29},Zile<br>adaugate,
+{LSTINV30},Tip<br>inv.,
+{LSTINV31},"Sumar cont",
+{EDITINV0},"Modifica factura",
+{EDITINV1},"Data facturii",
+{EDITINV2},"Numarul facturii",
+{EDITINV3},"Data facturii",
+{EDITINV4},"Modalitate de plata",
+{EDITINV5},"Modalitate de plata",
+{EDITINV6},"Nume serviciu",
+{EDITINV7},"Pret unitar",
+{EDITINV8},Cantitate,
+{EDITINV9},Pret,
+{EDITINV10},"Nivel TVA",
+{EDITINV11},TVA,
+{EDITINV12},"Pret total",
+{EDITINV13},"Platit pe data de",
+{EDITINV14},Comentariu,
+{EDITINV15},"Date credit",
+{EDITINV16},"Nume manager",
+{EDITINV17},"Nume utilizator",
+{EDITINV18},"trafic suplimentar achizitionat",
+{EDITINV19},"Noua limita de download",
+{EDITINV20},"Noua limita de upload",
+{EDITINV21},"Ore suplimentare",
+{EDITINV22},"Limita timp online",
+{EDITINV23},"Zile adaugate",
+{EDITINV24},"data expirarii",
+{EDITINV25},"Actualizare factura",
+{EDITINV26},"listeaza factura",
+{EDITINV27},Balanta,
+{EDITINV28},"Trafic upload achizitionat",
+{EDITINV29},"Trafic dl+ul achizitionat",
+{EDITINV30},"Noua limita dl+ul",
+{EDITINV31},"Identificator tranzactie",
+{EDITINV32},"Nume complet",
+{EDITINV33},Adresa,
+{EDITINV34},Oras,
+{EDITINV35},"Cod postal",
+{EDITINV36},Tara,
+{EDITINV37},Judet,
+{EDITINV38},AAAA-LL-ZZ,
+{CHGSRVADM0},"Schimba tipul de serviciu",
+{CHGSRVADM1},"Servicii disponibile",
+{CHGSRVADM2},"Programati schimbarea in data de",
+{CHGSRVADM3},"Schimba serviciul",
+{CHGSRVADM4},Atentie!,
+{SRVHIST0},"Istoricul schimbarilor de servicii",
+{SRVHIST1},"data cererii",
+{SRVHIST2},"cerut de",
+{SRVHIST3},"cerut pentru",
+{SRVHIST4},"programat pentru",
+{SRVHIST5},"noul tip de serviciu",
+{SRVHIST6},stare,
+{FNDINV0},"Gaseste facturi",
+{FNDINV1},"Da la",
+{FNDINV2},"Pana la",
+{FNDINV3},"De la numar",
+{FNDINV4},"Emis de",
+{FNDINV5},"Emis catre",
+{FNDINV6},"Tip plata",
+{FNDINV7},Cauta,
+{FNDINV8},"Toate tranzactiile",
+{FNDINV9},"Plata cu numerar",
+{FNDINV10},"Transfer bancar",
+{FNDINV11},"Transfer intern",
+{FNDINV12},"Reincarcare cu card",
+{FNDINV13},"(fara prefix)",
+{FNDINV14},"PayPal Payments Pro",
+{FNDINV15},"PayPal Express Checkout",
+{FNDINV16},"Numar tranzactie",
+{FNDINV17},Comentariu,
+{FNDINV18},AAAA-LL-ZZ,
+{FNDINV19},"Tranzactii de tipul",
+{FNDINV20},"Doar facturi",
+{FNDINV21},Utilizatori,
+{FNDINV22},Manageri,
+{FNDINV23},"PayPal Website Payments Standard",
+{FNDINV24},SagePay,
+{FNDINV25},Authorize.net,
+{FNDINV26},"Pana la numarul",
+{FNDINV27},Tip,
+{FNDINV28},"DPS Payment Express",
+{FNDINV29},2Checkout,
+{FNDINV30},"Stare plati postpaid",
+{FNDINV31},Orice,
+{FNDINV32},Neplatit,
+{FNDINV33},"Data scadenta depasita",
+{FNDINV34},"Proprietarul contului",
+{FNDINV35},Payfast,
+{FNDINV36},"Plati Citrus",
+{BUYSRV0},"Cumpara servicii",
+{BUYSRV1},"Serviciul activ",
+{BUYSRV2},"Unitatea de upload",
+{BUYSRV3},"Unitatea de timp",
+{BUYSRV4},"Credite / unitate",
+{BUYSRV5},Cantitatea,
+{BUYSRV6},"Aceste campuri sunt obligatorii!",
+{BUYSRV7},"Cumpara serviciul",
+{BUYSRV8},"Unitatea de download",
+{BUYSRV9},"Unitatea dl+ul",
+{BUYSRV10},"Unitatea de timp online",
+{CARDGEN0},"Genereaza carduri preplatite",
+{CARDGEN1},Cantitatea,
+{CARDGEN2},"Fraza de codare a seriei",
+{CARDGEN3},"Valoarea cu TVA",
+{CARDGEN4},"Data expirarii",
+{CARDGEN5},"Tipul de card",
+{CARDGEN6},"Nume serviciu asociat",
+{CARDGEN7},"Limita download",
+{CARDGEN8},"Limita upload",
+{CARDGEN9},"Timp online disponibil",
+{CARDGEN10},"Mod expirare",
+{CARDGEN11},"Timp scurs de la activarea cardului",
+{CARDGEN12},"Aceste campuri sunt obligatorii!",
+{CARDGEN13},"Genereaza cardurile",
+{CARDGEN14},carduri,
+{CARDGEN15},"(4-16 caractere)",
+{CARDGEN16},(AAAA-LL-ZZ),
+{CARDGEN17},"Preplatit standard",
+{CARDGEN18},Reincarcare,
+{CARDGEN19},MB,
+{CARDGEN20},Ore,
+{CARDGEN21},"Data de expirare definita",
+{CARDGEN22},"Data de expirare se calculeaza incepand cu activarea cardului",
+{CARDGEN23},Zile,
+{CARDGEN24},"Limita dl + ul",
+{CARDGEN25},Expira,
+{CARDGEN26},"Verificare SMS necesara",
+{CARDGEN27},"Lungimea PIN-ului",
+{CARDGEN28},"Lungimea parolei",
+{CARDGEN29},"Nr. de sesiuni active simultan",
+{CARDGEN30},Prefix,
+{CARDGEN31},Grup,
+{CARDSTAT0},"Statistici carduri",
+{CARDSTAT1},"Statistici generale",
+{CARDSTAT2},"Numarul total de serii generate",
+{CARDSTAT3},"Numarul total de carduri generate",
+{CARDSTAT4},"Statistici carduri de reincarcare",
+{CARDSTAT5},"Numarul de serii generate",
+{CARDSTAT6},"Numarul de carduri generate",
+{CARDSTAT7},"Valoarea totala",
+{CARDSTAT8},"Carduri neutilizate",
+{CARDSTAT9},"Carduri utilizate",
+{CARDSTAT10},"Valoarea cardurilor neutilizate",
+{CARDSTAT11},"Valoarea cardurilor utilizate",
+{CARDSTAT12},"Statistici carduri clasice",
+{CARDSTAT13},"Numarul de serii generate",
+{CARDSTAT14},"Numarul de carduri generate",
+{CARDSTAT15},"Valoarea totala",
+{BATCHBILL0},"Genereaza facturi",
+{BATCHBILL1},"Da la",
+{BATCHBILL2},"Pana la",
+{BATCHBILL3},"Urmatorul >",
+{BATCHBILL4},"Selecteaza perioada de facturare",
+{BATCHBILL5},AAAA-LL-ZZ,
+{BATCHBILL6},"Tip plata",
+{BATCHBILL7},"Plata cu numerar",
+{BATCHBILL8},"Transfer bancar",
+{BATCHBILL9},Grup,
+{BATCHBILL10},"Include conturile inactive",
+{BATCHBILL11},"Include conturile anulate",
+{CFMBATCHBILL0},"Confirma generarea facturii",
+{CFMBATCHBILL1},Trimite,
+{CFMBATCHBILL2},"Genereaza facturi",
+{CFMBATCHBILL3},"Se vor genera facturi pentru TOTI UTILIZATORII POSTPAID",
+{CFMBATCHBILL4},"Da la",
+{CFMBATCHBILL5},"Pana la",
+{CFMBATCHBILL6},Serviciu,
+{CFMBATCHBILL7},Grup,
+{CFMBATCHBILL8},"Include facturi cu valoare zero",
+{CFMBATCHBILL9},"Include conturile anulate",
+{CHGSRVUSR0},"Schimba tipul de serviciu",
+{CHGSRVUSR1},"Servicii preplatite disponibile",
+{CHGSRVUSR2},"Schimba serviciul",
+{CHGSRVUSR3},"Urmatorul >",
+{SELPM0},"Selectati metoda de plata",
+{SELPM1},"Veti cumpara serviciul:",
+{SELPM2},"Nume serviciu",
+{SELPM3},Cantitate,
+{SELPM4},"Pret total",
+{SELPM5},Verificare,
+{SELPM6},"Metode de plata disponibile",
+{SELPM7},"Card credit",
+{SELPM8},PayPal,
+{SELPM9},Garantie,
+{CFMCCLCHGSVC0},"Anuleaza schimbarea de serviciu",
+{CFMCCLCHGSVC1},"Veti anula schimbarea de serviciu",
+{CFMCCLCHGSVC2},"Anuleaza schimbarea de serviciu",
+{CFMCHGSVC0},"Confirma schimbarea de serviciu",
+{CFMCHGSVC1},"Veti schimba serviciul",
+{CFMCHGSVC2},"Serviciul solicitat",
+{CFMCHGSVC3},"Data solicitarii",
+{CFMCHGSVC4},"Programat pentru",
+{CFMCHGSVC5},"Schimba serviciul",
+{CFMDELMAN0},"Mesaj sistem",
+{CFMDELMAN1},"Sterg managerul",
+{CFMDELMAN2},"Sterge managerul ",
+{CFMDELSVC0},"Mesaj sistem",
+{CFMDELSVC1},"Sterg serviciul",
+{CFMDELSVC2},"Sterge serviciul",
+{CFMDELIAS0},"Mesaj sistem",
+{CFMDELIAS1},"Sterge serviciu",
+{CFMDELIAS2},Sterge,
+{CFMDELUSR0},"Mesaj sistem",
+{CFMDELUSR1},"Sterg utilizatorul",
+{CFMDELUSR2},"Sterge utilizatorul",
+{CFMCARDGEN0},"Confirma generarea cardurilor",
+{CFMCARDGEN1},"Veti genera",
+{CFMCARDGEN2},"carduri preplatite",
+{CFMCARDGEN3},"Date generale carduri",
+{CFMCARDGEN4},"Tip card",
+{CFMCARDGEN5},"Valoare fara TVA",
+{CFMCARDGEN6},"Valid pana la ",
+{CFMCARDGEN7},"Detalii serviciu",
+{CFMCARDGEN8},"Nume serviciu",
+{CFMCARDGEN9},"Limita download",
+{CFMCARDGEN10},"Limita upload",
+{CFMCARDGEN11},"Timp online disponibil ",
+{CFMCARDGEN12},Expirare,
+{CFMCARDGEN13},"Sigur doriti acest lucru?",
+{CFMCARDGEN14},"Generati cardurile",
+{CFMCARDGEN15},"apasati butonul o singura data!",
+{CFMCARDGEN16},"Limita dl+ul",
+{CFMCARDGEN17},Grup,
+{LSTMNGR0},"Lista managerilor",
+{LSTMNGR1},"Nume utilizator",
+{LSTMNGR2},"Nume complet",
+{LSTMNGR3},"Suma colectata",
+{LSTMNGR4},Comentariu,
+{LSTMNGR5},Actiune,
+{LSTMNGR6},Activ,
+{LSTMNGR7},Inactiv,
+{LSTMNGR8},TOTAL,
+{LSTMNGR9},Activeaza,
+{LSTMNGR10},Dezactiveaza,
+{LSTMNGR11},Sterge,
+{LSTMNGR12},Nume,
+{LSTNAS0},"Lista NAS-urilor",
+{LSTNAS1},"Nume NAS",
+{LSTNAS2},"Adresa IP",
+{LSTNAS3},Tip,
+{LSTNAS4},Descriere,
+{LSTNAS5},Actiune,
+{LSTNAS6},Sterge,
+{LSTAP0},"Arata AP-uri",
+{LSTAP1},Nume,
+{LSTAP2},"Adresa IP",
+{LSTAP3},"Mode acces",
+{LSTAP4},Descriere,
+{LSTAP5},Actiune,
+{LSTAP6},Activeaza,
+{LSTAP7},Dezactiveaza,
+{LSTAP8},Sterge,
+{LSTAP9},Activ,
+{LSTAP10},Dezactivat,
+{NEWAP0},"AP nou",
+{NEWAP1},Activeaza,
+{NEWAP2},Nume,
+{NEWAP3},"Adresa IP",
+{NEWAP4},"Mod acces",
+{NEWAP5},SNMP,
+{NEWAP6},"API Mikrotik",
+{NEWAP7},"Comunitate SNMP",
+{NEWAP8},"Utilizator API",
+{NEWAP9},"Parola API",
+{NEWAP10},Descriere,
+{NEWAP11},"Campurile sunt obligatorii!",
+{NEWAP12},"Salveaza AP",
+{EDITAP0},"Editeaza AP",
+{EDITAP1},Activeaza,
+{EDITAP2},Nume,
+{EDITAP3},"Adresa IP",
+{EDITAP4},"Mode acces",
+{EDITAP5},SNMP,
+{EDITAP6},"API Mikrotik",
+{EDITAP7},"Comunitate SNMP",
+{EDITAP8},"Utilizator API",
+{EDITAP9},"Parola API",
+{EDITAP10},Descriere,
+{EDITAP11},"Campurile sunt obligatorii!",
+{EDITAP12},"Modifica AP",
+{EDITAP13},sterge,
+{CFMDELAP0},"Mesaj sistem",
+{CFMDELAP1},"Sterge AP",
+{CFMDELAP2},"Sterge AP",
+{LSTPOOL0},"Arata pool-uri IP",
+{LSTPOOL1},"Nume pool",
+{LSTPOOL2},"Adresa de start",
+{LSTPOOL3},"Adresa de final",
+{LSTPOOL4},"Urmatorul pool",
+{LSTPOOL5},Descriere,
+{LSTPOOL6},Actiune,
+{LSTPOOL7},Sterge,
+{LSTPOOL8},Tip,
+{LSTCMTS0},"Lista CMTS",
+{LSTCMTS1},Actiune,
+{LSTCMTS2},Sterge,
+{LSTCMTS3},Nume,
+{LSTCMTS4},"Adresa IP",
+{LSTCMTS5},Comunitate,
+{LSTCMTS6},Descriere,
+{LSTSRV0},"Lista serviciilor",
+{LSTSRV1},"Nume serviciu",
+{LSTSRV2},"Pret cu TVA",
+{LSTSRV3},"Nume pool ip",
+{LSTSRV4},"Rata download<br>(kbps)",
+{LSTSRV5},"Rata upload<br>(kbps)",
+{LSTSRV6},Limita<br>download,
+{LSTSRV7},Limita<br>upload,
+{LSTSRV8},"Limita<br>de expirare",
+{LSTSRV9},"Limita<br>de timp online",
+{LSTSRV10},Actiune,
+{LSTSRV11},Activ,
+{LSTSRV12},Inactiv,
+{LSTSRV13},Activeaza,
+{LSTSRV14},Dezactiveaza,
+{LSTSRV15},Sterge,
+{LSTSRV16},"Limita dl + ul",
+{LSTSRV17},"Urmatorul serviciu",
+{LSTSRV18},"Cisco download<br>policy map ",
+{LSTSRV19},"Cisco upload<br>policy map ",
+{LSTSRV20},"Urmatorul serviciu<br>zilnic",
+{LSTSRV21},"Urmatorul serviciu<br>dezactivat",
+{LSTSRVHISTSM0},"Servicii folosite","Used services"
+{LSTSRVHISTSM1},Data,Date
+{LSTSRVHISTSM2},Serviciu,"Service plan"
+{LSTSRVHISTSM3},"De la",From
+{LSTSRVHISTSM4},"Pana la ora","To time"
+{LSTSRVHISTSM5},"Total DL <br>/ peste cota","Total download<br>/ over quota"
+{LSTSRVHISTSM6},"Total UL <br>/ peste cota","Total upload<br>/ over quota"
+{LSTSRVHISTSM7},"Timp petrecut online","Online time"
+{LSTSRVHISTSM8},"Pret fara TVA","Net price"
+{LSTSRVHISTSM9},TVA,VAT
+{LSTSRVHISTSM10},Pret,
+{LSTCARDSER0},"Lista seriilor",
+{LSTCARDSER1},Seria,
+{LSTCARDSER2},"Tip card",
+{LSTCARDSER3},"Creat la",
+{LSTCARDSER4},"Data expirarii",
+{LSTCARDSER5},"Valoarea cu TVA",
+{LSTCARDSER6},Cantitatea,
+{LSTCARDSER7},"Nume serviciu",
+{LSTCARDSER8},"Limita download<br>(MB)",
+{LSTCARDSER9},"Limita upload<br>(MB)",
+{LSTCARDSER10},"Limita de timp<br>online (ore)",
+{LSTCARDSER11},"Timp disponibil<br>de la activare",
+{LSTCARDSER12},"Exporta in format<br>CSV",
+{LSTCARDSER13},Actiune,
+{LSTCARDSER14},"Toate activate",
+{LSTCARDSER15},"Toate dezactivate",
+{LSTCARDSER16},"Partial dezactivate",
+{LSTCARDSER17},Dezactiveaza,
+{LSTCARDSER18},Activeaza,
+{LSTCARDSER19},Sterge,
+{LSTCARDSER20},"Limita totala<br>(MB)",
+{LSTCARDSER21},CSV,
+{LSTCARDSER22},PDF<br>export,
+{LSTCARDSER23},PDF,
+{LSTRFL0},"Arata carduri de reincarcare",
+{LSTRFL1},Actiune,
+{LSTRFL2},Activeaza,
+{LSTRFL3},Dezactiveaza,
+{LSTRFL4},Sterge,
+{LSTRFL5},Activ,
+{LSTRFL6},Expirat,
+{LSTRFL7},Anulat,
+{LSTRFL8},PIN,
+{LSTRFL9},Seriile,
+{LSTRFL10},"Activat de catre",
+{LSTRFL11},"Activat la data de",
+{LSTRFL12},"Expira la data de",
+{LSTRFL13},"Valoarea cu<br>TVA",
+{LSTRFL14},"Creat la data de",
+{NEWNAS0},"NAS nou",
+{NEWNAS1},"Nume NAS",
+{NEWNAS2},"Adresa IP",
+{NEWNAS3},Tip,
+{NEWNAS4},Secret,
+{NEWNAS5},Descriere,
+{NEWNAS6},"Aceste campuri sunt obligatorii!",
+{NEWNAS7},"Adauga NAS",
+{NEWNAS8},Parola,
+{NEWNAS9},"pentru Mikrotik, Chillispot, Cisco",
+{NEWNAS10},"doar pentru StarOS",
+{NEWNAS11},"Cu suport de bandwidth pentru Cisco",
+{NEWNAS12},Nimic,
+{NEWNAS13},"Rate limit",
+{NEWNAS14},"Policy map",
+{NEWNAS15},"Utilizator API",
+{NEWNAS16},"Parola API",
+{NEWNAS17},Mikrotik,
+{NEWNAS18},"Rata dinamica",
+{NEWNAS19},Dezactivat,
+{NEWNAS20},"API Mikrotik (< MT v6)",
+{NEWNAS21},"CoA (MT 6+)",
+{EDITNAS0},"Editeaza NAS",
+{EDITNAS1},"Nume NAS",
+{EDITNAS2},"Adresa IP",
+{EDITNAS3},Tip,
+{EDITNAS4},Secret,
+{EDITNAS5},Descriere,
+{EDITNAS6},"Aceste campuri sunt obligatorii!",
+{EDITNAS7},"Modifica NAS",
+{EDITNAS8},"Sterge NAS",
+{EDITNAS9},Parola,
+{EDITNAS10},"pentru Mikrotik, Chillispot, Cisco",
+{EDITNAS11},"doar pentru StarOS",
+{EDITNAS12},"Cu suport de bandwidth pentru Cisco",
+{EDITNAS13},Nimic,
+{EDITNAS14},"Rate limit",
+{EDITNAS15},"Policy map",
+{EDITNAS16},"Utilizator API",
+{EDITNAS17},"Parola API",
+{EDITNAS18},Mikrotik,
+{EDITNAS19},"Rata dinamica",
+{EDITNAS20},Dezactivat,
+{EDITNAS21},"API Mikrotik (< MT v6)",
+{EDITNAS22},"CoA (MT 6+)",
+{CFMDELNAS0},"Mesaj sistem",
+{CFMDELNAS1},"Sterg NAS",
+{CFMDELNAS2},"Sterge NAS",
+{NEWPOOL0},"Pool nou de adrese IP",
+{NEWPOOL1},"Nume pool",
+{NEWPOOL2},"Primul IP",
+{NEWPOOL3},"Ultimul IP",
+{NEWPOOL4},"Urlmatorul pool",
+{NEWPOOL5},Descriere,
+{NEWPOOL6},"Campurile sunt obligatorii!",
+{NEWPOOL7},"Salveaza pool",
+{NEWPOOL8},Tip,
+{NEWPOOL9},DOCSIS,
+{NEWPOOL10},RADIUS,
+{EDITPOOL0},"Modifica pool IP",
+{EDITPOOL1},"Nume pool",
+{EDITPOOL2},"Primul IP",
+{EDITPOOL3},"Ultimul IP",
+{EDITPOOL4},"Urlmatorul pool",
+{EDITPOOL5},Descriere,
+{EDITPOOL6},"Campurile sunt obligatorii!",
+{EDITPOOL7},"Modifica pool",
+{EDITPOOL8},sterge,
+{EDITPOOL9},Tip,
+{CFMDELPOOL0},"Mesaj sistem",
+{CFMDELPOOL1},"Sterge pool IP",
+{CFMDELPOOL2},"Sterge pool IP",
+{NEWCMTS0},"CMTS nou",
+{NEWCMTS1},Nume,
+{NEWCMTS2},"Adresa IP",
+{NEWCMTS3},"Comunitate SNMP",
+{NEWCMTS4},Descriere,
+{NEWCMTS5},"Campurile sunt obligatorii!",
+{NEWCMTS6},"Salveaza CMTS",
+{EDITCMTS0},"Modifica CMTS",
+{EDITCMTS1},Nume,
+{EDITCMTS2},"Adresa IP",
+{EDITCMTS3},"Comunitate SNMP",
+{EDITCMTS4},Descriere,
+{EDITCMTS5},"Campurile sunt obligatorii!",
+{EDITCMTS6},"Actualizeaza CMTS",
+{EDITCMTS7},sterge,
+{CFMDELCMTS0},"Mesaj sistem",
+{CFMDELCMTS1},"Sterge CMTS",
+{CFMDELCMTS2},"Sterge CMTS",
+{NEWMGR0},"Manager nou",
+{NEWMGR1},"Nume manager",
+{NEWMGR2},"Activeaza managerul",
+{NEWMGR3},Parola,
+{NEWMGR4},"Confirma parola",
+{NEWMGR5},Prenume,
+{NEWMGR6},"Telefon fix",
+{NEWMGR7},"Telefon mobil",
+{NEWMGR8},Adresa,
+{NEWMGR9},Oras,
+{NEWMGR10},"Cod postal",
+{NEWMGR11},Comentariu,
+{NEWMGR12},"(4-32 caractere)",
+{NEWMGR13},Permisiuni,
+{NEWMGR14},"Lista utilizatorilor",
+{NEWMGR15},"Creeaza utilizatori",
+{NEWMGR16},"Modifica utilizatori",
+{NEWMGR17},"Sterge utilizatori",
+{NEWMGR18},"Lista facturilor proprii",
+{NEWMGR19},"Lista tuturor facturilor",
+{NEWMGR20},"Modifica facturi",
+{NEWMGR21},"Lista platilor",
+{NEWMGR22},"Poate face plati",
+{NEWMGR23},"Lista managerilor",
+{NEWMGR24},"Creeaza manageri",
+{NEWMGR25},"Modifica manageri",
+{NEWMGR26},"Sterge manageri",
+{NEWMGR27},"Vede utilizatorii conectati",
+{NEWMGR28},"Deconecteaza utilizatorii",
+{NEWMGR29},"Functii de facturare",
+{NEWMGR30},"Rapoate trafic",
+{NEWMGR31},"Acces la sistemul de carduri",
+{NEWMGR32},"Lista serviciilor",
+{NEWMGR33},"Creeaza servicii",
+{NEWMGR34},"Modifica serviciile",
+{NEWMGR35},"Sterge serviciile",
+{NEWMGR36},"Selecteaza toate",
+{NEWMGR37},"Deselecteaza toate",
+{NEWMGR38},"Aceste campuri sunt obligatorii!",
+{NEWMGR39},"Adauga managerul",
+{NEWMGR40},Nume,
+{NEWMGR41},"Acceseaza totu utilizatorii",
+{NEWMGR42},"Date generale",
+{NEWMGR43},Firma,
+{NEWMGR44},Tara,
+{NEWMGR45},Judet,
+{NEWMGR46},"Cod fiscal",
+{NEWMGR47},"Permite reduceri de preturi",
+{NEWMGR48},"Modifica date utilizator privilegiat",
+{NEWMGR49},"Permite anularea de facturi",
+{NEWMGR50},"Adminsitreaza AP-uri",
+{NEWMGR51},"Raport conexiuni",
+{NEWMGR52},"Sumar cont",
+{NEWMGR53},"Limba de afisare",
+{NEWMGR54},"Trimite e-mail",
+{NEWMGR55},"Trimite SMS",
+{NEWSRV0},"Serviciu nou",
+{NEWSRV1},"Parametri de baza",
+{NEWSRV2},"Nume serviciu",
+{NEWSRV3},"Activeaza serviciul",
+{NEWSRV4},"Tipul serviciului",
+{NEWSRV5},"Preplatit standard",
+{NEWSRV6},"Card preplatit sau IAS",
+{NEWSRV7},Abonament,
+{NEWSRV8},"Doar e-mail",
+{NEWSRV9},"Limiteaza traficul de download",
+{NEWSRV10},"Limiteaza traficul de upload",
+{NEWSRV11},"Modalitatea de limitare a timpului",
+{NEWSRV12},"Impune o data de expirare",
+{NEWSRV13},"Limiteaza timpul petrecut online",
+{NEWSRV14},"Fara limite de timp",
+{NEWSRV15},"Trafic de download pe zi",
+{NEWSRV16},"Trafic de upload pe zi",
+{NEWSRV17},"Limiteaza timpul online pe zi la",
+{NEWSRV18},"Limiteaza viteza (DL / UL)",
+{NEWSRV19},"Activeaza modul burst",
+{NEWSRV20},"Burst limit (DL / UL)",
+{NEWSRV21},"Burst treshold (DL / UL)",
+{NEWSRV22},"Burst time (DL / UL)",
+{NEWSRV23},"Numele pool-ului de adrese IP",
+{NEWSRV24},Bytes,
+{NEWSRV25},"(0 - fara limita)",
+{NEWSRV26},"(0 - fara limita)",
+{NEWSRV27},(HH:MM:SS),
+{NEWSRV28},"(00:00:00 - fara limita)",
+{NEWSRV29},kbps,
+{NEWSRV30},"(0 - fara limita)",
+{NEWSRV31},secunde,
+{NEWSRV32},"Definitia preturilor pentru serviciile preplatite si abonamente",
+{NEWSRV33},"Modalitatea de calcul al pretului pentru abonamente",
+{NEWSRV34},"Dupa traficul de download",
+{NEWSRV35},"Dupa traficul de upload",
+{NEWSRV36},"Dupa timpul petrecut online",
+{NEWSRV37},"Facturare lunara",
+{NEWSRV38},"Reseteaza contoarele daca data a expirat",
+{NEWSRV39},"Activeaza credite aditionale",
+{NEWSRV40},"Nivel TVA",
+{NEWSRV41},"Pret fara TVA",
+{NEWSRV42},"Pret cu TVA",
+{NEWSRV43},"Pret pe unitate aditionala fara TVA",
+{NEWSRV44},"Pret pe unitate aditionala cu TVA",
+{NEWSRV45},TVA,
+{NEWSRV46},"Mod adaugare timp",
+{NEWSRV47},"Reseteaza contorul de timp",
+{NEWSRV48},"Prelungeste timpul",
+{NEWSRV49},"Mod adaugare trafic",
+{NEWSRV50},"Reseteaza contorul de trafic",
+{NEWSRV51},Aditiv,
+{NEWSRV52},"Unitatea de timp",
+{NEWSRV53},"Unitatea de trafic de download",
+{NEWSRV54},"Cantitatea minima",
+{NEWSRV55},"x N unitati de timp",
+{NEWSRV56},"x N unitati de trafic",
+{NEWSRV57},MB,
+{NEWSRV58},unitati,
+{NEWSRV59},"Aceste campuri sunt obligatorii!",
+{NEWSRV60},"Salveaza serviciul",
+{NEWSRV61},Prioritate,
+{NEWSRV62},"Inregistrare in lista de acces",
+{NEWSRV63},"Limiteaza dl+ul",
+{NEWSRV64},"Trafic dl+ul pe zi",
+{NEWSRV65},"(0 - fara limita)",
+{NEWSRV66},"Unitatea de trafic de upload",
+{NEWSRV67},"Unitatea de trafic dl+ul",
+{NEWSRV68},"Urmatorul serviciu",
+{NEWSRV69},"Disponibil in UCP",
+{NEWSRV70},"Prelungire automata",
+{NEWSRV71},"Cantitatea aditionala minima",
+{NEWSRV72},Initial,
+{NEWSRV73},"Cisco policy map (DL)",
+{NEWSRV74},"Cisco policy map (UL)",
+{NEWSRV75},"(Doar pentru Cisco)",
+{NEWSRV76},"Unitatea de timp online",
+{NEWSRV77},"Modul de adaugare a timpului",
+{NEWSRV78},"Initializeaza timpul online",
+{NEWSRV79},"Adauga timp online",
+{NEWSRV80},"NAS-uri permise",
+{NEWSRV81},tot,
+{NEWSRV82},Nimic,
+{NEWSRV83},"Urmatorul serviciu zilnic",
+{NEWSRV84},"Disponibil pentru manageri",
+{NEWSRV85},"Atribute RADIUS suplimentare",
+{NEWSRV86},"Extinde data de expirare",
+{NEWSRV87},"genereaza fisier boot TFTP",
+{NEWSRV88},"Configuratie avansata CM",
+{NEWSRV90},"Refoloseste traficul nefolosit",
+{NEWSRV91},"Unitati aditionale de trafic",
+{NEWSRV92},"Ignora adresa statica IP",
+{NEWSRV93},Descriere,
+{NEWSRV94},"Urmatorul serviciu dezactivat",
+{NEWSRV95},"Reseteaza contorii daca traficul este negativ",
+{ONLINEUSR0},"Utilizatori online",
+{ONLINEUSR1},"Nume utilizator",
+{ONLINEUSR2},"Conectat la",
+{ONLINEUSR3},"Timp petrecut online",
+{ONLINEUSR4},Download,
+{ONLINEUSR5},Upload,
+{ONLINEUSR6},"Adresa ip",
+{ONLINEUSR7},Identificator,
+{ONLINEUSR8},"Conectat pe NAS",
+{ONLINEUSR9},Actiune,
+{ONLINEUSR10},Deconecteaza,
+{ONLINEUSR11},"Trafic / timp gratuit inclus",
+{ONLINEUSR12},"Inchide sesiunea",
+{ONLINEUSR13},Fitreaza,
+{ONLINEUSR14},"Nume utilizator",
+{ONLINEUSR15},Grup,
+{ONLINEUSR16},AP,
+{ONLINEUSR17},"Semnal (dBm)",
+{ONLINEUSR18},"SNR (dB)",
+{ONLINEUSR19},"CCQ (%)",
+{ONLINEUSR20},Prenume,
+{ONLINEUSR21},Nume,
+{ONLINEUSR22},Firma,
+{ONLINEUSR23},Adresa,
+{ONLINEUSR24},Oras,
+{ONLINEUSR25},"Cod postal",
+{ONLINEUSR26},Tara,
+{ONLINEUSR27},Judet,
+{ONLINEUSR28},Email,
+{ONLINEUSR29},Comentariu,
+{ONLINEUSR30},Dezactivat,
+{ONLINECM0},"Modemuri de cablu inregistrate",
+{ONLINECM1},"Nume utilizator",
+{ONLINECM2},CMTS,
+{ONLINECM3},"Nume utilizator",
+{ONLINECM4},Grup,
+{ONLINECM5},Upstream,
+{ONLINECM6},"Probleme de semnal",
+{ONLINECM7},"Adresa MAC a CM",
+{ONLINECM8},"Adresa IP a CM",
+{ONLINECM9},"Adresa IP a CPE",
+{ONLINECM10},CMTS,
+{ONLINECM11},Activ,
+{ONLINECM12},Expirat,
+{ONLINECM13},Dezactivat,
+{ONLINECM14},Actiune,
+{ONLINECM15},"Restarteaza CM",
+{ONLINECM16},"DS SNR (dB)",
+{ONLINECM17},"TX pwr (dB/&micro;V)",
+{ONLINECM18},"RX pwr (dB/&micro;V)",
+{ONLINECM19},"Ping (ms)",
+{ONLINECM20},Upstream,
+{ONLINECM21},Grup,
+{ONLINECM22},"US SNR (dB)",
+{ONLINECM23},Prenume,
+{ONLINECM24},Nume,
+{ONLINECM25},Firma,
+{ONLINECM26},Adresa,
+{ONLINECM27},Oras,
+{ONLINECM28},"Cod postal",
+{ONLINECM29},Tara,
+{ONLINECM30},Judet,
+{ONLINECM31},Email,
+{ONLINECM32},Comentariu,
+{RVKCARD0},"Anuleaza un card",
+{RVKCARD1},"numarul cardului (16 cifre)",
+{RVKCARD2},"Aceste campuri sunt obligatorii!",
+{RVKCARD3},Dezactiveaza,
+{RVKCARD4},"Sunteti sigur?",
+{TRFFLTR0},"Cauta date de trafic",
+{TRFFLTR1},"Nume utilizator",
+{TRFFLTR2},"Adresa IP",
+{TRFFLTR3},Identificator,
+{TRFFLTR4},"(nume utilizator, MAC, numar card)",
+{TRFFLTR5},"(MAC, IP)",
+{TRFFLTR6},"Arata raportul",
+{TRFFLTR7},"Pentru intervalul",
+{TRFFLTR8},"Nu este permis!",
+{TRFFLTR9},"Da la",
+{TRFFLTR10},"Pana la",
+{TRFFLTR11},AAAA-LL-ZZ,
+{TRFFLTR12},NAS,
+{TRFFLTR13},AP,
+{TRFSUMFLTR0},"Sumar trafic",
+{TRFSUMFLTR1},"De la",
+{TRFSUMFLTR2},"Pana la",
+{TRFSUMFLTR3},"Arata raportul",
+{TRFSUMFLTR4},AAAA-LL-ZZ,
+{TRFSUMFLTR5},NAS,
+{TRFSUMFLTR6},AP,
+{TRFSUM0},"Sumar trafic",
+{TRFSUM1},"Nume utilizator",
+{TRFSUM2},Download,
+{TRFSUM3},Upload,
+{TRFSUM4},Total,
+{TRFSUM5},"Timp online",
+{TRFSUM6},"De la",
+{TRFSUM7},"Pana la",
+{TRFSUM8},"Exporta in format CSV",
+{TRFSUM9},Prenume,
+{TRFSUM10},Nume,
+{SYSINFO0},"Informatii de sistem",
+{SYSINFO1},"Statistici de sistem",
+{SYSINFO2},"Numarul maxim de utilizatori",
+{SYSINFO3},"Numar de utilizatori",
+{SYSINFO4},"Utilizatori activi inregistrati",
+{SYSINFO5},"Utilizatori inactivi inregistrati",
+{SYSINFO6},"Utilizatori carduri",
+{SYSINFO7},"Utilizatori IAS",
+{SYSINFO8},"Utilizatori conectati ",
+{SYSINFO9},"Module disponibile ",
+{SYSINFO10},"Mod demo Utilizatori de cartele",
+{SYSINFO11},"Utiliziatori nelimitati",
+{SYSINFO12},"Cartele preplatite si IAS ",
+{SYSINFO13},"Sistem de urmarire a conexiunilor",
+{SYSSTATS0},"Statistici sistem",
+{SYSSTATS1},"Statistici generale",
+{SYSSTATS2},"Total conturi",
+{SYSSTATS3},"Conturi RADIUS",
+{SYSSTATS4},"Conturi DOCSIS",
+{SYSSTATS5},"Contruri normale",
+{SYSSTATS6},"Contruri MAC",
+{SYSSTATS7},"Conturi ACL Mikrotik",
+{SYSSTATS8},"Conturi ACL StarOS",
+{SYSSTATS9},"Conturi card",
+{SYSSTATS10},"Conturi IAS",
+{SYSSTATS11},"Statistici RADIUS",
+{SYSERR0},Eroare,
+{SYSMSG0},"Mesaj sistem",
+{ENTCRDNUM0},"Introduceti nr. de card",
+{ENTCRDNUM1},"numarul cardului (16 cifre)",
+{ENTCRDNUM2},"Aceste campuri sunt obligatorii!",
+{ENTCRDNUM3},Trimite,
+{CHGPSW0},"Schimbare de parola",
+{CHGPSW1},"Parola veche",
+{CHGPSW2},"Parola noua",
+{CHGPSW3},"repetati parola noua",
+{CHGPSW4},"(4-32 caractere)",
+{CHGPSW5},"Aceste campuri sunt obligatorii!",
+{CHGPSW6},"Schimba parola",
+{EDITSRV0},"Modifica serviciul",
+{EDITSRV1},"Parametri de baza",
+{EDITSRV2},"Nume serviciu",
+{EDITSRV3},"Activeaza serviciul",
+{EDITSRV4},"Tipul serviciului",
+{EDITSRV5},"Preplatit clasic",
+{EDITSRV6},"Card preplatit sau IAS",
+{EDITSRV7},Abonament,
+{EDITSRV8},"Doar e-mail",
+{EDITSRV9},"Limiteaza traficul de download",
+{EDITSRV10},"Limiteaza traficul de upload",
+{EDITSRV11},"Modalitatea de limitare a timpului",
+{EDITSRV12},"Impune o data de expirare",
+{EDITSRV13},"Limiteaza timpul petrecut online",
+{EDITSRV14},"Fara limite de timp",
+{EDITSRV15},"Trafic de download pe zi",
+{EDITSRV16},"Trafic de upload pe zi",
+{EDITSRV17},"Limiteaza timpul online pe zi la",
+{EDITSRV18},"Limiteaza viteza (DL / UL)",
+{EDITSRV19},"Activeaza modul burst",
+{EDITSRV20},"Burst limit (DL / UL)",
+{EDITSRV21},"Burst treshold (DL / UL)",
+{EDITSRV22},"Burst time (DL / UL)",
+{EDITSRV23},"Numele pool-ului de adrese IP",
+{EDITSRV24},Bytes,
+{EDITSRV25},"(0 - fara limita)",
+{EDITSRV26},"(0 - fara limita)",
+{EDITSRV27},(HH:MM:SS),
+{EDITSRV28},"(00:00:00 - fara limita)",
+{EDITSRV29},kbps,
+{EDITSRV30},"(0 - fara limita)",
+{EDITSRV31},secunde,
+{EDITSRV32},"Definitia preturilor pentru serviciile preplatite si abonamente",
+{EDITSRV33},"Modalitatea de calcul al pretului pentru abonamente",
+{EDITSRV34},"Dupa traficul de download",
+{EDITSRV35},"Dupa traficul de upload",
+{EDITSRV36},"Dupa timpul petrecut online",
+{EDITSRV37},"Facturare lunara",
+{EDITSRV38},"Reseteaza contoarele daca data a expirat",
+{EDITSRV39},"Activeaza credite aditionale",
+{EDITSRV40},"Nivel TVA",
+{EDITSRV41},"Pret fara TVA",
+{EDITSRV42},"Pret cu TVA",
+{EDITSRV43},"Pret pe unitate aditionala fara TVA",
+{EDITSRV44},"Pret pe unitate aditionala cu TVA",
+{EDITSRV45},TVA,
+{EDITSRV46},"Mod adaugare timp",
+{EDITSRV47},"Reseteaza contorul de timp",
+{EDITSRV48},"Prelungeste timpul",
+{EDITSRV49},"Mod adaugare trafic",
+{EDITSRV50},"Reseteaza contorul de trafic",
+{EDITSRV51},Aditiv,
+{EDITSRV52},"Unitatea de timp",
+{EDITSRV53},"Unitatea de trafic de download",
+{EDITSRV54},"Cantitatea minima",
+{EDITSRV55},"x N unitati de timp",
+{EDITSRV56},"x N unitati de trafic",
+{EDITSRV57},MB,
+{EDITSRV58},unitati,
+{EDITSRV59},"Aceste campuri sunt obligatorii!",
+{EDITSRV60},"Modifica serviciul",
+{EDITSRV61},"sterge serviciul",
+{EDITSRV62},Prioritate,
+{EDITSRV63},"Inregistrare in lista de acces",
+{EDITSRV64},"Inregistrare in lista de acces",
+{EDITSRV65},"Limiteaza dl+ul",
+{EDITSRV66},"(0 - fara limita)",
+{EDITSRV67},"Unitatea de trafic de upload",
+{EDITSRV68},"Unitatea de trafic dl+ul",
+{EDITSRV69},"Urmatorul serviciu",
+{EDITSRV70},"Disponibil in UCP",
+{EDITSRV71},"Prelungire automata",
+{EDITSRV72},"Cantitatea aditionala minima",
+{EDITSRV73},Initial,
+{EDITSRV74},"Cisco policy map (DL)",
+{EDITSRV75},"Cisco policy map (UL)",
+{EDITSRV76},"(Doar pentru Cisco)",
+{EDITSRV77},"Unitatea de timp online",
+{EDITSRV78},"Modul de adaugare a timpului",
+{EDITSRV79},"Initializeaza timpul online",
+{EDITSRV80},"Adauga timp online",
+{EDITSRV81},"Accounting special",
+{EDITSRV82},Modifica,
+{EDITSRV83},"NAS-uri permise",
+{EDITSRV84},tot,
+{EDITSRV85},Nimic,
+{EDITSRV86},"Urmatorul serviciu zilnic",
+{EDITSRV87},"Rata dinamica",
+{EDITSRV88},"Disponibil pentru manageri",
+{EDITSRV89},"Atribute RADIUS suplimentare",
+{EDITSRV90},"Extinde data de expirare",
+{EDITSRV91},"genereaza fisier boot TFTP",
+{EDITSRV92},"Configuratie avansata CM",
+{EDITSRV93},"Refoloseste traficul nefolosit",
+{EDITSRV94},"Unitati aditionale de trafic",
+{EDITSRV95},"Ignora adresa statica IP",
+{EDITSRV96},Descriere,
+{EDITSRV97},"Urmatorul serviciu dezactivat",
+{EDITSRV98},"Reseteaza contorii daca traficul este negativ",
+{NEWSPCPERACNT0},"Interval nou",
+{NEWSPCPERACNT1},"Data/ora inceput",
+{NEWSPCPERACNT2},"Data/ora sfarsit ",
+{NEWSPCPERACNT3},"Cota de timp",
+{NEWSPCPERACNT4},"Cota DL",
+{NEWSPCPERACNT5},"Cota UL",
+{NEWSPCPERACNT6},"Conexiuni permise",
+{NEWSPCPERACNT7},da,
+{NEWSPCPERACNT8},nu,
+{NEWSPCPERACNT9},"Adauga interval",
+{NEWSPCPERACNT10},"inapoi la lista",
+{NEWSPCPERACNT11},Luni,
+{NEWSPCPERACNT12},Marti,
+{NEWSPCPERACNT13},Miercuri,
+{NEWSPCPERACNT14},Joi,
+{NEWSPCPERACNT15},Vineri,
+{NEWSPCPERACNT16},Sambata,
+{NEWSPCPERACNT17},Duminica,
+{EDITSPCPERACNT0},"Modifica interval",
+{EDITSPCPERACNT1},"Data/ora inceput",
+{EDITSPCPERACNT2},"Data/ora sfarsit ",
+{EDITSPCPERACNT3},"Cota de timp",
+{EDITSPCPERACNT4},C,
+{EDITSPCPERACNT5},"Cota UL",
+{EDITSPCPERACNT6},"Conexiuni permise",
+{EDITSPCPERACNT7},da,
+{EDITSPCPERACNT8},nu,
+{EDITSPCPERACNT9},Actualizeaza,
+{EDITSPCPERACNT10},"inapoi la lista",
+{EDITSPCPERACNT11},sterge,
+{EDITSPCPERACNT12},Luni,
+{EDITSPCPERACNT13},Marti,
+{EDITSPCPERACNT14},Miercuri,
+{EDITSPCPERACNT15},Joi,
+{EDITSPCPERACNT16},Vineri,
+{EDITSPCPERACNT17},Sambata,
+{EDITSPCPERACNT18},Duminica,
+{LSTSPECPERACNT0},"Accounting special",
+{LSTSPECPERACNT1},"interval nou",
+{LSTSPECPERACNT2},Actiune,
+{LSTSPECPERACNT3},"Sterge selectia",
+{LSTSPECPERACNT4},"Data/ora inceput",
+{LSTSPECPERACNT5},"Data/ora sfarsit ",
+{LSTSPECPERACNT6},"Cota de timp",
+{LSTSPECPERACNT7},"Cota DL",
+{LSTSPECPERACNT8},"Cota UL",
+{LSTSPECPERACNT9},"Conexiuni permise",
+{LSTSPECPERACNT10},Modifica,
+{LSTSPECPERACNT11},Lun,
+{LSTSPECPERACNT12},Mar,
+{LSTSPECPERACNT13},Mie,
+{LSTSPECPERACNT14},Joi,
+{LSTSPECPERACNT15},Vin,
+{LSTSPECPERACNT16},Sam,
+{LSTSPECPERACNT17},Dum,
+{LSTSPECPERBW0},"Editor dinamic",
+{LSTSPECPERBW1},"interval nou",
+{LSTSPECPERBW2},Actiune,
+{LSTSPECPERBW3},"Sterge selectia",
+{LSTSPECPERBW4},Modifica,
+{LSTSPECPERBW5},Lun,
+{LSTSPECPERBW6},Mar,
+{LSTSPECPERBW7},Mie,
+{LSTSPECPERBW8},Joi,
+{LSTSPECPERBW9},Vin,
+{LSTSPECPERBW10},Sam,
+{LSTSPECPERBW11},Dum,
+{LSTSPECPERBW12},"Data/ora inceput",
+{LSTSPECPERBW13},"Data/ora sfarsit ",
+{LSTSPECPERBW14},Rata<br>DL/UL<br>(kbps),
+{LSTSPECPERBW15},Burst<br>DL/UL<br>(kbps),
+{LSTSPECPERBW16},"Burst threshold<br>DL/UL<br>(kbps)",
+{LSTSPECPERBW17},"Burst time<br>DL/UL<br>(secunde)",
+{LSTSPECPERBW18},Prioritate,
+{EDITSPCPERBW0},"Modifica interval",
+{EDITSPCPERBW1},Luni,
+{EDITSPCPERBW2},Marti,
+{EDITSPCPERBW3},Miercuri,
+{EDITSPCPERBW4},Joi,
+{EDITSPCPERBW5},Vineri,
+{EDITSPCPERBW6},Sambata,
+{EDITSPCPERBW7},Duminica,
+{EDITSPCPERBW8},"Data/ora inceput",
+{EDITSPCPERBW9},"Data/ora sfarsit ",
+{EDITSPCPERBW10},"Viteza (DL / UL)",
+{EDITSPCPERBW11},"Activeaza modul burst",
+{EDITSPCPERBW12},"Burst limit (DL / UL)",
+{EDITSPCPERBW13},"Burst treshold (DL / UL)",
+{EDITSPCPERBW14},"Burst time (DL / UL)",
+{EDITSPCPERBW15},Prioritate,
+{EDITSPCPERBW16},kbps,
+{EDITSPCPERBW17},Actualizeaza,
+{EDITSPCPERBW18},"inapoi la lista",
+{EDITSPCPERBW19},sterge,
+{NEWSPCPERBW0},"interval nou",
+{NEWSPCPERBW1},Luni,
+{NEWSPCPERBW2},Marti,
+{NEWSPCPERBW3},Miercuri,
+{NEWSPCPERBW4},Joi,
+{NEWSPCPERBW5},Vineri,
+{NEWSPCPERBW6},Sambata,
+{NEWSPCPERBW7},Duminica,
+{NEWSPCPERBW8},"Data/ora inceput",
+{NEWSPCPERBW9},"Data/ora sfarsit ",
+{NEWSPCPERBW10},"Viteza (DL / UL)",
+{NEWSPCPERBW11},"Activeaza modul burst",
+{NEWSPCPERBW12},"Burst limit (DL / UL)",
+{NEWSPCPERBW13},"Burst treshold (DL / UL)",
+{NEWSPCPERBW14},"Burst time (DL / UL)",
+{NEWSPCPERBW15},Prioritate,
+{NEWSPCPERBW16},kbps,
+{NEWSPCPERBW17},secunde,
+{NEWSPCPERBW18},"Adauga interval",
+{NEWSPCPERBW19},"inapoi la lista",
+{EDITMGR0},"Modifica manager",
+{EDITMGR1},"Nume manager",
+{EDITMGR2},"Activeaza managerul",
+{EDITMGR3},Parola,
+{EDITMGR4},"Confirma parola",
+{EDITMGR5},Prenume,
+{EDITMGR6},"Telefon fix",
+{EDITMGR7},"Telefon mobil",
+{EDITMGR8},Adresa,
+{EDITMGR9},Oras,
+{EDITMGR10},"Cod postal",
+{EDITMGR11},Comentariu,
+{EDITMGR12},"(4-32 caractere)",
+{EDITMGR13},Permisiuni,
+{EDITMGR14},"Lista utilizatorilor",
+{EDITMGR15},"Creeaza utilizatori",
+{EDITMGR16},"Modifica utilizatori",
+{EDITMGR17},"Sterge utilizatori",
+{EDITMGR18},"Lista facturilor proprii",
+{EDITMGR19},"Lista tuturor facturilor",
+{EDITMGR20},"Modifica facturi",
+{EDITMGR21},"Lista platilor",
+{EDITMGR22},"Poate face plati",
+{EDITMGR23},"Lista managerilor",
+{EDITMGR24},"Creeaza manageri",
+{EDITMGR25},"Modifica manageri",
+{EDITMGR26},"Sterge manageri",
+{EDITMGR27},"Vede utilizatorii conectati",
+{EDITMGR28},"Deconecteaza utilizatorii",
+{EDITMGR29},"Functii de facturare",
+{EDITMGR30},"Rapoate trafic",
+{EDITMGR31},"Acces la sistemul de carduri",
+{EDITMGR32},"Lista serviciilor",
+{EDITMGR33},"Creeaza servicii",
+{EDITMGR34},"Modifica serviciile",
+{EDITMGR35},"Sterge serviciile",
+{EDITMGR36},"Selecteaza toate",
+{EDITMGR37},"Deselecteaza toate",
+{EDITMGR38},"Aceste campuri sunt obligatorii!",
+{EDITMGR39},"Modifica managerul",
+{EDITMGR40},"Preda incasarile",
+{EDITMGR41},Incasari,
+{EDITMGR42},Suma,
+{EDITMGR43},Plateste,
+{EDITMGR44},"lista platilor",
+{EDITMGR45},"sterge managerul",
+{EDITMGR46},"Sunteti sigur ca vreti sa trimiteti suma?",
+{EDITMGR47},Nume,
+{EDITMGR48},"Acceseaza toti utilizatorii",
+{EDITMGR49},"Date generale",
+{EDITMGR50},"Schimba parola",
+{EDITMGR51},"Permite sold negativ",
+{EDITMGR52},Descriere,
+{EDITMGR53},"Tip plata",
+{EDITMGR54},"Plata cu numerar",
+{EDITMGR55},"Transfer bancar",
+{EDITMGR56},Firma,
+{EDITMGR57},"Cod fiscal",
+{EDITMGR58},Tara,
+{EDITMGR59},Judet,
+{EDITMGR60},"Permite reduceri de preturi",
+{EDITMGR61},"Modifica date utilizator privilegiat",
+{EDITMGR62},"Permite anularea de facturi",
+{EDITMGR63},"Adminstreaza AP-uri",
+{EDITMGR64},"Raport conexiuni",
+{EDITMGR65},"Sumar cont",
+{EDITMGR66},"Limba de afisare",
+{EDITMGR67},"Trimite e-mail",
+{EDITMGR68},"Trimite SMS",
+{CTSFLTR0},"Cauta date despre conexiuni",
+{CTSFLTR1},"Nume utilizator",
+{CTSFLTR2},"Adresa IP sursa",
+{CTSFLTR3},port,
+{CTSFLTR4},"Adresa IP destinatie",
+{CTSFLTR5},Protocol,
+{CTSFLTR6},"De la ora",
+{CTSFLTR7},"De la data",
+{CTSFLTR8},"Pana la data",
+{CTSFLTR9},"Arata raportul",
+{CTSFLTR10},Orice,
+{CTSFLTR11},TCP,
+{CTSFLTR12},UDP,
+{CTSFLTR13},"(nume utilizator, MAC, numar card)",
+{CTSFLTR14},"Pana la ora",
+{CTSFLTR15},AAAA-LL-ZZ,
+{CTSREP0},"Raport conexiuni",
+{CTSREP1},"Data si ora",
+{CTSREP2},"Nume utilizator",
+{CTSREP3},"Adresa IP sursa",
+{CTSREP4},"Port sursa",
+{CTSREP5},"Adresa IP destinatie",
+{CTSREP6},"Port destinatie",
+{CTSREP7},Protocol,
+{DETCTSREP0},"Raport conexiuni",
+{DETCTSREP1},"Data si ora",
+{DETCTSREP2},"Nume utilizator",
+{DETCTSREP3},"Adresa IP sursa",
+{DETCTSREP4},"Port sursa",
+{DETCTSREP5},"Adresa IP destinatie",
+{DETCTSREP6},"Port destinatie",
+{DETCTSREP7},Protocol,
+{FNDPSAUTH0},"Gaseste date de autentificare",
+{FNDPSAUTH1},"Nume utilizator",
+{FNDPSAUTH2},NAS,
+{FNDPSAUTH3},"De la",
+{FNDPSAUTH4},"Pana la",
+{FNDPSAUTH5},AAAA-LL-ZZ,
+{FNDPSAUTH6},"Genereaza raport",
+{AUTHLOG0},"Log autentficare",
+{AUTHLOG1},"Data si ora",
+{AUTHLOG2},"Nume utilizator",
+{AUTHLOG3},"Raspuns RADIUS",
+{AUTHLOG4},NAS,
+{NEWIAS0},"Template nou pentru acces instant",
+{NEWIAS1},"Numele serviciului de acces instant",
+{NEWIAS2},"Activeaza IAS",
+{NEWIAS3},Pret,
+{NEWIAS4},"Numele serviciului",
+{NEWIAS5},"Expira la",
+{NEWIAS6},"Limita download",
+{NEWIAS7},"Limita upload",
+{NEWIAS8},"Limita totala",
+{NEWIAS9},"Limita de timp",
+{NEWIAS10},"Cum expira serviciul",
+{NEWIAS11},"ATimp disponibil de la activare",
+{NEWIAS12},(YYYY-MM-DD),
+{NEWIAS13},MB,
+{NEWIAS14},Ore,
+{NEWIAS15},"Data fixa",
+{NEWIAS16},"Calculat de la activare",
+{NEWIAS17},"Campurile sunt obligatorii",
+{NEWIAS18},Store,
+{NEWIAS19},"Nr. de sesiuni active simultan",
+{EDITIAS0},"Editeaza template-ul pentru acces instant",
+{EDITIAS1},"Numele serviciului de acces instant",
+{EDITIAS2},"Activeaza IAS",
+{EDITIAS3},Pret,
+{EDITIAS4},"Numele serviciului",
+{EDITIAS5},"Expira la",
+{EDITIAS6},"Limita download",
+{EDITIAS7},"Limita upload",
+{EDITIAS8},"Limita totala",
+{EDITIAS9},"Limita de timp",
+{EDITIAS10},"Cum expira serviciul",
+{EDITIAS11},"ATimp disponibil de la activare",
+{EDITIAS12},(YYYY-MM-DD),
+{EDITIAS13},MB,
+{EDITIAS14},Ore,
+{EDITIAS15},"Data fixa",
+{EDITIAS16},"Calculat de la activare",
+{EDITIAS17},"Campurile sunt obligatorii",
+{EDITIAS18},Actualizeaza,
+{EDITIAS19},"Sterge IAS",
+{EDITIAS20},"Nr. de sesiuni active simultan",
+{LSTIAS0},"Instant access service templates",
+{LSTIAS1},"Numele IAS",
+{LSTIAS2},Pret,
+{LSTIAS3},"Numele serviciului",
+{LSTIAS4},"Limita download<br>(MB)",
+{LSTIAS5},"Limita upload<br>(MB)",
+{LSTIAS6},"Limita totala<br>(MB)",
+{LSTIAS7},"Limita de timp<br>(hours)",
+{LSTIAS8},"Timp disponibil",
+{LSTIAS9},Actiune,
+{LSTIAS10},Activ,
+{LSTIAS11},Inactiv,
+{LSTIAS12},"Activeaza IAS",
+{LSTIAS13},"Dezactiveaza IAS",
+{LSTIAS14},"Sterge IAS",
+{LSTIAS15},Expira,
+{UCPLOGIN0},"Panou administrare utilizator",
+{UCPLOGIN1},"Nume utilizator",
+{UCPLOGIN2},Parola,
+{UCPLOGIN3},"Intra in cont",
+{UCPLOGIN4},"Logare securizata",
+{UCPLOGIN5},"Radius Manager - User Control Panel",
+{UCPLOGIN6},"Limba afisare",
+{UCPLOGIN7},"Am uitat parola",
+{UCPLOGOUT0},"Panou administrare utilizator",
+{UCPLOGOUT1},"Sunteti redirectat catre pagina de logare..",
+{UCPLOGOUT2},logare,
+{UCPLOGOUT3},"Radius Manager - User Control Panel",
+{UCPMAIN0},"Prima pagina",
+{UCPMAIN1},"Rapoarte de trafic",
+{UCPMAIN2},"Lista facturilor",
+{UCPMAIN3},"Schimba parola",
+{UCPMAIN4},"Introduceti un card",
+{UCPMAIN5},"Cumpara servicii",
+{UCPMAIN6},"Schimba serviciul",
+{UCPMAIN7},"Anuleaza schimbarea serviciului",
+{UCPMAIN8},Iesire,
+{UCPMAIN9},"Nume utilizator",
+{UCPMAIN10},"Data sistem",
+{UCPMAIN11},Versiune,
+{UCPMAIN12},"Editeaza datele personale",
+{UCPMAIN13},"Radius Manager - User Control Panel",
+{USRDET0},"Detalii utilizator",
+{USRDET1},"Informatii generale",
+{USRDET2},"Nume utilizator",
+{USRDET3},"Tip cont",
+{USRDET4},"Stare cont",
+{USRDET5},"Adresa IP statica",
+{USRDET6},"Conectare permisa de la MAC",
+{USRDET7},"Autentificare MAC",
+{USRDET8},"Credite disponibile",
+{USRDET9},"Date personale",
+{USRDET10},"Numele complet",
+{USRDET11},"Telefon fix",
+{USRDET12},"Telefon mobil",
+{USRDET13},Adresa,
+{USRDET14},Oras,
+{USRDET15},"Cod postal",
+{USRDET16},"Cod fiscal",
+{USRDET17},"Detalii serviciu",
+{USRDET18},"Serviciu curent",
+{USRDET19},"Tip serviciu",
+{USRDET20},"Viteza download",
+{USRDET21},"Viteza upload",
+{USRDET22},"Este programata schimbarea de serviciu la",
+{USRDET23},"Serviciul la care se va face trecerea",
+{USRDET24},Limite,
+{USRDET25},"Trafic download disponibil",
+{USRDET26},"Trafic upload disponibil",
+{USRDET27},"Contul expira",
+{USRDET28},"Timp de conectare disponibil",
+{USRDET29},"Limita de download pentru azi",
+{USRDET30},"Limita de upload pentru azi",
+{USRDET31},"Limita de timp pentru azi",
+{USRDET32},"Trafic total disponibil",
+{USRDET33},"Limita de dl+ul pentru azi",
+{USRDET34},Prenume,
+{USRDET35},Nume,
+{USRDET36},Tara,
+{USRDET37},Judet,
+{USRDET38},Email,
+{USRDET39},"Detalii WiFi",
+{USRDET40},AP,
+{USRDET41},"Nivel semnal",
+{USRDET42},SNR,
+{USRDET43},CCQ,
+{USRDET44},"Limba de afisare",
+{CFMINTPM0},"Confirma plata interna",
+{CFMINTPM1},"Urmatoarea suma va fi retinuta din depozit",
+{CFMINTPM2},"Pretul total",
+{CFMINTPM3},Trimite,
+{PPCC0},"Plata prin PayPal",
+{PPCC1},"Titular card",
+{PPCC2},Prenume,
+{PPCC3},Nume,
+{PPCC4},"Tip card",
+{PPCC5},"Numarul cardului",
+{PPCC6},"Expira la",
+{PPCC7},"Numar de verificare",
+{PPCC8},"Adresa de facturare",
+{PPCC9},"Adresa 1",
+{PPCC10},"Adresa 2",
+{PPCC11},Oras,
+{PPCC12},Judet,
+{PPCC13},"Cod postal",
+{PPCC14},Tara,
+{PPCC15},"Pret total",
+{PPCC16},optional,
+{PPCC17},"5 sau 9 cifre",
+{PPCC18},Trimite,
+{PPCC19},"Issue number",
+{PPCC20},"(doar pentru Switch/Maestro, Solo)",
+{PPAPIERR0},"Eroare PayPal",
+{PPAPIERR1},"A aparut urmatoarea problema",
+{PPAPIERR2},Eroare,
+{PPAPIERR3},"Mesaj pe scurt",
+{PPAPIERR4},"Mesaj detaliat",
+{PPEXPCD0},"Detalii PayPal",
+{PPEXPCD1},"Veti plati urmatoarea suma",
+{PPEXPCD2},"Pret total",
+{PPEXPCD3},Adresa,
+{PPEXPCD4},Nume,
+{PPEXPCD5},"Strada 1",
+{PPEXPCD6},"Strada 2",
+{PPEXPCD7},Oras,
+{PPEXPCD8},Judet,
+{PPEXPCD9},"Cod postal",
+{PPEXPCD10},Tara,
+{PPEXPCD11},Trimite,
+{PPSTDRED0},Redirectare...,
+{PPSTDRED1},"Apasa pe buton daca nu esti redirectat catre Paypal in 5 secunde",
+{UCPEDITUSR0},"Editeaza datele",
+{UCPEDITUSR1},Prenume,
+{UCPEDITUSR2},Nume,
+{UCPEDITUSR3},Adresa,
+{UCPEDITUSR4},Oras,
+{UCPEDITUSR5},"Cod postal",
+{UCPEDITUSR6},Tara,
+{UCPEDITUSR7},Judet,
+{UCPEDITUSR8},Telefon,
+{UCPEDITUSR9},Mobil,
+{UCPEDITUSR10},Email,
+{UCPEDITUSR11},Firma,
+{UCPEDITUSR12},"Cod fiscal",
+{UCPEDITUSR13},"Campuri obligatorii!",
+{UCPEDITUSR14},Trimite,
+{UCPEDITUSR15},"Alerta e-mail",
+{UCPEDITUSR16},"Alerta SMS",
+{UCPEDITUSR17},"Limba de afisare",
+{NUSRMAIN0},"Data sistemului",
+{NUSRMAIN1},Versiune,
+{NUSRMAIN2},"Radius Manager - Inregistrare utilizator nou",
+{NUSRREGNM0},"Inregistreaza cont",
+{NUSRREGNM1},"Nume utilizator",
+{NUSRREGNM2},"Limba de afisare",
+{NUSRREGNM3},"Cod fiscal",
+{NUSRREGNM4},Prenume,
+{NUSRREGNM5},Nume,
+{NUSRREGNM6},Adresa,
+{NUSRREGNM7},Oras,
+{NUSRREGNM8},"Cod postal",
+{NUSRREGNM9},Tara,
+{NUSRREGNM10},Judet,
+{NUSRREGNM11},"Numar telefon fix",
+{NUSRREGNM12},"Numar telefon mobil",
+{NUSRREGNM13},"Adresa e-mail",
+{NUSRREGNM14},"Serviciu prepaid initial",
+{NUSRREGNM15},"(4-32 caractere)",
+{NUSRREGNM16},"(4-32 caractere)",
+{NUSRREGNM17},"Inregistreaza cont",
+{NUSRREGNM18},"Campurile sunt obligatorii!",
+{NUSRREGNM19},"Accept termenii si conditiile",
+{NUSRREGNM20},"Format international 40722001122",
+{NUSRREGNM21},"Format international 40722001122",
+{NUSRREGNM22},"Cod securitate",
+{NUSRREGMB0},"Creaza cont cu numar de mobil",
+{NUSRREGMB1},"Numar telefon mobil",
+{NUSRREGMB2},Prenume,
+{NUSRREGMB3},Nume,
+{NUSRREGMB4},Adresa,
+{NUSRREGMB5},Oras,
+{NUSRREGMB6},"Cod postal",
+{NUSRREGMB7},Tara,
+{NUSRREGMB8},Judet,
+{NUSRREGMB9},"Numar telefon fix",
+{NUSRREGMB10},"Adresa e-mail",
+{NUSRREGMB11},"Cod fiscal",
+{NUSRREGMB12},"Serviciu prepaid initial",
+{NUSRREGMB13},"Campurile sunt obligatorii!",
+{NUSRREGMB14},"Accept termenii si conditiile",
+{NUSRREGMB15},"Inregistreaza cont",
+{NUSRREGMB16},"Limba de afisare",
+{NUSRREGMB17},"Format international 40722001122",
+{NUSRREGMB18},"Cod securitate",
+{USRCRTD0},"Cont creat",
+{USRCRTD1},"Contul a fost creat",
+{USRCRTD2},"Click aici pentru a intra in User Control Panel",
+{USRCRTD3},Parlola,
+{USRCRTD4},"Login hotspot",
+{USRCRTD5},"Clic aici pentru panoul utilizator",
+{BUYIAS0},"Radius Manager - Cumpara serviciu de acces instant",
+{BUYIAS1},"Doriti acces instant fara inregistrare?",
+{BUYIAS2},"Limba de afisare",
+{IASLIST0},"Numele serviciului",
+{IASLIST1},Pret,
+{IASSPM0},"Metoda de plata",
+{IASSPM1},"Veti cumpara urmatorul serviciu de acces instant",
+{IASSPM2},Serviciu,
+{IASSPM3},"Pret total",
+{IASSPM4},"Metode de plata disponibile",
+{IASSPM5},"Card credit",
+{IASSPM6},PayPal,
+{IASSPM7},Finalizare,
+{IASSPM8},"Adresa e-mail",
+{IASSPM9},"Numar telefon mobil",
+{IASSPM10},"Format international 40722001122",
+{IASSPM11},"Campurile sunt obligatorii!",
+{IASEXPCD0},"Detalii PayPal",
+{IASEXPCD1},"Veti plati suma",
+{IASEXPCD2},"Pret total",
+{IASEXPCD3},Adresa,
+{IASEXPCD4},Nume,
+{IASEXPCD5},"Strada 1",
+{IASEXPCD6},"Strada 2",
+{IASEXPCD7},Oras,
+{IASEXPCD8},Judet,
+{IASEXPCD9},"Cod postal",
+{IASEXPCD10},Tara,
+{IASEXPCD11},Trimite,
+{PIASMAIN0},"Radius Manager - Cumpara serviciu de acces instant",
+{PIASMAIN1},"Data sistem",
+{PIASMAIN2},Versiune,
+{SYSLOG0},"System log",
+{SYSLOG1},"Data si ora",
+{SYSLOG2},Nume,
+{SYSLOG3},"Adresa IP",
+{SYSLOG4},"Descrierea evenimentului",
+{SYSLOG5},"Date suplimentare",
+{EMAIL0},"Trimite e-mail",
+{EMAIL1},Destinatar,
+{EMAIL2},Subiect,
+{EMAIL3},Mesaj,
+{EMAIL4},"Trimite e-mail",
+{BULKMAIL0},"E-mail catre grup",
+{BULKMAIL1},Grup,
+{BULKMAIL2},Subiect,
+{BULKMAIL3},Mesaj,
+{BULKMAIL4},"Etichete disponibile  {FIRSTNAME}, {LASTNAME}",
+{BULKMAIL5},"Trimite e-mai",
+{SMS0},"Trimite SMS",
+{SMS1},Destinatar,
+{SMS2},Mesaj,
+{SMS3},"Trimite SMS",
+{BULKSMS0},"SMS catre grup",
+{BULKSMS1},Grup,
+{BULKSMS2},Mesaj,
+{BULKSMS3},"Etichete disponibile  {FIRSTNAME}, {LASTNAME}",
+{BULKSMS4},"Trimite SMS",
+{PAYSAGEPAY0},"Comanda Sagepay",
+{PAYSAGEPAY1},"Sumar comanda",
+{PAYSAGEPAY2},Serviciu,
+{PAYSAGEPAY3},Suma,
+{PAYSAGEPAY4},"Pret total",
+{PAYSAGEPAY5},"Urmatorul >",
+{PAYPAYFAST0},"Comanda Payfast",
+{PAYPAYFAST1},"Sumar comanda",
+{PAYPAYFAST2},Serviciu,
+{PAYPAYFAST3},Suma,
+{PAYPAYFAST4},"Pret total",
+{PAYPAYFAST5},"Urmatorul >",
+{PAYCITRUS0},"Comanda Citrus Payments",
+{PAYCITRUS1},"Sumar comanda",
+{PAYCITRUS2},Serviciu,
+{PAYCITRUS3},Suma,
+{PAYCITRUS4},"Pret total",
+{PAYCITRUS5},"Urmatorul >",
+{PAY2CO0},"Comanda 2Checkout",
+{PAY2CO1},"Sumar comanda",
+{PAY2CO2},Serviciu,
+{PAY2CO3},Suma,
+{PAY2CO4},"Pret total",
+{PAY2CO5},"Urmatorul >",
+{PMFAILURE0},"Tranzactie esuata",
+{PMFAILURE1},"Tranzactia nu a reusit",
+{PMFAILURE2},"Numar de referinta",
+{PMFAILURE3},Raspuns,
+{PMFAILURE4},Descriere,
+{PMSUCUCP0},"Tranzactie efectuata cu succes",
+{PMSUCUCP1},"Detalii tranzactie",
+{PMSUCUCP2},"Raspuns gateway",
+{PMSUCUCP3},"Referinta plata",
+{PMSUCUCP4},"Pret total",
+{PMSUCUCP5},"Multumim pentru comanda!",
+{PMSUCUCP6},"Arata factura",
+{PMSUCUCPINT0},"Tranzactie efectuata cu succes",
+{PMSUCUCPINT1},"Creditele au fost adaugate",
+{PMSUCIAS0},"Tranzactie efectuata cu succes",
+{PMSUCIAS1},"Detalii tranzactie",
+{PMSUCIAS2},"Raspuns gateway",
+{PMSUCIAS3},"Referinta plata",
+{PMSUCIAS4},Suma,
+{PMSUCIAS5},"Noteaza utilizatorul si parola",
+{PMSUCIAS6},"Nume utilizator",
+{PMSUCIAS7},Parola,
+{PMSUCIAS8},"Arata factura",
+{PMSUCIAS9},"Multumim pentru comanda!",
+{PMSUCIAS10},"Login hotspot",
+{PMSUCIAS11},"Panou administrare utilizator",
+{ANETCC0},"Plata cu card Authorize.net",
+{ANETCC1},"Tip card",
+{ANETCC2},"Numarul cardului",
+{ANETCC3},"Expira la",
+{ANETCC4},"Numar de verificare",
+{ANETCC5},Prenume,
+{ANETCC6},Nume,
+{ANETCC7},Adresa,
+{ANETCC8},Oras,
+{ANETCC9},"Cod postal",
+{ANETCC10},Tara,
+{ANETCC11},Judet,
+{ANETCC12},"Pret total",
+{ANETCC13},Trimite,
+{ANETCC14},CCV,
+{ACTACCSMS0},"Activare cont",
+{ACTACCSMS1},"Introdu codul primit prin SMS",
+{ACTACCSMS2},"Cod de activare",
+{ACTACCSMS3},"Campurile sunt obligatorii!",
+{ACTACCSMS4},Trimite,
+{ACTACCEMAIL0},"Activare cont",
+{ACTACCEMAIL1},"Introdu codul primit prin e-mail",
+{ACTACCEMAIL2},"Cod de activare",
+{ACTACCEMAIL3},"Campurile sunt obligatorii!",
+{ACTACCEMAIL4},Trimite,
+{VERIFYCARD0},"Trimite cod de verificare prin SMS",
+{VERIFYCARD1},"Numar de telefon mobil",
+{VERIFYCARD2},"Se va trimite un nou cod prin SMS",
+{VERIFYCARD3},"Introdu numarul de telefon mobil",
+{VERIFYCARD4},"Exemplu 40722001122",
+{VERIFYCARD5},"Trimite SMS acum",
+{VERCARDCODE0},"Introdu codul de verificare",
+{VERCARDCODE1},"Introdu codul de verificare primit in SMS",
+{VERCARDCODE2},"Codul de verificare",
+{VERCARDCODE3},"Introdu codul de verificare in formatul corect",
+{VERCARDCODE4},Trimite,
+{INFO0},"Mesaj sistem",
+{PASSWDMAIN0},Data,
+{PASSWDMAIN1},Versiune,
+{PASSWDMAIN2},"Recuperare parola Radius Manager",
+{PASSWDREC0},"Recuperare parola",
+{PASSWDREC1},"Metoda noua de activare",
+{PASSWDREC2},Email,
+{PASSWDREC3},SMS,
+{PASSWDREC4},"Adresa e-mail",
+{PASSWDREC5},"Numar telefon mobil",
+{PASSWDREC6},"Format international 40722001122",
+{PASSWDREC7},Trimite,
+{PASSWDREC8},"Limba de afisare",
+{PASSWDREC9},"Nume utilizator",
+{PASSWDREC10},"Campurile sunt obligatorii!",
+{PASSWDGETSMS0},"Verifica noua parola",
+{PASSWDGETSMS1},"Codul de activare",
+{PASSWDGETSMS2},"Campurile sunt obligatorii!",
+{PASSWDGETSMS3},Trimite,
+{PASSWDGETSMS4},"Verifica mobilul pentru codul de activare",
+{MENU00},sistem,
+{MENU0000},"Prima pagina",
+{MENU0001},"Setarile sistemului",
+{MENU0002},Iesire,
+{MENU01},Utilizatori,
+{MENU0100},"Lista utilizatorilor",
+{MENU0101},"Cauta utilizatorul",
+{MENU0102},"Utilizator nou",
+{MENU0103},"Afiseaza grupurile",
+{MENU0104},"Gup nou",
+{MENU02},Servicii,
+{MENU0200},"Lista serviciilor",
+{MENU0201},"Serviciu nou",
+{MENU0202},"Schimbari programate",
+{MENU0203},"istoric servicii",
+{MENU03},Manageri,
+{MENU0300},"Lista managerilor",
+{MENU0301},"Manager nou",
+{MENU04},NAS,
+{MENU0400},"Lista NAS-urilor",
+{MENU0401},"NAS nou",
+{MENU05},AP,
+{MENU0500},"Arata AP-uri",
+{MENU0501},"AP nou",
+{MENU06},CMTS,
+{MENU0600},"Lista CMTS",
+{MENU0601},"CMTS nou",
+{MENU07},"Pool-uri de adrese IP",
+{MENU0700},"Afiseaza pool-uri",
+{MENU0701},"Pool nou",
+{MENU08},Finaciare,
+{MENU0800},"Gaseste facturi",
+{MENU0801},"Genereaza facturi",
+{MENU09},"Sistem de carduri",
+{MENU0900},"Lista seriilor",
+{MENU0901},"Lsisra cardurilor prepaid clasice",
+{MENU0902},"Arata carduri de reincarcare",
+{MENU0903},"Cauta carduri de reincarcare",
+{MENU0904},"Genereaza cardurile",
+{MENU0905},"Statistici carduri",
+{MENU10},"IAS - acces instant",
+{MENU1000},"Arata utilizatori IAS",
+{MENU1001},"Arata sabloane IAS",
+{MENU1002},"Template nou pentru acces instant",
+{MENU11},rapoarte,
+{MENU1100},"Utilizatori RADIUS conectati",
+{MENU1101},"Modemuri de cablu inregistrate",
+{MENU1102},"Rapoate trafic",
+{MENU1103},"Cauta date de trafic",
+{MENU1104},"Sumar trafic",
+{MENU1105},"Raport conexiuni",
+{MENU1106},"Log autentficare",
+{MENU1107},"Ultimele evenimente din syslog",
+{MENU1108},"Browse syslog",
+{MENU1109},"Informatii de sistem",
+{MENU1110},"Statistici sistem",
+{MENU12},Tools,
+{MENU1200},"E-mail catre grup",
+{MENU1201},"SMS catre grup",
+{MENU1202},"Porneste server RADIUS",
+{MENU1203},"Opreste server RADIUS",
+{MENU1204},"Restarteaza server RADIUS",
+{MENU1205},"Refa fisierul clients.conf",
+{MENU1206},"Porneste serverul DHCP",
+{MENU1207},"Opreste serverul DHCP",
+{MENU1208},"Restarteaza server DHCP",
+{MENU1209},"Refa dhcp.conf",
